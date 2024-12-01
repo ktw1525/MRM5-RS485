@@ -9898,7 +9898,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 0)
+			(at -0.5 -2.5 0)
 			(layer "F.SilkS")
 			(uuid "3f974d3c-2726-461b-a713-064f80d1fc31")
 			(effects
@@ -10887,7 +10887,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 5.04 0)
+			(at 0.5 5.04 0)
 			(layer "F.SilkS")
 			(uuid "4ca5fb93-74c4-43ab-9b59-fed8bc7daf27")
 			(effects
@@ -18737,6 +18737,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "3V3 DIO CLK RST GND"
+		(at 196.75 118.75 0)
+		(layer "B.SilkS")
+		(uuid "16baffea-a71d-4969-b53f-8ee0c97016f1")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "V2"
 		(at 178.25 135.25 0)
 		(layer "B.SilkS")
@@ -18768,6 +18780,18 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "CT"
+		(at 168.25 124.75 -0)
+		(layer "B.SilkS")
+		(uuid "57663ce6-317e-4263-8a1a-1c10a6e2b1a7")
+		(effects
+			(font
+				(size 0.7 0.7)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
@@ -18833,6 +18857,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "PT"
+		(at 168.25 133 -0)
+		(layer "B.SilkS")
+		(uuid "9990e3d0-fe52-4321-941d-b0b394a16bb2")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Calibration"
 		(at 192 122 0)
 		(layer "B.SilkS")
@@ -18869,6 +18905,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "- 5V +"
+		(at 211 118.75 0)
+		(layer "B.SilkS")
+		(uuid "af18c58a-4434-4661-be76-f607d448ece4")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "1V6"
 		(at 167 117.75 0)
 		(layer "B.SilkS")
@@ -18876,6 +18924,18 @@
 		(effects
 			(font
 				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "SYNC"
+		(at 203.25 118.75 -0)
+		(layer "B.SilkS")
+		(uuid "d027ee97-bd4f-4d23-8849-eb36a2d04230")
+		(effects
+			(font
+				(size 0.7 0.7)
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
