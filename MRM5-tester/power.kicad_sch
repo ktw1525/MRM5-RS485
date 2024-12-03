@@ -5,285 +5,6 @@
 	(uuid "cc7d4a19-2cc4-4532-88d6-7b39136a845c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Mouser:ADPL16000AATA+T"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 31.75 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ADPL16000AATA+T"
-				(at 31.75 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ADPL16000AATAT"
-				(at 31.75 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adpl16000.pdf"
-				(at 31.75 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "60V, 400mA, Ultra-Small, Hi gh-Efficiency, Synchronous Step-Down DC-DC Converters"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.8"
-				(at 31.75 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Analog Devices"
-				(at 31.75 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ADPL16000AATA+T"
-				(at 31.75 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "700-ADPL16000AATA+T"
-				(at 31.75 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/ADPL16000AATA%2bT?qs=wT7LY0lnAe0OnT0M8eXHew%3D%3D"
-				(at 31.75 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 31.75 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 31.75 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ADPL16000AATA+T_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 30.48 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "EN/UVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "FB/VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -2.54 180)
-					(length 5.08)
-					(name "~{RESET}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "LX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mouser:B32922X2104K000"
 			(pin_names
 				(offset 0.762)
@@ -507,229 +228,6 @@
 				)
 			)
 		)
-		(symbol "Mouser:CBC3225T470KR"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 16.51 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CBC3225T470KR"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "INDC3225X270N"
-				(at 16.51 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/eu/specSheet?pn=LLQPA322525T470KR"
-				(at 16.51 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "47 H Unshielded Drum Core, Wirewound Inductor 480 mA 871mOhm Max 1210 (3225 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "47 H Unshielded Drum Core, Wirewound Inductor 480 mA 871mOhm Max 1210 (3225 Metric)"
-				(at 16.51 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.7"
-				(at 16.51 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "TAIYO YUDEN"
-				(at 16.51 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CBC3225T470KR"
-				(at 16.51 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "963-CBC3225T470KR"
-				(at 16.51 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/CBC3225T470KR?qs=I6KAKw0tg2zVKrVmy3k%252BKw%3D%3D"
-				(at 16.51 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "CBC3225T470KR"
-				(at 16.51 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cbc3225t470kr/taiyo-yuden"
-				(at 16.51 -21.59 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "CBC3225T470KR_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "CBC3225T470KR_0_1"
-				(arc
-					(start 5.08 0)
-					(mid 6.35 -1.3218)
-					(end 7.62 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 7.62 0)
-					(mid 8.89 -1.3218)
-					(end 10.16 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 10.16 0)
-					(mid 11.43 -1.3218)
-					(end 12.7 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 12.7 0)
-					(mid 13.97 -1.3218)
-					(end 15.24 0)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "Mouser:HLK-15M05C"
 			(pin_names
 				(offset 0.762)
@@ -942,6 +440,319 @@
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Mouser:LD39200DPUR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LD39200DPUR"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "SON80P400X400X100-9N-D"
+				(at 31.75 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LD39200DPUR.pdf"
+				(at 31.75 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulators Linear Voltage Regulators & Vref"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "LDO Voltage Regulators Linear Voltage Regulators & Vref"
+				(at 31.75 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 31.75 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 31.75 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LD39200DPUR"
+				(at 31.75 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-LD39200DPUR"
+				(at 31.75 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD39200DPUR?qs=BNh1ct5PoGR12uqpHRZU9g%3D%3D"
+				(at 31.75 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "LD39200DPUR"
+				(at 31.75 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ld39200dpur/stmicroelectronics?region=nac"
+				(at 31.75 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "LD39200DPUR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "OUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "OUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "ADJ/SENSE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "PG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "IN_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "IN_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -25.4 90)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LD39200DPUR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 30.48 2.54) (xy 30.48 -20.32) (xy 5.08 -20.32) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -1419,249 +1230,6 @@
 				)
 			)
 		)
-		(symbol "Mouser:REF35160QDBVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "REF35160QDBVR"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X145-6N"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref35.pdf?ts=1675771464754&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF35%252Fpart-details%252FREF35125QDBVR%253FkeyMatch%253DREF35125QDBVR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Voltage References 650-nA quiescent current, 12-ppm/C drift, ultra-low-power precision voltage reference"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "REF35160QDBVR"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-REF35160QDBVR"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF35160QDBVR?qs=rQFj71Wb1eVJh8regkgQhg%3D%3D"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "REF35160QDBVR"
-				(at 26.67 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "null?region=nac"
-				(at 26.67 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "REF35160QDBVR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "NR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mouser:SSHB10HS-R11100"
 			(pin_names
 				(offset 0.762)
@@ -1885,453 +1453,6 @@
 				)
 			)
 		)
-		(symbol "PCM_Capacitor_AKL:C_0402"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_0402"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0402_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0402_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.381 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy -1.651 0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -0.508) (xy 0.635 -1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.381 0.381) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy -0.635 1.651)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 0.508) (xy 1.651 -0.635)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "C_0402_1_2"
-				(pin passive line
-					(at 2.54 2.54 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_Resistor_AKL:R_0402"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_0402"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor eu smd 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402_0_1"
-				(rectangle
-					(start -1.016 2.54)
-					(end 1.016 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -1.524 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "R_0402_1_2"
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_SL_Capacitors:220uF_10V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2486,58 +1607,10 @@
 		(uuid "1f0ff8df-5973-441e-9652-349b5d7168e2")
 	)
 	(junction
-		(at 115.57 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23870918-9fd9-4a95-9f37-0553146ad86b")
-	)
-	(junction
-		(at 186.69 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "245e762c-1913-49aa-a851-9f253def9256")
-	)
-	(junction
-		(at 101.6 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "257a8492-91c2-4187-8c44-3713cd4a4548")
-	)
-	(junction
-		(at 111.76 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d3c4d66-22ab-4e06-9ff5-ea4f732a08fc")
-	)
-	(junction
 		(at 92.71 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "414783b8-2d1c-43f3-b072-df1fea71a414")
-	)
-	(junction
-		(at 127 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4af31c57-f202-4719-93c3-180cc3927eb2")
-	)
-	(junction
-		(at 124.46 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "937b357f-525f-4447-9ec2-5fea3a8e542d")
-	)
-	(junction
-		(at 182.88 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c49b6e2-0f2d-45f3-b22e-8887fa70e9fa")
-	)
-	(junction
-		(at 101.6 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2e1409e-aef8-4007-ab3f-b54271056bb2")
 	)
 	(junction
 		(at 124.46 72.39)
@@ -2546,54 +1619,16 @@
 		(uuid "b30e6c04-6486-4d71-938b-b37f4ce77704")
 	)
 	(junction
-		(at 166.37 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8c8c6e7-bff8-4134-9942-b2b78625cbb5")
-	)
-	(junction
-		(at 182.88 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0693f0a-440c-4198-a298-2fcc8c19d27c")
-	)
-	(junction
-		(at 191.77 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f065cd0b-20f9-49c9-a4af-5e2bb65857c0")
-	)
-	(junction
 		(at 204.47 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1a59971-9ffa-4f74-ad33-6d6c53ff60f9")
 	)
 	(junction
-		(at 191.77 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7e424e7-9b1a-459d-9844-12af413a97ff")
-	)
-	(junction
 		(at 92.71 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbe0879f-431f-4cfd-8c8c-014b8d813316")
-	)
-	(no_connect
-		(at 158.75 130.81)
-		(uuid "55189634-975f-44dd-b519-a689c3e82098")
-	)
-	(wire
-		(pts
-			(xy 127 88.9) (xy 127 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00571fb6-7ed9-4794-97f6-38305652fd35")
 	)
 	(wire
 		(pts
@@ -2607,86 +1642,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 105.41) (xy 111.76 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "034c1f45-6d70-4dc2-b643-938b4dcb004b")
-	)
-	(wire
-		(pts
-			(xy 157.48 93.98) (xy 157.48 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "072832ef-67b7-41fa-8367-76822047b337")
-	)
-	(wire
-		(pts
-			(xy 158.75 133.35) (xy 182.88 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07cc95a7-7f83-4e07-b7e2-bcd0e9ef7ac0")
-	)
-	(wire
-		(pts
-			(xy 96.52 149.86) (xy 101.6 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b201549-eff5-42f7-ac4f-2000120e553e")
-	)
-	(wire
-		(pts
-			(xy 190.5 133.35) (xy 195.58 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0eb10fed-466d-4f3c-9339-c634f5961482")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 182.88 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15c6561b-d3e1-4da2-9f00-5d5e04cb7b93")
-	)
-	(wire
-		(pts
-			(xy 96.52 130.81) (xy 101.6 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c1c0951-f741-4d30-bcb8-1e54248f7afd")
-	)
-	(wire
-		(pts
-			(xy 191.77 135.89) (xy 158.75 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "232687b7-1a99-42fd-9b22-59255ce5a104")
-	)
-	(wire
-		(pts
 			(xy 116.84 46.99) (xy 124.46 46.99)
 		)
 		(stroke
@@ -2694,146 +1649,6 @@
 			(type default)
 		)
 		(uuid "24783155-8e4f-40af-b14c-24a5cc59e97a")
-	)
-	(wire
-		(pts
-			(xy 157.48 88.9) (xy 182.88 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "262171a8-788b-47ff-bd85-8611bc79b8a8")
-	)
-	(wire
-		(pts
-			(xy 115.57 133.35) (xy 115.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2982c079-dea4-4444-be78-fb4e74f02264")
-	)
-	(wire
-		(pts
-			(xy 101.6 149.86) (xy 115.57 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b8aa1f7-bc8a-4f3c-af24-9121098023f5")
-	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ed6ae72-bf75-42be-aab7-ac3ef36f2611")
-	)
-	(wire
-		(pts
-			(xy 191.77 149.86) (xy 195.58 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33bfed54-0731-4899-a234-e9d638cce85a")
-	)
-	(wire
-		(pts
-			(xy 186.69 149.86) (xy 191.77 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a3d20e-71e4-4d11-86d3-c1316bf7d366")
-	)
-	(wire
-		(pts
-			(xy 115.57 135.89) (xy 115.57 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430586ec-03c9-49ae-bcf5-162fa6fe48ed")
-	)
-	(wire
-		(pts
-			(xy 187.96 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44b53946-e0fd-4390-b410-4b4e9fd07941")
-	)
-	(wire
-		(pts
-			(xy 123.19 138.43) (xy 123.19 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ff0bf15-2552-4344-b3e2-0f8eda89bcbb")
-	)
-	(wire
-		(pts
-			(xy 123.19 135.89) (xy 115.57 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "511b2173-4187-477c-8e70-de957057ebea")
-	)
-	(wire
-		(pts
-			(xy 182.88 88.9) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51e11f6e-e1ee-4c1f-9962-ab461d6b5663")
-	)
-	(wire
-		(pts
-			(xy 115.57 130.81) (xy 123.19 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55479657-141a-46bc-b4ca-d80511a04a11")
-	)
-	(wire
-		(pts
-			(xy 123.19 149.86) (xy 186.69 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b68806-b991-4141-a321-4fc395856951")
-	)
-	(wire
-		(pts
-			(xy 191.77 135.89) (xy 195.58 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e9980ad-9433-4524-91fb-6a6f9d4b67ca")
 	)
 	(wire
 		(pts
@@ -2847,26 +1662,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 149.86) (xy 115.57 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6263500f-e41e-4b11-a272-acf061c90a68")
-	)
-	(wire
-		(pts
-			(xy 182.88 104.14) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bd2509d-d834-460b-99bd-a81f7214c0f2")
-	)
-	(wire
-		(pts
 			(xy 124.46 46.99) (xy 135.89 46.99)
 		)
 		(stroke
@@ -2874,16 +1669,6 @@
 			(type default)
 		)
 		(uuid "6c61b631-db27-4180-b2fe-5dfa9dfa539f")
-	)
-	(wire
-		(pts
-			(xy 101.6 130.81) (xy 115.57 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71870fef-3e00-4a30-a36c-a31f81b9553a")
 	)
 	(wire
 		(pts
@@ -2907,36 +1692,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 166.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "855e9c05-dafe-457c-98d3-ab4e2ce192d3")
-	)
-	(wire
-		(pts
-			(xy 101.6 149.86) (xy 101.6 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "899ba391-64ac-4fda-a4db-f59894e6b0ab")
-	)
-	(wire
-		(pts
-			(xy 166.37 107.95) (xy 182.88 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "908040fd-6e13-4db7-9440-7f23530025ea")
-	)
-	(wire
-		(pts
 			(xy 124.46 46.99) (xy 124.46 52.07)
 		)
 		(stroke
@@ -2957,26 +1712,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 111.76 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9af3ad38-bc47-4e73-ba64-eaff846c7047")
-	)
-	(wire
-		(pts
-			(xy 166.37 104.14) (xy 166.37 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d32f865-8ab5-4385-8651-269c5406e9e1")
-	)
-	(wire
-		(pts
 			(xy 133.35 72.39) (xy 124.46 72.39)
 		)
 		(stroke
@@ -2984,16 +1719,6 @@
 			(type default)
 		)
 		(uuid "9e6b5201-5de7-4d94-8f7c-150a5d104f32")
-	)
-	(wire
-		(pts
-			(xy 124.46 104.14) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a39c4ca1-d308-45bd-8589-c64142f7064c")
 	)
 	(wire
 		(pts
@@ -3027,26 +1752,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 96.52) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0f5f74c-9ba5-4d6f-9b4f-6b1f6cf879b5")
-	)
-	(wire
-		(pts
-			(xy 186.69 138.43) (xy 186.69 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2e908e1-323f-4f2a-b7ac-58012e0852a1")
-	)
-	(wire
-		(pts
 			(xy 163.83 46.99) (xy 168.91 46.99)
 		)
 		(stroke
@@ -3077,16 +1782,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 88.9) (xy 127 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a2411a-2d15-4d88-8b88-cc9c2f4f1e54")
-	)
-	(wire
-		(pts
 			(xy 92.71 46.99) (xy 92.71 50.8)
 		)
 		(stroke
@@ -3094,16 +1789,6 @@
 			(type default)
 		)
 		(uuid "b8bc031c-84cc-4df8-acfd-0eab738f1ae2")
-	)
-	(wire
-		(pts
-			(xy 191.77 139.7) (xy 191.77 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf84efe1-557d-4bfe-8275-a8fb0bc38e34")
 	)
 	(wire
 		(pts
@@ -3127,46 +1812,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 104.14) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc738904-cf62-4bb1-bb02-b35a6e059bdc")
-	)
-	(wire
-		(pts
-			(xy 123.19 133.35) (xy 115.57 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d57b629a-0b17-4ae0-9661-823f16d4d4d4")
-	)
-	(wire
-		(pts
-			(xy 182.88 138.43) (xy 186.69 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfdf722e-cf9a-41c4-b44a-88f616a6f4c0")
-	)
-	(wire
-		(pts
-			(xy 166.37 91.44) (xy 157.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0afcc3f-abff-44d3-af69-8fe2ba777931")
-	)
-	(wire
-		(pts
 			(xy 208.28 66.04) (xy 204.47 66.04)
 		)
 		(stroke
@@ -3174,36 +1819,6 @@
 			(type default)
 		)
 		(uuid "e71a67df-2ae4-4ff5-84cf-540af9712770")
-	)
-	(wire
-		(pts
-			(xy 158.75 138.43) (xy 162.56 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83df357-4764-40b6-bd0c-38b904a12075")
-	)
-	(wire
-		(pts
-			(xy 127 93.98) (xy 124.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e91ac9d8-cc68-434a-9c4b-af23d3fa37bb")
-	)
-	(wire
-		(pts
-			(xy 191.77 147.32) (xy 191.77 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eeb0d953-f7e1-47cc-8628-726ff3665f05")
 	)
 	(wire
 		(pts
@@ -3224,26 +1839,6 @@
 			(type default)
 		)
 		(uuid "fa190a4c-67de-47fe-9bcb-b1c1f345cd2d")
-	)
-	(wire
-		(pts
-			(xy 111.76 93.98) (xy 111.76 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9458a7-1683-445e-8c07-763a9190ce03")
-	)
-	(wire
-		(pts
-			(xy 101.6 130.81) (xy 101.6 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffe807e4-284e-4e1c-bbb2-a7752b46d155")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -3271,42 +1866,6 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 96.52 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "307998bc-c7a3-411c-a4e8-6f45ec8f0c94")
-	)
-	(hierarchical_label "1.6V"
-		(shape output)
-		(at 187.96 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "37fa5e28-59ce-419f-a01c-9fa1e3193923")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 195.58 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3870eeda-7e06-4dbb-bf30-8114c260e2a9")
-	)
-	(hierarchical_label "5V"
-		(shape input)
 		(at 208.28 49.53 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3316,78 +1875,6 @@
 			(justify left)
 		)
 		(uuid "59ca235d-4a35-498d-8b82-e6e50cddcd28")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 187.96 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5a0a7723-4d53-4b01-a258-d70144467e46")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 195.58 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "754f3bf4-3215-4658-9ef0-05a633d88d63")
-	)
-	(hierarchical_label "3V3"
-		(shape output)
-		(at 195.58 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "819aa0f2-6b00-4dfa-807f-6657b59efb18")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 104.14 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "870edb7f-a318-41d0-89cd-243dba24aa32")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 104.14 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c315226-87ff-48a6-876c-7aa4c3a3071e")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 96.52 149.86 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8c2f549-6bbc-4849-a6f2-eceaf8a40019")
 	)
 	(symbol
 		(lib_id "Mouser:PAD_hole2.6")
@@ -3449,316 +1936,6 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
 					(reference "P2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mouser:ADPL16000AATA+T")
-		(at 123.19 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1adfb523-18c8-47a5-bea0-cf020b63e2ae")
-		(property "Reference" "IC1"
-			(at 140.97 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ADPL16000AATA+T"
-			(at 140.97 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mouser:ADPL16000AATAT"
-			(at 154.94 225.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adpl16000.pdf"
-			(at 154.94 325.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "60V, 400mA, Ultra-Small, Hi gh-Efficiency, Synchronous Step-Down DC-DC Converters"
-			(at 123.19 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.8"
-			(at 154.94 525.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 154.94 625.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ADPL16000AATA+T"
-			(at 154.94 725.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "700-ADPL16000AATA+T"
-			(at 154.94 825.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/ADPL16000AATA%2bT?qs=wT7LY0lnAe0OnT0M8eXHew%3D%3D"
-			(at 154.94 925.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 154.94 1025.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 154.94 1125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39bfbd2e-b0da-4a52-943c-d0478bb59917")
-		)
-		(pin "8"
-			(uuid "30fc0831-8309-4f70-b222-2d4a325fb6c4")
-		)
-		(pin "3"
-			(uuid "8362acc5-c064-4a0a-aeea-1622123a024e")
-		)
-		(pin "4"
-			(uuid "e0e892aa-685c-4253-888f-1f88c3f5dcbe")
-		)
-		(pin "5"
-			(uuid "54ec9887-5784-4df7-8665-9b170fcf6504")
-		)
-		(pin "6"
-			(uuid "2df5bd38-5a77-44ea-a7d0-c8d0d618289c")
-		)
-		(pin "1"
-			(uuid "1f00488d-aa97-436f-b3d0-55f7f0e0d119")
-		)
-		(pin "7"
-			(uuid "09d2c587-9b2e-44f7-a2fb-a1aa9b6f6e2b")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mouser:REF35160QDBVR")
-		(at 127 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "25518c28-452e-4810-a2da-3cd57f5480b9")
-		(property "Reference" "IC2"
-			(at 142.24 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "REF35160QDBVR"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mouser:SOT95P280X145-6N"
-			(at 153.67 183.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ref35.pdf?ts=1675771464754&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FREF35%252Fpart-details%252FREF35125QDBVR%253FkeyMatch%253DREF35125QDBVR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN"
-			(at 153.67 283.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Voltage References 650-nA quiescent current, 12-ppm/C drift, ultra-low-power precision voltage reference"
-			(at 127 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 153.67 483.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 153.67 583.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "REF35160QDBVR"
-			(at 153.67 683.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-REF35160QDBVR"
-			(at 153.67 783.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/REF35160QDBVR?qs=rQFj71Wb1eVJh8regkgQhg%3D%3D"
-			(at 153.67 883.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "REF35160QDBVR"
-			(at 153.67 983.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "null?region=nac"
-			(at 153.67 1083.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cffe1698-b1c3-4c25-8587-c22784e88d62")
-		)
-		(pin "1"
-			(uuid "8128f09d-eb2f-4be8-b5a1-e8b1b0204e52")
-		)
-		(pin "5"
-			(uuid "e8499c65-367a-49d9-9e03-2d240ff9ad5a")
-		)
-		(pin "4"
-			(uuid "4a0867e3-66f4-4870-ac8c-de63d6fbfff4")
-		)
-		(pin "2"
-			(uuid "df916cd0-910e-421c-be2b-2cb3b1901da4")
-		)
-		(pin "6"
-			(uuid "1e573f61-a90d-44b7-829e-4bc7e2178ed1")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -4138,76 +2315,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 191.77 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "463f1fb1-963b-4d77-b451-770e80371c7e")
-		(property "Reference" "C14"
-			(at 195.58 142.2399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "22u"
-			(at 195.58 144.7799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm"
-			(at 190.8048 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 191.77 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 191.77 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31f11c25-8e09-4ae0-9a85-1517907d22e2")
-		)
-		(pin "1"
-			(uuid "583cba32-f5b5-4cf8-ac00-8ec253587b67")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mouser:NTC10D-11")
 		(at 99.06 46.99 0)
 		(unit 1)
@@ -4352,76 +2459,6 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
 					(reference "RT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 101.6 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "559b14e3-cbda-450e-b3da-1c24dcfd39e8")
-		(property "Reference" "C9"
-			(at 105.41 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 105.41 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 100.6348 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 101.6 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3836101d-48a0-484d-9a0e-5ae190899b26")
-		)
-		(pin "1"
-			(uuid "a7ac466b-47e7-4493-a67a-50a151bfeabd")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -4736,35 +2773,53 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 166.37 100.33 180)
+		(lib_id "Mouser:LD39200DPUR")
+		(at 129.54 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "80537950-17ba-4c9d-8ad9-274a36b9340c")
-		(property "Reference" "C12"
-			(at 170.18 99.0599 0)
+		(uuid "89b423f3-02ab-4c7b-8a13-f21ffd412ea1")
+		(property "Reference" "PS2"
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10u"
-			(at 170.18 101.5999 0)
+		(property "Value" "LD39200DPUR"
+			(at 147.32 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric_Pad1.15x1.40mm"
-			(at 165.4048 96.52 0)
+		(property "Footprint" "SON80P400X400X100-9N-D"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/LD39200DPUR.pdf"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulators Linear Voltage Regulators & Vref"
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4772,394 +2827,117 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 166.37 100.33 0)
+		(property "Description_1" "LDO Voltage Regulators Linear Voltage Regulators & Vref"
+			(at 161.29 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 166.37 100.33 0)
+		(property "Height" "1"
+			(at 161.29 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LD39200DPUR"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-LD39200DPUR"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD39200DPUR?qs=BNh1ct5PoGR12uqpHRZU9g%3D%3D"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LD39200DPUR"
+			(at 161.29 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ld39200dpur/stmicroelectronics?region=nac"
+			(at 161.29 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "fa4e190b-3e51-42de-8c7b-c228dcfdf5a3")
+		)
+		(pin "9"
+			(uuid "2d946c67-c9a3-43aa-b40a-d6b70f5ceb3d")
+		)
+		(pin "6"
+			(uuid "c4336db4-da7e-490a-bacd-ae0b4defd6e1")
+		)
+		(pin "4"
+			(uuid "526c853c-c883-4402-8541-4a69d4775220")
+		)
+		(pin "5"
+			(uuid "f0c33503-bcb3-45cb-912b-a61e592247d4")
+		)
+		(pin "3"
+			(uuid "ab7dc594-d621-4f58-838f-81f35d633d73")
 		)
 		(pin "2"
-			(uuid "97abcb63-0899-4a18-9bc7-432ba1c6ab2d")
+			(uuid "68615a48-21be-4149-bdc5-cfcf03fddcaa")
+		)
+		(pin "7"
+			(uuid "0ad461d9-1e5a-47be-a712-1ea1370ac747")
 		)
 		(pin "1"
-			(uuid "81c016d2-6380-4a90-ad46-d62d197b8f52")
+			(uuid "d5d3ff6f-5491-48a6-87d2-45e535128777")
 		)
 		(instances
-			(project "MRM5-tester"
+			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mouser:CBC3225T470KR")
-		(at 162.56 138.43 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8fbba48e-98ed-401e-a7d5-79a9020f443b")
-		(property "Reference" "L1"
-			(at 172.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CBC3225T470KR"
-			(at 172.72 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mouser:INDC3225X270N"
-			(at 179.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/eu/specSheet?pn=LLQPA322525T470KR"
-			(at 179.07 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "47 H Unshielded Drum Core, Wirewound Inductor 480 mA 871mOhm Max 1210 (3225 Metric)"
-			(at 162.56 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "47 H Unshielded Drum Core, Wirewound Inductor 480 mA 871mOhm Max 1210 (3225 Metric)"
-			(at 179.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.7"
-			(at 179.07 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 179.07 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CBC3225T470KR"
-			(at 179.07 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "963-CBC3225T470KR"
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiyo-Yuden/CBC3225T470KR?qs=I6KAKw0tg2zVKrVmy3k%252BKw%3D%3D"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CBC3225T470KR"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cbc3225t470kr/taiyo-yuden"
-			(at 179.07 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad6f0374-79a0-4cd4-9530-07ec0935cae8")
-		)
-		(pin "2"
-			(uuid "84ebe4f1-8b41-4153-a341-0b0024a41965")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 111.76 101.6 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "948311fa-7251-4138-be3d-4f22098b8eb5")
-		(property "Reference" "C10"
-			(at 115.57 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 115.57 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 110.7948 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 111.76 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1c380f5-4889-4c51-b308-5ec93fecdee1")
-		)
-		(pin "1"
-			(uuid "3a151f8e-7fb7-4f09-a050-d68165d3d127")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 182.88 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e67d852-5b19-4dd5-9660-bea53dc7a7f6")
-		(property "Reference" "C13"
-			(at 186.69 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 186.69 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 181.9148 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 182.88 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0f981fff-c5ee-4db4-a529-f184c17a44f7")
-		)
-		(pin "1"
-			(uuid "5b2e22b0-eae2-4d94-92d6-61dbd08e79fe")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 115.57 142.24 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd9076e9-cefd-44ed-a1be-8465553612fb")
-		(property "Reference" "C11"
-			(at 119.38 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1u"
-			(at 119.38 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 114.6048 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 115.57 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d9ac5bf-8f19-4d92-81e3-d616ce903f27")
-		)
-		(pin "1"
-			(uuid "6c7908f6-79cf-45d9-bc5c-d1d8a66ef724")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C11")
+					(reference "PS2")
 					(unit 1)
 				)
 			)
@@ -5230,74 +3008,6 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 186.69 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cce7b0cc-b246-4b4f-884c-f176a88d6ce1")
-		(property "Reference" "R8"
-			(at 186.69 127 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.65k"
-			(at 186.69 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 198.12 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 186.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 186.69 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1c3dd1ec-5fda-4efd-8330-0d26ad0b9391")
-		)
-		(pin "1"
-			(uuid "722dd581-6c1d-4287-ab09-26c962df74a2")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R8")
 					(unit 1)
 				)
 			)

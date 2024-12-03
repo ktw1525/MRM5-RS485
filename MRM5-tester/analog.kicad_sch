@@ -1315,7 +1315,7 @@
 	)
 	(symbol
 		(lib_id "Mouser:ZMPT107-1")
-		(at 151.13 53.34 0)
+		(at 39.37 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1324,7 +1324,7 @@
 		(fields_autoplaced yes)
 		(uuid "74f732f2-8a96-4fcd-9456-3cf90b1628a2")
 		(property "Reference" "T1"
-			(at 161.29 45.72 0)
+			(at 49.53 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1332,7 +1332,7 @@
 			)
 		)
 		(property "Value" "ZMPT107-1"
-			(at 161.29 48.26 0)
+			(at 49.53 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1340,7 @@
 			)
 		)
 		(property "Footprint" "ZMPT1071"
-			(at 167.64 50.8 0)
+			(at 55.88 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" "https://item.szlcsc.com/136467.html"
-			(at 167.64 53.34 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1360,7 @@
 			)
 		)
 		(property "Description" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
-			(at 151.13 53.34 0)
+			(at 39.37 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Description_1" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
-			(at 167.64 55.88 0)
+			(at 55.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 			)
 		)
 		(property "Height" "18.4"
-			(at 167.64 58.42 0)
+			(at 55.88 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1389,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Qingxian Zeming Langxi Electronic"
-			(at 167.64 60.96 0)
+			(at 55.88 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ZMPT107-1"
-			(at 167.64 63.5 0)
+			(at 55.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1409,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 167.64 66.04 0)
+			(at 55.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1419,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 167.64 68.58 0)
+			(at 55.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1429,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 167.64 71.12 0)
+			(at 55.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1439,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 167.64 73.66 0)
+			(at 55.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,6 +1604,189 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mouser:OPA567AIRHGT")
+		(at 132.08 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb7f48c-f419-42f9-8cdb-478352853333")
+		(property "Reference" "IC1"
+			(at 161.29 39.4014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA567AIRHGT"
+			(at 161.29 41.9414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "QFN100P500X500X100-13N-D"
+			(at 127.508 72.644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/OPA567"
+			(at 127.508 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rail-to-Rail I/O, 2A Power Amplifier"
+			(at 160.782 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Rail-to-Rail I/O, 2A Power Amplifier"
+			(at 127.508 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 127.508 80.264 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 127.508 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "OPA567AIRHGT"
+			(at 127.508 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-OPA567AIRHGT"
+			(at 127.508 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA567AIRHGT?qs=wgAEGBTxy7luCwhsvvAe8A%3D%3D"
+			(at 127.508 90.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "OPA567AIRHGT"
+			(at 127.508 92.964 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/opa567airhgt/texas-instruments?region=nac"
+			(at 127.508 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "461bc718-3a69-46d8-8dc5-b5ff2d40eaa5")
+		)
+		(pin "5"
+			(uuid "9caf3675-a9fc-46ec-9502-c20b37e21b42")
+		)
+		(pin "4"
+			(uuid "4edbfc12-08dc-4160-84d9-9ba4db9a5d5f")
+		)
+		(pin "13"
+			(uuid "c4e2cb98-618e-4d33-9fb0-a998710c243f")
+		)
+		(pin "3"
+			(uuid "143b5437-b424-4992-bd52-583db9fd7834")
+		)
+		(pin "9"
+			(uuid "4bfc2661-860c-44d0-931b-4f41d4049eec")
+		)
+		(pin "12"
+			(uuid "f42dd7c5-1d0d-4171-8cb8-05772432cb4b")
+		)
+		(pin "1"
+			(uuid "31944585-a2ec-4623-8eb2-7101be8c278c")
+		)
+		(pin "2"
+			(uuid "d7d1d588-13b9-4e7a-a593-0b23f8f80dd2")
+		)
+		(pin "11"
+			(uuid "2dba4446-e59b-45f6-bdb3-9f0180b0148f")
+		)
+		(pin "6"
+			(uuid "dba44277-ec23-4d84-aa85-5b0fa376119a")
+		)
+		(pin "7"
+			(uuid "0f3c6b9e-2743-4bdb-a6f6-ae4264bbd082")
+		)
+		(pin "10"
+			(uuid "3f8e7d94-dbfd-49ff-ab5d-cb265d847888")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
+					(reference "IC1")
 					(unit 1)
 				)
 			)
