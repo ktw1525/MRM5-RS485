@@ -386,6 +386,22 @@
     [
       "6e775c75-0b09-4e5f-9bff-c5585ac94ad7",
       "루트"
+    ],
+    [
+      "02df2b53-e79f-4009-ab3b-419158fe5275",
+      "mcu"
+    ],
+    [
+      "99281525-64c3-44c6-855e-d443687ecb7a",
+      "interface"
+    ],
+    [
+      "d46285ed-39e7-481d-bc83-4a7d1879f6d2",
+      "analog"
+    ],
+    [
+      "c69ac902-00f4-4f29-a9f3-8d3beb585abf",
+      "power"
     ]
   ],
   "text_variables": {}
