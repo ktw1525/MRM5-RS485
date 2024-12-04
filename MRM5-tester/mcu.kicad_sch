@@ -5,39 +5,30 @@
 	(uuid "1d744e25-bfcd-4317-a07b-6110604c31c7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MCU_ST_STM32L0:STM32L011F4Ux"
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 16.51 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "STM32L011F4Ux"
-				(at 5.08 16.51 0)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm"
-				(at -7.62 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l011f4.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -46,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.65-3.6V, 16 GPIO, UFQFPN20"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,15 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Arm Cortex-M0+ STM32L0 STM32L0x1"
+			(property "Description" "Light emitting diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,7 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ST*UFQFPN*3x3mm*P0.5mm*"
+			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,24 +64,82 @@
 					(hide yes)
 				)
 			)
-			(symbol "STM32L011F4Ux_0_1"
-				(rectangle
-					(start -7.62 -15.24)
-					(end 10.16 15.24)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 			)
-			(symbol "STM32L011F4Ux_1_1"
-				(pin bidirectional line
-					(at -10.16 7.62 0)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "PC14"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -112,245 +153,11 @@
 							)
 						)
 					)
-					(alternate "RCC_OSC32_IN" bidirectional line)
 				)
-				(pin bidirectional line
-					(at 12.7 0 180)
+				(pin passive line
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "PA7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN7" bidirectional line)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "COMP2_OUT" bidirectional line)
-					(alternate "LPTIM1_OUT" bidirectional line)
-					(alternate "SPI1_MOSI" bidirectional line)
-					(alternate "TIM21_ETR" bidirectional line)
-					(alternate "USART2_CTS" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "PB1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN9" bidirectional line)
-					(alternate "LPTIM1_IN1" bidirectional line)
-					(alternate "LPUART1_DE" bidirectional line)
-					(alternate "LPUART1_RTS" bidirectional line)
-					(alternate "SPI1_MOSI" bidirectional line)
-					(alternate "SYS_VREF_OUT_PB1" bidirectional line)
-					(alternate "TIM2_CH4" bidirectional line)
-					(alternate "USART2_CK" bidirectional line)
-				)
-				(pin power_in line
-					(at 2.54 -17.78 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 17.78 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "PA9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "LPTIM1_OUT" bidirectional line)
-					(alternate "RCC_MCO" bidirectional line)
-					(alternate "TIM21_CH2" bidirectional line)
-					(alternate "USART2_TX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -5.08 180)
-					(length 2.54)
-					(name "PA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "RTC_REFIN" bidirectional line)
-					(alternate "TIM21_CH1" bidirectional line)
-					(alternate "TIM2_CH3" bidirectional line)
-					(alternate "USART2_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -7.62 180)
-					(length 2.54)
-					(name "PA13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "SPI1_SCK" bidirectional line)
-					(alternate "SYS_SWDIO" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 -10.16 180)
-					(length 2.54)
-					(name "PA14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_OUT" bidirectional line)
-					(alternate "I2C1_SMBA" bidirectional line)
-					(alternate "LPTIM1_OUT" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "SPI1_MISO" bidirectional line)
-					(alternate "SYS_SWCLK" bidirectional line)
-					(alternate "USART2_TX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "PB6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "TIM2_CH3" bidirectional line)
-					(alternate "USART2_TX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "PB7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "COMP2_INP" bidirectional line)
-					(alternate "I2C1_SDA" bidirectional line)
-					(alternate "LPTIM1_IN2" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "SYS_PVD_IN" bidirectional line)
-					(alternate "TIM2_CH4" bidirectional line)
-					(alternate "USART2_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "PC15"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -364,195 +171,6 @@
 							)
 						)
 					)
-					(alternate "RCC_OSC32_OUT" bidirectional line)
-				)
-				(pin bidirectional line
-					(at -10.16 -7.62 0)
-					(length 2.54)
-					(name "PB9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(name "NRST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 2.54 17.78 270)
-					(length 2.54)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 12.7 12.7 180)
-					(length 2.54)
-					(name "PA0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN0" bidirectional line)
-					(alternate "COMP1_INM" bidirectional line)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "LPTIM1_IN1" bidirectional line)
-					(alternate "LPUART1_RX" bidirectional line)
-					(alternate "RCC_CK_IN" bidirectional line)
-					(alternate "RTC_TAMP2" bidirectional line)
-					(alternate "SYS_WKUP1" bidirectional line)
-					(alternate "TIM2_CH1" bidirectional line)
-					(alternate "TIM2_ETR" bidirectional line)
-					(alternate "USART2_CTS" bidirectional line)
-					(alternate "USART2_RX" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 10.16 180)
-					(length 2.54)
-					(name "PA1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN1" bidirectional line)
-					(alternate "COMP1_INP" bidirectional line)
-					(alternate "I2C1_SMBA" bidirectional line)
-					(alternate "LPTIM1_IN2" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "TIM21_ETR" bidirectional line)
-					(alternate "TIM2_CH2" bidirectional line)
-					(alternate "USART2_DE" bidirectional line)
-					(alternate "USART2_RTS" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 7.62 180)
-					(length 2.54)
-					(name "PA4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN4" bidirectional line)
-					(alternate "COMP1_INM" bidirectional line)
-					(alternate "COMP2_INM" bidirectional line)
-					(alternate "COMP2_OUT" bidirectional line)
-					(alternate "I2C1_SCL" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPTIM1_IN1" bidirectional line)
-					(alternate "LPUART1_TX" bidirectional line)
-					(alternate "SPI1_NSS" bidirectional line)
-					(alternate "TIM2_ETR" bidirectional line)
-					(alternate "USART2_CK" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 5.08 180)
-					(length 2.54)
-					(name "PA5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN5" bidirectional line)
-					(alternate "COMP1_INM" bidirectional line)
-					(alternate "COMP2_INM" bidirectional line)
-					(alternate "LPTIM1_IN2" bidirectional line)
-					(alternate "SPI1_SCK" bidirectional line)
-					(alternate "TIM2_CH1" bidirectional line)
-					(alternate "TIM2_ETR" bidirectional line)
-				)
-				(pin bidirectional line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "PA6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(alternate "ADC_IN6" bidirectional line)
-					(alternate "COMP1_OUT" bidirectional line)
-					(alternate "LPTIM1_ETR" bidirectional line)
-					(alternate "LPUART1_CTS" bidirectional line)
-					(alternate "SPI1_MISO" bidirectional line)
 				)
 			)
 		)
@@ -1003,38 +621,795 @@
 				)
 			)
 		)
+		(symbol "ktw07182:MMBT3906-TP"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 13.97 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MMBT3906-TP"
+				(at 13.97 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOT95P237X125-3N"
+				(at 13.97 -101.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
+				(at 13.97 -201.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Small Signal Bipolar Transistors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.25"
+				(at 13.97 -401.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "MCC"
+				(at 13.97 -501.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MMBT3906-TP"
+				(at 13.97 -601.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "833-MMBT3906-TP"
+				(at 13.97 -701.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
+				(at 13.97 -801.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "MMBT3906-TP"
+				(at 13.97 -901.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
+				(at 13.97 -1001.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3906-TP_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 1.27) (xy 10.16 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 3.81) (xy 10.16 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.652 -2.794) (xy 9.144 -3.302) (xy 8.636 -2.286) (xy 9.652 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 8.89 0)
+					(radius 4.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -7.62 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 7.62 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ktw07182:STM32G051F8P6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 54.61 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "STM32G051F8P6"
+				(at 54.61 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP65P640X120-20N"
+				(at 54.61 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g051c6.pdf"
+				(at 54.61 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mainstream Arm Cortex-M0+ 32-bit MCU, up to 64 KB Flash, 18 KB RAM, 2x USART, timers, ADC, DAC, comm. I/Fs, 1.7-3.6V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 54.61 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 54.61 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "STM32G051F8P6"
+				(at 54.61 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STM32G051F8P6"
+				(at 54.61 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G051F8P6?qs=CiayqK2gdcKtYfwNuLEYXQ%3D%3D"
+				(at 54.61 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "STM32G051F8P6"
+				(at 54.61 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stm32g051f8p6/stmicroelectronics?region=nac"
+				(at 54.61 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "STM32G051F8P6_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 53.34 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "PB7/PB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -22.86 180)
+					(length 5.08)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -20.32 180)
+					(length 5.08)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -17.78 180)
+					(length 5.08)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -15.24 180)
+					(length 5.08)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -12.7 180)
+					(length 5.08)
+					(name "PB0/PB1/PB2/PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -10.16 180)
+					(length 5.08)
+					(name "PA11[PA9]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -7.62 180)
+					(length 5.08)
+					(name "PA12[PA10]"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -5.08 180)
+					(length 5.08)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 -2.54 180)
+					(length 5.08)
+					(name "PA15/PA14-BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "PB9/PC14-OSC32_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 58.42 0 180)
+					(length 5.08)
+					(name "PB3/PB4/PB5/PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "PC15-OSC32_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VDD/VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "VSS/VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "PF2-NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
-		(at 156.21 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5feb7fa5-edfe-41e0-865e-039c97a83059")
-	)
-	(junction
-		(at 113.03 67.31)
+		(at 71.12 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14a861c-1672-4bd3-a3f4-65dd3299e2d3")
 	)
 	(junction
-		(at 144.78 67.31)
+		(at 82.55 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "da95ce90-3297-4510-b12c-e9aab8d5a0f1")
-	)
-	(junction
-		(at 124.46 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eedcfbf0-b856-41b7-bc0b-b52b38396c71")
+		(uuid "d1be925d-f365-4b35-a365-f7c5280d21c1")
 	)
 	(no_connect
-		(at 123.19 102.87)
-		(uuid "5ceec5c3-f876-4298-a26d-25abad03f5bd")
+		(at 119.38 73.66)
+		(uuid "fece38b7-a0f5-4af7-a4a2-2c550061912e")
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 160.02 102.87)
+			(xy 177.8 53.34) (xy 191.77 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1044,17 +1419,27 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 92.71) (xy 123.19 92.71)
+			(xy 105.41 76.2) (xy 119.38 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f01d67b-6698-46f4-9ad2-05be1bfa71e7")
+		(uuid "0b9ab9b4-3194-4290-8e17-6325c84028b6")
 	)
 	(wire
 		(pts
-			(xy 104.14 100.33) (xy 123.19 100.33)
+			(xy 102.87 109.22) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16806e90-8850-4dc2-8ede-050ac39b4272")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1064,7 +1449,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 67.31) (xy 113.03 67.31)
+			(xy 238.76 93.98) (xy 238.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6902a4-40a1-450d-ae0c-ccb4f5637021")
+	)
+	(wire
+		(pts
+			(xy 69.85 139.7) (xy 69.85 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f08b0e9-d7b6-4846-8e4f-b668370d034e")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 182.88 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2429fdaa-fb42-4f74-b3af-e6c185f02662")
+	)
+	(wire
+		(pts
+			(xy 62.23 60.96) (xy 71.12 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1074,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 92.71) (xy 160.02 92.71)
+			(xy 177.8 76.2) (xy 191.77 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1084,37 +1499,37 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 67.31) (xy 135.89 82.55)
+			(xy 238.76 124.46) (xy 238.76 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "319f6cbf-903c-4b32-a166-77df1aa0941c")
+		(uuid "32eeab08-b958-4fb6-8000-00c333031ce8")
 	)
 	(wire
 		(pts
-			(xy 124.46 67.31) (xy 133.35 67.31)
+			(xy 177.8 73.66) (xy 191.77 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "422375fe-20e6-49b6-9c62-68282d2a2407")
+		(uuid "3605d18c-ab26-43d6-95d4-1878fab71c81")
 	)
 	(wire
 		(pts
-			(xy 104.14 105.41) (xy 123.19 105.41)
+			(xy 170.18 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e360f63-89e5-4c62-ae3f-7d0984a62245")
+		(uuid "40222f4e-0ddc-4a0a-a336-a7e8aed7cdb7")
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 160.02 100.33)
+			(xy 119.38 71.12) (xy 105.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1124,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 118.11) (xy 135.89 125.73)
+			(xy 119.38 63.5) (xy 105.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1134,17 +1549,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 87.63) (xy 123.19 87.63)
+			(xy 177.8 68.58) (xy 191.77 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5747613c-f046-492a-8d6b-f9d3ccca0d65")
+		(uuid "58d68eeb-68f4-4567-84f2-b5ac12e85b03")
 	)
 	(wire
 		(pts
-			(xy 146.05 87.63) (xy 160.02 87.63)
+			(xy 177.8 63.5) (xy 191.77 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1154,47 +1569,37 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 125.73) (xy 120.65 121.92)
+			(xy 128.27 93.98) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "599a9b90-87d5-4990-b12a-00b4a20c89c2")
+		(uuid "5b37fb85-675e-4780-a154-e1a15a25a083")
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 160.02 95.25)
+			(xy 69.85 93.98) (xy 69.85 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65ab68f1-1efe-4047-86b2-07922747c792")
+		(uuid "6e083733-e5f6-419f-8862-53b0ba9c9796")
 	)
 	(wire
 		(pts
-			(xy 156.21 67.31) (xy 166.37 67.31)
+			(xy 236.22 93.98) (xy 238.76 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66e8e702-c53f-4a2a-b62b-d079fc957629")
+		(uuid "8aaf0c17-89d0-4d7e-8364-40d3659fd8c6")
 	)
 	(wire
 		(pts
-			(xy 104.14 95.25) (xy 123.19 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "769e0e95-00e3-45eb-b806-acc73d395210")
-	)
-	(wire
-		(pts
-			(xy 146.05 107.95) (xy 160.02 107.95)
+			(xy 177.8 58.42) (xy 191.77 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1204,7 +1609,37 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 67.31) (xy 124.46 67.31)
+			(xy 125.73 93.98) (xy 128.27 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94681aca-d7ab-4ae7-9c6c-604f20d8b47b")
+	)
+	(wire
+		(pts
+			(xy 43.18 109.22) (xy 46.99 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd5763c-d19b-429b-b43f-bfcaf0705092")
+	)
+	(wire
+		(pts
+			(xy 105.41 66.04) (xy 119.38 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6549fa5-9790-407f-9dbc-e638da4d3039")
+	)
+	(wire
+		(pts
+			(xy 71.12 60.96) (xy 82.55 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1214,7 +1649,57 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 105.41) (xy 160.02 105.41)
+			(xy 128.27 139.7) (xy 128.27 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adc1a08e-b53d-4798-83aa-687f276487b6")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 69.85 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3bb83c-fc11-4d66-9ff7-aa2c344bb3fd")
+	)
+	(wire
+		(pts
+			(xy 214.63 109.22) (xy 218.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3cf68e-6d18-4edf-a24f-01ca09ec0174")
+	)
+	(wire
+		(pts
+			(xy 82.55 60.96) (xy 119.38 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af57057a-4c00-4568-ad4f-3828152691de")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 128.27 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b031064f-3655-4d7b-b997-d9d413cf1a1c")
+	)
+	(wire
+		(pts
+			(xy 119.38 53.34) (xy 105.41 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1224,27 +1709,67 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 156.21 67.31)
+			(xy 182.88 124.46) (xy 182.88 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bec22872-0f33-4a05-a36c-70351f8be7c2")
+		(uuid "b307d15f-7cb6-4c0f-9d9c-f6196a97dfbc")
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 133.35 82.55)
+			(xy 114.3 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c425587e-3a9a-4af5-8594-eaf945ae17f5")
+		(uuid "bc861d77-00ef-488f-8c42-0a5dae384526")
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 160.02 110.49)
+			(xy 156.21 109.22) (xy 162.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1b908b-a624-43c5-a173-8966b519509f")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 59.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd969dc7-44e7-4610-a3e5-d013fe4f16c3")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 182.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21fc4cd-5ee0-4bf4-b0e2-2dc293e38733")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 119.38 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c58ecd33-7d41-46da-a4ea-998f7933706e")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 191.77 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1254,17 +1779,37 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 67.31) (xy 135.89 67.31)
+			(xy 182.88 93.98) (xy 182.88 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df0e49d0-83f7-4d31-bfde-6e1c22534336")
+		(uuid "cc8bb291-30ac-44d5-93a6-c8abbd204595")
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 160.02 90.17)
+			(xy 238.76 139.7) (xy 238.76 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e46cb2-1167-4408-82ae-46af151ba9d2")
+	)
+	(wire
+		(pts
+			(xy 177.8 66.04) (xy 191.77 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe5520a-0e6e-4fb7-875b-70aa804ea02c")
+	)
+	(wire
+		(pts
+			(xy 177.8 60.96) (xy 191.77 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1274,37 +1819,83 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 97.79) (xy 160.02 97.79)
+			(xy 226.06 109.22) (xy 228.6 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebfec86a-8a7d-43a7-a4bf-d88059aeba44")
+		(uuid "e3ce60e7-2f09-40e4-931b-86534af71773")
 	)
 	(wire
 		(pts
-			(xy 120.65 107.95) (xy 123.19 107.95)
+			(xy 105.41 55.88) (xy 119.38 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f73420b5-94ae-4637-953a-1093eda03fe6")
+		(uuid "e598a47e-cf67-4f95-b3ac-b2a8aa3a5449")
 	)
 	(wire
 		(pts
-			(xy 120.65 114.3) (xy 120.65 107.95)
+			(xy 69.85 124.46) (xy 69.85 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fea77f2d-cea1-48f2-9a24-67b19ef68d86")
+		(uuid "e99e4d15-1d2d-4091-a0c6-0478d3404c2e")
 	)
-	(hierarchical_label "ADC_VP2"
+	(wire
+		(pts
+			(xy 177.8 71.12) (xy 191.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a98698-c9a1-4baa-b008-6f19c5a7a8ff")
+	)
+	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 160.02 100.33 0)
+		(at 182.88 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0572d2e7-5bff-4b0f-b1a7-11295f464686")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 69.85 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1db97cad-4755-471e-9759-22454ab0f509")
+	)
+	(hierarchical_label "WAKEUP"
+		(shape bidirectional)
+		(at 105.41 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "211cea18-5841-48cb-a423-483a99a82ca1")
+	)
+	(hierarchical_label "Z_TFlag"
+		(shape input)
+		(at 191.77 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1312,11 +1903,11 @@
 			)
 			(justify left)
 		)
-		(uuid "0ceccdb8-28c5-4465-abca-8ead79803f71")
+		(uuid "27cb6770-bdb9-4016-a0ed-eae1149f2229")
 	)
-	(hierarchical_label "NRST"
+	(hierarchical_label "SYNC_INT"
 		(shape bidirectional)
-		(at 104.14 87.63 180)
+		(at 105.41 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1324,23 +1915,11 @@
 			)
 			(justify right)
 		)
-		(uuid "1423996d-12af-4caf-b9c8-0e33dace314e")
+		(uuid "2ba309be-9611-4c97-984c-06881687ebda")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 156.21 74.93 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "22ad7889-8d52-4521-aa99-76cc665cbc4d")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 113.03 74.93 270)
+		(at 71.12 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1352,7 +1931,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 104.14 67.31 180)
+		(at 62.23 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1362,21 +1941,21 @@
 		)
 		(uuid "3eafd316-5c6a-4fa0-aef2-9c2ac99b5383")
 	)
-	(hierarchical_label "VDDA"
+	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 166.37 67.31 0)
+		(at 238.76 139.7 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "48bef61f-fa31-4400-9c64-bbf1eca0d093")
+		(uuid "41e1160f-24b0-461e-8048-24b38fb19dd5")
 	)
 	(hierarchical_label "MCU_UART_RTS"
 		(shape bidirectional)
-		(at 160.02 90.17 0)
+		(at 191.77 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1386,21 +1965,21 @@
 		)
 		(uuid "4d55d1e4-6bec-423b-8ccc-fb84b22bf8d4")
 	)
-	(hierarchical_label "MCU_SUSPEND"
-		(shape bidirectional)
-		(at 104.14 95.25 180)
+	(hierarchical_label "1V6_IFlag"
+		(shape input)
+		(at 191.77 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "56e6bc0a-e978-48fb-a289-9a12c6b0cf04")
+		(uuid "57d37d2c-242b-4ce4-b444-05615c94303c")
 	)
-	(hierarchical_label "MCU_WAKEUP"
+	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 104.14 92.71 180)
+		(at 125.73 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1408,11 +1987,47 @@
 			)
 			(justify right)
 		)
-		(uuid "5f417a8c-b3bf-4507-8801-7b515a3ba576")
+		(uuid "599abdc7-68ad-40a2-ab02-014c453b17c7")
+	)
+	(hierarchical_label "1V6"
+		(shape bidirectional)
+		(at 105.41 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b53db66-4333-4087-bd2a-cec5ff442830")
+	)
+	(hierarchical_label "MCU_NRST"
+		(shape bidirectional)
+		(at 105.41 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e03a0f1-c283-4651-a228-323790de5666")
+	)
+	(hierarchical_label "1V6_TFlag"
+		(shape input)
+		(at 191.77 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67792bdb-e984-400c-ab63-be40b3925bee")
 	)
 	(hierarchical_label "MCU_UART_TX"
 		(shape bidirectional)
-		(at 160.02 102.87 0)
+		(at 191.77 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1424,7 +2039,7 @@
 	)
 	(hierarchical_label "MCU_SW_DIO"
 		(shape bidirectional)
-		(at 160.02 107.95 0)
+		(at 191.77 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1436,7 +2051,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 135.89 125.73 270)
+		(at 105.41 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1446,33 +2061,9 @@
 		)
 		(uuid "7337ef2f-69b8-4b0e-a4a7-db08bbb383bf")
 	)
-	(hierarchical_label "SYNC_INT"
-		(shape bidirectional)
-		(at 104.14 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7766ef70-3224-4baf-af64-7c6724cbee1f")
-	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 120.65 125.73 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7d3696d4-05a2-4db8-864a-f38c207dc4a9")
-	)
 	(hierarchical_label "MCU_SW_CLK"
 		(shape bidirectional)
-		(at 160.02 110.49 0)
+		(at 191.77 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1482,9 +2073,9 @@
 		)
 		(uuid "9263a25d-4df1-46e2-9e1e-bea4d3a3fe3f")
 	)
-	(hierarchical_label "ADC_ZCP"
+	(hierarchical_label "DAC_Z"
 		(shape bidirectional)
-		(at 160.02 92.71 0)
+		(at 191.77 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1494,9 +2085,9 @@
 		)
 		(uuid "9f266aba-c0ad-4379-a90f-75fdd865e225")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 144.78 74.93 270)
+	(hierarchical_label "Z_TFlag"
+		(shape input)
+		(at 156.21 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1504,35 +2095,35 @@
 			)
 			(justify right)
 		)
-		(uuid "a9710e30-50e4-4bf7-9ca3-851fba127145")
+		(uuid "a8677b98-342d-46b6-8cdd-b314408743c9")
 	)
-	(hierarchical_label "1V6"
-		(shape bidirectional)
-		(at 160.02 95.25 0)
+	(hierarchical_label "Z_IFlag"
+		(shape input)
+		(at 214.63 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "aa585eeb-11dc-4f7c-a2ac-d4631fc32adc")
+		(uuid "ac0d90d2-7c97-446d-b039-cb53dcfe08db")
 	)
 	(hierarchical_label "MCU_UART_RX"
 		(shape bidirectional)
-		(at 160.02 105.41 0)
+		(at 105.41 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "adea6570-888e-462b-8b60-115e40a33f0a")
 	)
-	(hierarchical_label "ADC_VP"
+	(hierarchical_label "ADC_V"
 		(shape bidirectional)
-		(at 104.14 100.33 180)
+		(at 105.41 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1542,9 +2133,33 @@
 		)
 		(uuid "adef0ec3-cce0-4789-be04-05ddc0307c66")
 	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 180.34 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "afa0975a-b661-43ec-8b28-f77ec2c47b8e")
+	)
+	(hierarchical_label "1V6_TFlag"
+		(shape input)
+		(at 43.18 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b39ca0c4-8c6c-4420-ad16-8b27e36c21fe")
+	)
 	(hierarchical_label "MCU_UART_CTS"
 		(shape bidirectional)
-		(at 160.02 87.63 0)
+		(at 191.77 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1554,9 +2169,33 @@
 		)
 		(uuid "b52cd907-1f5e-4efc-a9a9-c285cd2e6866")
 	)
+	(hierarchical_label "Z_IFlag"
+		(shape input)
+		(at 191.77 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c80787c0-e09a-4f05-995c-facb72728398")
+	)
+	(hierarchical_label "SUSPEND"
+		(shape bidirectional)
+		(at 105.41 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c876ac7c-27a2-48fd-8d14-23bcd0645769")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 124.46 74.93 270)
+		(at 82.55 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1566,146 +2205,57 @@
 		)
 		(uuid "d906d4d9-adcc-4fcb-b09a-b5eac07d7e61")
 	)
-	(hierarchical_label "ADC_ZCT2"
+	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 160.02 97.79 0)
+		(at 67.31 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "e1d9d8ff-567d-4c56-a43d-2b3738675d0b")
+		(uuid "e3412dda-756d-4990-b976-57fa27e18142")
 	)
-	(symbol
-		(lib_id "MCU_ST_STM32L0:STM32L011F4Ux")
-		(at 133.35 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "1V6_IFlag"
+		(shape input)
+		(at 102.87 109.22 180)
 		(fields_autoplaced yes)
-		(uuid "08d76f55-d781-411d-b21c-3862ee7db161")
-		(property "Reference" "U2"
-			(at 138.0841 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "STM32L011F4Ux"
-			(at 138.0841 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "ee3b0f7a-e36f-4bf0-b1c2-e314befae4d7")
+	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 128.27 139.7 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "Package_DFN_QFN:ST_UFQFPN-20_3x3mm_P0.5mm"
-			(at 125.73 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "f902ba08-6670-4771-b6c0-bfe61d57089e")
+	)
+	(hierarchical_label "VDD"
+		(shape bidirectional)
+		(at 236.22 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32l011f4.pdf"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 16KB flash, 2KB RAM, 32 MHz, 1.65-3.6V, 16 GPIO, UFQFPN20"
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "16"
-			(uuid "a72636d2-6d99-4449-ab6a-cb493d4eee34")
-		)
-		(pin "9"
-			(uuid "1f91d5a5-3360-4829-99ce-88336de5a5ee")
-		)
-		(pin "8"
-			(uuid "0d688ea5-553d-4229-ad6b-c8d422a81df4")
-		)
-		(pin "12"
-			(uuid "317d096c-b0a0-4ee1-b17b-95462889d532")
-		)
-		(pin "20"
-			(uuid "75667ef4-35b3-4a43-9324-079c8d7078f7")
-		)
-		(pin "7"
-			(uuid "15ab1fd0-7fd7-4666-a894-a1dea7ecae44")
-		)
-		(pin "5"
-			(uuid "adb35f28-75a9-4f58-a2a6-a60ebdd3922d")
-		)
-		(pin "6"
-			(uuid "d5363c0c-415e-47a1-85e2-a30bda6b41a4")
-		)
-		(pin "14"
-			(uuid "96b3b154-8740-4137-91dd-fa36770951c5")
-		)
-		(pin "15"
-			(uuid "81ab3d45-19b5-439f-9ca3-ea473add14d0")
-		)
-		(pin "19"
-			(uuid "3e1d678e-5fb9-4d6c-8d98-6f0a2e734c31")
-		)
-		(pin "11"
-			(uuid "68bcf4ce-c445-4e02-bb53-f6dd133407f0")
-		)
-		(pin "18"
-			(uuid "280a2957-2559-4c91-b086-0a16bd807781")
-		)
-		(pin "10"
-			(uuid "b4dc79d4-c131-45f6-9e4d-4534342077b0")
-		)
-		(pin "3"
-			(uuid "bf2bf1b4-1efd-45a8-9750-b84579df4d1e")
-		)
-		(pin "1"
-			(uuid "37c769f9-f2f5-45cf-a76b-f5f5c77f9f8d")
-		)
-		(pin "4"
-			(uuid "10ae8cb9-03d6-445a-bc3e-e38056118518")
-		)
-		(pin "17"
-			(uuid "9027d915-c57f-4641-b544-9c3ea8fece85")
-		)
-		(pin "2"
-			(uuid "997f4731-1db1-45af-928d-8a2e955b2955")
-		)
-		(pin "13"
-			(uuid "78d2dff0-ccb8-4481-a4c5-890823979ec5")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "fd4d18ba-7a92-460c-8248-d021c702e008")
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 124.46 71.12 180)
+		(at 82.55 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1714,7 +2264,7 @@
 		(fields_autoplaced yes)
 		(uuid "1350c30d-630a-4acf-bfc9-6154b4d37e2c")
 		(property "Reference" "C2"
-			(at 128.27 69.8499 0)
+			(at 86.36 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1723,7 +2273,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 128.27 72.3899 0)
+			(at 86.36 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +2282,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 123.4948 67.31 0)
+			(at 81.5848 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,7 +2291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 71.12 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +2300,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 124.46 71.12 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1774,17 +2324,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 156.21 71.12 180)
+		(lib_id "Device:LED")
+		(at 238.76 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "17a823fb-600e-4a73-93a9-3469f1384026")
-		(property "Reference" "C4"
-			(at 160.02 69.8499 0)
+		(uuid "44c103e8-641e-4133-bfa1-91a9e98eb6a0")
+		(property "Reference" "D4"
+			(at 242.57 120.9674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,8 +2342,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
-			(at 160.02 72.3899 0)
+		(property "Value" "LED-WHITE"
+			(at 242.57 123.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,8 +2351,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 155.2448 67.31 0)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 238.76 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1811,7 +2361,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 71.12 0)
+			(at 238.76 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1819,25 +2369,240 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 156.21 71.12 0)
+		(property "Description" "Light emitting diode"
+			(at 238.76 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0377e3b9-4a2a-4106-bb76-c7346a2c807c")
 		)
 		(pin "1"
-			(uuid "63c6ecfc-5448-4384-a3d4-ee1940b37681")
+			(uuid "7e5b0dc0-6f8d-4fae-bb91-455e86541a24")
+		)
+		(pin "2"
+			(uuid "b3d3ac33-6f18-44ab-b291-8f183022423a")
 		)
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "C4")
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 128.27 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47028f0c-947c-4544-a1ad-011aa2e71f57")
+		(property "Reference" "D2"
+			(at 132.08 120.9674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED-WHITE"
+			(at 132.08 123.5074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 128.27 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5bc8a8-6178-4791-9f13-a992f8446d8b")
+		)
+		(pin "2"
+			(uuid "6f37df4d-34e7-4674-9b84-6e10b417e9f7")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ktw07182:MMBT3906-TP")
+		(at 118.11 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a75d25b-53fe-4f22-bc43-0614d37e9f84")
+		(property "Reference" "Q2"
+			(at 132.08 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906-TP"
+			(at 132.08 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mouser:SOT95P237X125-3N"
+			(at 132.08 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
+			(at 132.08 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Bipolar Transistors"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 132.08 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 132.08 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBT3906-TP"
+			(at 132.08 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-MMBT3906-TP"
+			(at 132.08 -592.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
+			(at 132.08 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMBT3906-TP"
+			(at 132.08 -792.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
+			(at 132.08 -892.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e30e9319-d22a-434f-b28e-42c59f842d9f")
+		)
+		(pin "2"
+			(uuid "98a0c236-e3ab-4ee5-a91b-2e3eff371273")
+		)
+		(pin "1"
+			(uuid "dc2b6f3a-ce72-4269-99f9-cbda0f2a8e4c")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1845,34 +2610,32 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 120.65 118.11 180)
+		(at 166.37 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3aa3da40-c5a4-4dd3-a189-b05bec0a8338")
-		(property "Reference" "R1"
-			(at 123.19 116.8399 0)
+		(uuid "567dd990-5a1d-46f0-9940-8ba7b57cfa92")
+		(property "Reference" "R5"
+			(at 166.37 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "10k"
-			(at 123.19 119.3799 0)
+		(property "Value" "1k"
+			(at 166.37 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 120.65 106.68 0)
+			(at 177.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +2644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 118.11 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +2653,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 120.65 118.11 0)
+			(at 166.37 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1899,10 +2662,293 @@
 			)
 		)
 		(pin "2"
-			(uuid "7a1dea4e-4a50-48ab-9067-b2ee7f274994")
+			(uuid "4f4e1928-eab2-43a6-814d-9afaef2d79bf")
 		)
 		(pin "1"
-			(uuid "b2949cd5-8a16-4147-aff2-b9c6846bfcce")
+			(uuid "13ace524-a4e9-40da-b596-c94b9334c89a")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ktw07182:MMBT3906-TP")
+		(at 59.69 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "742906d9-4ef8-42c5-a405-5dc39cd8b5ac")
+		(property "Reference" "Q1"
+			(at 73.66 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906-TP"
+			(at 73.66 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mouser:SOT95P237X125-3N"
+			(at 73.66 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
+			(at 73.66 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Bipolar Transistors"
+			(at 59.69 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 73.66 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 73.66 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBT3906-TP"
+			(at 73.66 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-MMBT3906-TP"
+			(at 73.66 -592.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
+			(at 73.66 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMBT3906-TP"
+			(at 73.66 -792.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
+			(at 73.66 -892.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "93b95098-6bff-47e3-bde7-b44324e7ac4f")
+		)
+		(pin "2"
+			(uuid "9b535935-18e6-43fd-aee8-35edf1e027c0")
+		)
+		(pin "1"
+			(uuid "fb071440-cf29-473d-ba8b-c984c6d073eb")
+		)
+		(instances
+			(project ""
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 182.88 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d99737e-576f-4a3a-8817-fd8b715669b0")
+		(property "Reference" "D3"
+			(at 186.69 120.9674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED-WHITE"
+			(at 186.69 123.5074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 182.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b123f95-670b-4d4e-b6f0-6f48c0d9f8d0")
+		)
+		(pin "2"
+			(uuid "72fa17d4-ce22-476d-8fbb-85f3c8a8e4ae")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 50.8 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80cd90c2-0a4d-4dc0-b7bf-ce000f87c65f")
+		(property "Reference" "R1"
+			(at 50.8 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 50.8 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 62.23 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 50.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "67c763c7-f5d4-4a12-9c1b-9017a096776e")
+		)
+		(pin "1"
+			(uuid "ca5a23c9-ce54-46d1-b5a9-f2c4c86203c3")
 		)
 		(instances
 			(project "MRM5-tester"
@@ -1914,35 +2960,227 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 144.78 71.12 180)
+		(lib_id "ktw07182:STM32G051F8P6")
+		(at 119.38 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "47ea2fd5-2a15-4f33-acce-dfb8f37d530e")
-		(property "Reference" "C3"
-			(at 148.59 69.8499 0)
+		(uuid "8126301c-7022-4366-ac20-46b48f18a080")
+		(property "Reference" "IC1"
+			(at 148.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 148.59 72.3899 0)
+		(property "Value" "STM32G051F8P6"
+			(at 148.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 143.8148 67.31 0)
+		(property "Footprint" "Mouser:SOP65P640X120-20N"
+			(at 173.99 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g051c6.pdf"
+			(at 173.99 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mainstream Arm Cortex-M0+ 32-bit MCU, up to 64 KB Flash, 18 KB RAM, 2x USART, timers, ADC, DAC, comm. I/Fs, 1.7-3.6V"
+			(at 119.38 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 173.99 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 173.99 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32G051F8P6"
+			(at 173.99 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-STM32G051F8P6"
+			(at 173.99 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G051F8P6?qs=CiayqK2gdcKtYfwNuLEYXQ%3D%3D"
+			(at 173.99 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "STM32G051F8P6"
+			(at 173.99 948.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stm32g051f8p6/stmicroelectronics?region=nac"
+			(at 173.99 1048.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "e3c79a27-42cb-4e78-9480-a02a88e6cb02")
+		)
+		(pin "18"
+			(uuid "37d2dd8b-5824-4ce1-9e1d-bea17f8dca29")
+		)
+		(pin "8"
+			(uuid "0ea766ee-1417-4d64-8c6c-a048c5d11ecf")
+		)
+		(pin "6"
+			(uuid "99761a7f-3b9a-41b7-9a6b-2ee4f3fdd4d8")
+		)
+		(pin "17"
+			(uuid "ca139eb5-b57d-449f-bf08-83b7157ac414")
+		)
+		(pin "7"
+			(uuid "938ede34-4ddb-4f06-abb4-758015194857")
+		)
+		(pin "3"
+			(uuid "8772fcbe-d13e-4d4e-9f49-cfdf1265e709")
+		)
+		(pin "13"
+			(uuid "bb816ced-a0f4-43d2-abac-a0c0d5fa6ca6")
+		)
+		(pin "12"
+			(uuid "8d4f4aec-bab2-4c32-9a09-9233918d4434")
+		)
+		(pin "2"
+			(uuid "3dd03f05-49ab-4d5f-8294-1db5ace69dc6")
+		)
+		(pin "10"
+			(uuid "667fb028-7414-4937-bd5d-3afff77d89f7")
+		)
+		(pin "11"
+			(uuid "04c8fd58-2dea-485b-88b3-67e64f99b1bc")
+		)
+		(pin "1"
+			(uuid "e22ab84b-eecf-43c8-8f7a-accdaf43fbfc")
+		)
+		(pin "20"
+			(uuid "bd1f9076-66d5-4c60-bba6-c012120deb48")
+		)
+		(pin "14"
+			(uuid "78397d66-4027-4ce9-82b2-98e349b50718")
+		)
+		(pin "4"
+			(uuid "a728fbc2-8313-48fc-906d-2e1d2f9bcbcc")
+		)
+		(pin "16"
+			(uuid "2f18de98-8a72-48a3-bbd8-b99d60629109")
+		)
+		(pin "19"
+			(uuid "4d39468c-6e41-4541-9e96-496c1cac5d2e")
+		)
+		(pin "9"
+			(uuid "a6e39c75-1acb-40b0-b3cf-28bc6eb4259a")
+		)
+		(pin "15"
+			(uuid "4e04b01b-94e4-460e-9a5f-1200b35af2d4")
+		)
+		(instances
+			(project ""
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 222.25 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "951a8e03-2ebb-4433-9565-c6d18c85035e")
+		(property "Reference" "R7"
+			(at 222.25 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 233.68 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 71.12 0)
+			(at 222.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1959,8 +3197,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 144.78 71.12 0)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 222.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1969,50 +3207,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "3b8ff7a2-13e4-4e68-b0fb-2f7ea3ffe846")
+			(uuid "02ddbe77-1371-4c7b-9af5-90ec589f1bde")
 		)
 		(pin "1"
-			(uuid "17922a79-9652-4482-b5ca-d2c55a3b1bad")
+			(uuid "bf10c243-fc9d-4dc0-abd2-6dd33cc5890b")
 		)
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "C3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 113.03 71.12 180)
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 182.88 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c400404c-c08a-4fe5-ba8a-f273056bb4a7")
-		(property "Reference" "C1"
-			(at 116.84 69.8499 0)
+		(uuid "991b4707-e741-4b07-9ad9-c15067811eb4")
+		(property "Reference" "R6"
+			(at 185.42 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1u"
-			(at 116.84 72.3899 0)
+		(property "Value" "330"
+			(at 185.42 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 112.0648 67.31 0)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 182.88 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,7 +3259,362 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 71.12 0)
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 182.88 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7c3885d7-d78f-43d6-9b0f-310ea7bece70")
+		)
+		(pin "1"
+			(uuid "8a4bbd46-ac9f-4c13-ad5c-ab898e729537")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ktw07182:MMBT3906-TP")
+		(at 228.6 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6384ae8-40a8-4218-9240-464426167e73")
+		(property "Reference" "Q4"
+			(at 242.57 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906-TP"
+			(at 242.57 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mouser:SOT95P237X125-3N"
+			(at 242.57 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
+			(at 242.57 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Bipolar Transistors"
+			(at 228.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 242.57 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 242.57 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBT3906-TP"
+			(at 242.57 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-MMBT3906-TP"
+			(at 242.57 -592.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
+			(at 242.57 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMBT3906-TP"
+			(at 242.57 -792.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
+			(at 242.57 -892.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb02cd04-f2c7-4d1d-9339-2088836a844a")
+		)
+		(pin "2"
+			(uuid "9e4c0079-7956-4a03-8ce3-167ef26ac587")
+		)
+		(pin "1"
+			(uuid "5cc8487e-80a4-4e3b-b56f-da43ae7bfc6e")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 128.27 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7958da4-02f5-4372-b9fe-f77986f2002c")
+		(property "Reference" "R4"
+			(at 130.81 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 130.81 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 128.27 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 128.27 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b23db719-1e22-4e6a-ade6-7fdc7ac86a9b")
+		)
+		(pin "1"
+			(uuid "0cdd27d8-d8c2-4dcf-a1ff-920f362027c9")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 238.76 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1dec082-f319-4b2c-b664-24029200d71c")
+		(property "Reference" "R8"
+			(at 241.3 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 241.3 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 238.76 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 238.76 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "175a64b4-01e0-4d24-aa92-21c1969d54c5")
+		)
+		(pin "1"
+			(uuid "375c7eab-d501-49c5-ac61-b9968cf2e3f2")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0402")
+		(at 71.12 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c400404c-c08a-4fe5-ba8a-f273056bb4a7")
+		(property "Reference" "C1"
+			(at 74.93 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 74.93 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+			(at 70.1548 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2030,7 +3623,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 113.03 71.12 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,6 +3641,359 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ktw07182:MMBT3906-TP")
+		(at 172.72 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6cb310d-03a0-4d33-b521-8b09c1e9c0cf")
+		(property "Reference" "Q3"
+			(at 186.69 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MMBT3906-TP"
+			(at 186.69 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Mouser:SOT95P237X125-3N"
+			(at 186.69 7.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
+			(at 186.69 -92.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal Bipolar Transistors"
+			(at 172.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.25"
+			(at 186.69 -292.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "MCC"
+			(at 186.69 -392.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBT3906-TP"
+			(at 186.69 -492.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "833-MMBT3906-TP"
+			(at 186.69 -592.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
+			(at 186.69 -692.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MMBT3906-TP"
+			(at 186.69 -792.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
+			(at 186.69 -892.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "17a76939-d6c4-4b9a-af9f-61caf6d5884d")
+		)
+		(pin "2"
+			(uuid "d17bffed-cd61-44ee-b788-917b88bc00ac")
+		)
+		(pin "1"
+			(uuid "2f0e0e82-bcea-4a23-a6b7-27c7faea9062")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 69.85 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7971f97-fb61-4be3-b957-0eef0a1afddd")
+		(property "Reference" "D1"
+			(at 73.66 120.9674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED-WHITE"
+			(at 73.66 123.5074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 69.85 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2db41d2-3486-43dc-9492-09f2185d337c")
+		)
+		(pin "2"
+			(uuid "72d9e9ee-ac1f-4414-8845-7f05e84055d3")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 69.85 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e970a745-e550-4b0c-ac88-d6e14b05a779")
+		(property "Reference" "R2"
+			(at 72.39 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330"
+			(at 72.39 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 69.85 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 69.85 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ee06167-a101-45cf-8879-491901e12692")
+		)
+		(pin "1"
+			(uuid "9e9b4581-c1f2-4755-9cb6-97ab87db9376")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_AKL:R_0402")
+		(at 110.49 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eee0e7fd-1d56-462e-b9cd-c04be26f4626")
+		(property "Reference" "R3"
+			(at 110.49 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 121.92 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "243f11de-a0fc-4e1d-8611-4bc2a5a8da49")
+		)
+		(pin "1"
+			(uuid "0e7fc91a-6ec1-4388-baf7-18f4d94c9b9a")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "R3")
 					(unit 1)
 				)
 			)
