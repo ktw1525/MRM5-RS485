@@ -5209,7 +5209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 157.48 85.852 0)
 			(effects
 				(font
@@ -5505,7 +5505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
 			(at 91.44 84.582 0)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220uF_10V"
+		(property "Value" "220uF 16V 105℃"
 			(at 208.28 46.9899 90)
 			(effects
 				(font
@@ -6459,7 +6459,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
 			(at 200.66 46.482 0)
 			(effects
 				(font

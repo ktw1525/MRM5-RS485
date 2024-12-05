@@ -2796,6 +2796,10 @@
 		(uuid "13a4de8f-06a8-4873-8f67-8c9b94ec03f3")
 	)
 	(no_connect
+		(at 165.1 76.2)
+		(uuid "3f032609-683e-4c10-94d4-526c15bf4b02")
+	)
+	(no_connect
 		(at 53.34 78.74)
 		(uuid "4d63b897-c0e5-4ceb-858a-78b38f9f4bb3")
 	)
@@ -2988,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "24957e78-accd-4035-810f-d3f22ca5944e")
+	)
+	(wire
+		(pts
+			(xy 54.61 148.59) (xy 71.12 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25b50128-b159-4d5b-ab2d-79d5fe7c3eb4")
 	)
 	(wire
 		(pts
@@ -3208,16 +3222,6 @@
 			(type default)
 		)
 		(uuid "730ea23e-f243-4555-abce-d0fba6640911")
-	)
-	(wire
-		(pts
-			(xy 165.1 76.2) (xy 173.99 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7394fa77-0c96-4a62-841e-a393559eeacd")
 	)
 	(wire
 		(pts
@@ -3661,6 +3665,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 151.13) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4ad99f7-18bc-49c6-a0a3-200dfb9b1fdf")
+	)
+	(wire
+		(pts
 			(xy 91.44 40.64) (xy 104.14 40.64)
 		)
 		(stroke
@@ -3881,6 +3895,18 @@
 		)
 		(uuid "176b1f9a-e28e-4a25-94ef-cb3624b20c67")
 	)
+	(hierarchical_label "STLINK_RST"
+		(shape bidirectional)
+		(at 71.12 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1e49677f-ee14-47e0-a0a0-1bed1c563121")
+	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 107.95 97.79 270)
@@ -3940,18 +3966,6 @@
 			(justify left)
 		)
 		(uuid "3f1a0175-b8c5-4ba6-9d2f-8d0c13358f56")
-	)
-	(hierarchical_label "WAKEUP"
-		(shape bidirectional)
-		(at 173.99 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f8b1818-ebd8-4539-8243-b26a93aa6d20")
 	)
 	(hierarchical_label "Vn_h"
 		(shape input)
@@ -4180,6 +4194,18 @@
 			(justify left)
 		)
 		(uuid "a9d0a89c-fe2d-48de-8a2c-54c4e2296f8b")
+	)
+	(hierarchical_label "PUSH_BTN"
+		(shape bidirectional)
+		(at 71.12 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc80e29f-f305-4742-8445-34a7420179dd")
 	)
 	(hierarchical_label "5V"
 		(shape bidirectional)
@@ -5384,6 +5410,104 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
 					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x02")
+		(at 49.53 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9d77b0-511e-471e-8a41-85f14c7398e1")
+		(property "Reference" "J6"
+			(at 49.53 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 50.165 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
+			(at 49.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
+			(at 52.07 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TAD"
+			(at 52.07 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1-0201FBV0T"
+			(at 52.07 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66575f54-fb71-4f45-bc5d-e282a4d179c5")
+		)
+		(pin "1"
+			(uuid "b2b21102-fc53-4092-90c3-d87d7370f224")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "J6")
 					(unit 1)
 				)
 			)

@@ -1020,16 +1020,6 @@
 			)
 			(uuid "75b22663-2318-49ad-8d6c-996e4c83bcf1")
 		)
-		(pin "WAKEUP" bidirectional
-			(at 172.72 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "024f07a4-592c-4c83-9ffc-ecc28087274b")
-		)
 		(pin "MCU_NRST" bidirectional
 			(at 172.72 53.34 0)
 			(effects
@@ -1049,6 +1039,16 @@
 				(justify left)
 			)
 			(uuid "7daafa2c-5273-4b46-8435-b357161ce595")
+		)
+		(pin "PUSH_BTN" bidirectional
+			(at 172.72 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "41f69fbd-e09b-4b48-aaa6-a2c9fd1de45b")
 		)
 		(instances
 			(project "MRM5-tester"
@@ -1127,16 +1127,6 @@
 				(justify left)
 			)
 			(uuid "70a6ba83-2398-4933-8b99-360f81f3c5c6")
-		)
-		(pin "WAKEUP" bidirectional
-			(at 198.12 97.79 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "350b05da-8da6-4d16-93a8-36902d73764c")
 		)
 		(pin "SUSPEND" bidirectional
 			(at 198.12 104.14 180)
@@ -1237,6 +1227,16 @@
 				(justify left)
 			)
 			(uuid "192c1888-18f4-442e-bcc2-a901ec92730e")
+		)
+		(pin "PUSH_BTN" bidirectional
+			(at 198.12 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d000cde-a6cf-454e-9e94-7445dbd073fa")
 		)
 		(instances
 			(project "MRM5-tester"
