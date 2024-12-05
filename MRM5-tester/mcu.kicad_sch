@@ -1403,10 +1403,6 @@
 		(color 0 0 0 0)
 		(uuid "d1be925d-f365-4b35-a365-f7c5280d21c1")
 	)
-	(no_connect
-		(at 119.38 73.66)
-		(uuid "fece38b7-a0f5-4af7-a4a2-2c550061912e")
-	)
 	(wire
 		(pts
 			(xy 177.8 53.34) (xy 191.77 53.34)
@@ -1576,6 +1572,16 @@
 			(type default)
 		)
 		(uuid "5b37fb85-675e-4780-a154-e1a15a25a083")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 119.38 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c69af9-e5a1-432d-b7ff-a5926dc4aa02")
 	)
 	(wire
 		(pts
@@ -1857,9 +1863,21 @@
 		)
 		(uuid "e9a98698-c9a1-4baa-b008-6f19c5a7a8ff")
 	)
+	(hierarchical_label "ADC_Zf"
+		(shape bidirectional)
+		(at 105.41 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04d4453f-5b19-4147-8ae8-7f6402967a17")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 182.88 139.7 270)
+		(at 182.88 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1871,7 +1889,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 69.85 139.7 270)
+		(at 69.85 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1943,7 +1961,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 238.76 139.7 270)
+		(at 238.76 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2231,7 +2249,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 128.27 139.7 270)
+		(at 128.27 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2342,7 +2360,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED-WHITE"
+		(property "Value" "LED-RED"
 			(at 242.57 123.5074 90)
 			(effects
 				(font
@@ -2412,7 +2430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED-WHITE"
+		(property "Value" "LED-RED"
 			(at 132.08 123.5074 90)
 			(effects
 				(font
@@ -2840,7 +2858,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED-WHITE"
+		(property "Value" "LED-RED"
 			(at 186.69 123.5074 90)
 			(effects
 				(font
@@ -3810,7 +3828,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED-WHITE"
+		(property "Value" "LED-RED"
 			(at 73.66 123.5074 90)
 			(effects
 				(font
