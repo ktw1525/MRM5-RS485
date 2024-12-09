@@ -1612,20 +1612,20 @@
 		)
 	)
 	(junction
-		(at 71.12 60.96)
+		(at 69.85 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d14a861c-1672-4bd3-a3f4-65dd3299e2d3")
 	)
 	(junction
-		(at 82.55 60.96)
+		(at 81.28 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1be925d-f365-4b35-a365-f7c5280d21c1")
 	)
 	(wire
 		(pts
-			(xy 177.8 53.34) (xy 191.77 53.34)
+			(xy 176.53 53.34) (xy 190.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1635,7 +1635,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 119.38 76.2)
+			(xy 104.14 76.2) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1645,7 +1645,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 109.22) (xy 106.68 109.22)
+			(xy 101.6 109.22) (xy 105.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1655,7 +1655,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 119.38 68.58)
+			(xy 104.14 68.58) (xy 118.11 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1665,7 +1665,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 93.98) (xy 238.76 101.6)
+			(xy 237.49 93.98) (xy 237.49 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1675,7 +1675,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 139.7) (xy 69.85 135.89)
+			(xy 68.58 139.7) (xy 68.58 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1685,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 182.88 93.98)
+			(xy 179.07 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1695,7 +1695,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 60.96) (xy 71.12 60.96)
+			(xy 60.96 60.96) (xy 69.85 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1705,7 +1705,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 76.2) (xy 191.77 76.2)
+			(xy 176.53 76.2) (xy 190.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1715,7 +1715,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 124.46) (xy 238.76 128.27)
+			(xy 237.49 124.46) (xy 237.49 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +1725,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 73.66) (xy 191.77 73.66)
+			(xy 176.53 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1735,7 +1735,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 109.22) (xy 172.72 109.22)
+			(xy 168.91 109.22) (xy 171.45 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 71.12) (xy 105.41 71.12)
+			(xy 118.11 71.12) (xy 104.14 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1755,7 +1755,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 105.41 63.5)
+			(xy 118.11 63.5) (xy 104.14 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +1765,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 68.58) (xy 191.77 68.58)
+			(xy 176.53 68.58) (xy 190.5 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1775,7 +1775,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 63.5) (xy 191.77 63.5)
+			(xy 176.53 63.5) (xy 190.5 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1785,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 93.98) (xy 128.27 101.6)
+			(xy 127 93.98) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1795,7 +1795,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 119.38 73.66)
+			(xy 104.14 73.66) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1805,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 93.98) (xy 69.85 101.6)
+			(xy 68.58 93.98) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1815,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 93.98) (xy 238.76 93.98)
+			(xy 234.95 93.98) (xy 237.49 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1825,7 +1825,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 58.42) (xy 191.77 58.42)
+			(xy 176.53 58.42) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1835,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 128.27 93.98)
+			(xy 124.46 93.98) (xy 127 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1845,7 +1845,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 46.99 109.22)
+			(xy 41.91 109.22) (xy 45.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1855,7 +1855,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 66.04) (xy 119.38 66.04)
+			(xy 104.14 66.04) (xy 118.11 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1865,7 +1865,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 82.55 60.96)
+			(xy 69.85 60.96) (xy 81.28 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1875,7 +1875,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 139.7) (xy 128.27 135.89)
+			(xy 127 139.7) (xy 127 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1885,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 93.98) (xy 69.85 93.98)
+			(xy 66.04 93.98) (xy 68.58 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1895,7 +1895,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 109.22) (xy 218.44 109.22)
+			(xy 213.36 109.22) (xy 217.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1905,7 +1905,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 60.96) (xy 119.38 60.96)
+			(xy 81.28 60.96) (xy 118.11 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1915,7 +1915,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 124.46) (xy 128.27 128.27)
+			(xy 127 124.46) (xy 127 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1925,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 53.34) (xy 105.41 53.34)
+			(xy 118.11 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1935,7 +1935,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 124.46) (xy 182.88 128.27)
+			(xy 181.61 124.46) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 118.11 109.22)
+			(xy 113.03 109.22) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1955,7 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 109.22) (xy 162.56 109.22)
+			(xy 154.94 109.22) (xy 161.29 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1965,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 109.22) (xy 59.69 109.22)
+			(xy 53.34 109.22) (xy 58.42 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 139.7) (xy 182.88 135.89)
+			(xy 181.61 139.7) (xy 181.61 135.89)
 		)
 		(stroke
 			(width 0)
@@ -1985,7 +1985,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 119.38 58.42)
+			(xy 104.14 58.42) (xy 118.11 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1995,7 +1995,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 55.88) (xy 191.77 55.88)
+			(xy 176.53 55.88) (xy 190.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 93.98) (xy 182.88 101.6)
+			(xy 181.61 93.98) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2015,7 +2015,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 139.7) (xy 238.76 135.89)
+			(xy 237.49 139.7) (xy 237.49 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 66.04) (xy 191.77 66.04)
+			(xy 176.53 66.04) (xy 190.5 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2035,7 +2035,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 60.96) (xy 191.77 60.96)
+			(xy 176.53 60.96) (xy 190.5 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2045,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 109.22) (xy 228.6 109.22)
+			(xy 224.79 109.22) (xy 227.33 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2055,7 +2055,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 55.88) (xy 119.38 55.88)
+			(xy 104.14 55.88) (xy 118.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2065,7 +2065,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 124.46) (xy 69.85 128.27)
+			(xy 68.58 124.46) (xy 68.58 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 71.12) (xy 191.77 71.12)
+			(xy 176.53 71.12) (xy 190.5 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2085,7 +2085,7 @@
 	)
 	(hierarchical_label "ADC_Zf"
 		(shape bidirectional)
-		(at 105.41 73.66 180)
+		(at 104.14 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2097,7 +2097,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 182.88 139.7 180)
+		(at 181.61 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2109,7 +2109,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 69.85 139.7 180)
+		(at 68.58 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2121,7 +2121,7 @@
 	)
 	(hierarchical_label "PUSH_BTN"
 		(shape bidirectional)
-		(at 105.41 55.88 180)
+		(at 104.14 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2133,7 +2133,7 @@
 	)
 	(hierarchical_label "Z_TFlag"
 		(shape input)
-		(at 191.77 71.12 0)
+		(at 190.5 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2145,7 +2145,7 @@
 	)
 	(hierarchical_label "SYNC_INT"
 		(shape bidirectional)
-		(at 105.41 76.2 180)
+		(at 104.14 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2157,7 +2157,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 71.12 68.58 270)
+		(at 69.85 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2169,7 +2169,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 62.23 60.96 180)
+		(at 60.96 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2181,7 +2181,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 238.76 139.7 180)
+		(at 237.49 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2193,7 +2193,7 @@
 	)
 	(hierarchical_label "MCU_UART_RTS"
 		(shape bidirectional)
-		(at 191.77 60.96 0)
+		(at 190.5 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2205,7 +2205,7 @@
 	)
 	(hierarchical_label "1V6_IFlag"
 		(shape input)
-		(at 191.77 68.58 0)
+		(at 190.5 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2217,7 +2217,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 125.73 93.98 180)
+		(at 124.46 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2229,7 +2229,7 @@
 	)
 	(hierarchical_label "1V6"
 		(shape bidirectional)
-		(at 105.41 71.12 180)
+		(at 104.14 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2241,7 +2241,7 @@
 	)
 	(hierarchical_label "MCU_NRST"
 		(shape bidirectional)
-		(at 105.41 66.04 180)
+		(at 104.14 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2253,7 +2253,7 @@
 	)
 	(hierarchical_label "1V6_TFlag"
 		(shape input)
-		(at 191.77 66.04 0)
+		(at 190.5 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2265,7 +2265,7 @@
 	)
 	(hierarchical_label "MCU_UART_TX"
 		(shape bidirectional)
-		(at 191.77 53.34 0)
+		(at 190.5 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2277,7 +2277,7 @@
 	)
 	(hierarchical_label "MCU_SW_DIO"
 		(shape bidirectional)
-		(at 191.77 58.42 0)
+		(at 190.5 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2289,7 +2289,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 105.41 63.5 180)
+		(at 104.14 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2301,7 +2301,7 @@
 	)
 	(hierarchical_label "MCU_SW_CLK"
 		(shape bidirectional)
-		(at 191.77 55.88 0)
+		(at 190.5 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2313,7 +2313,7 @@
 	)
 	(hierarchical_label "DAC_Z"
 		(shape bidirectional)
-		(at 191.77 76.2 0)
+		(at 190.5 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2325,7 +2325,7 @@
 	)
 	(hierarchical_label "Z_TFlag"
 		(shape input)
-		(at 156.21 109.22 180)
+		(at 154.94 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2337,7 +2337,7 @@
 	)
 	(hierarchical_label "Z_IFlag"
 		(shape input)
-		(at 214.63 109.22 180)
+		(at 213.36 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2349,7 +2349,7 @@
 	)
 	(hierarchical_label "MCU_UART_RX"
 		(shape bidirectional)
-		(at 105.41 53.34 180)
+		(at 104.14 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2361,7 +2361,7 @@
 	)
 	(hierarchical_label "ADC_V"
 		(shape bidirectional)
-		(at 105.41 68.58 180)
+		(at 104.14 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2373,7 +2373,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 180.34 93.98 180)
+		(at 179.07 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2385,7 +2385,7 @@
 	)
 	(hierarchical_label "1V6_TFlag"
 		(shape input)
-		(at 43.18 109.22 180)
+		(at 41.91 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2397,7 +2397,7 @@
 	)
 	(hierarchical_label "MCU_UART_CTS"
 		(shape bidirectional)
-		(at 191.77 63.5 0)
+		(at 190.5 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2409,7 +2409,7 @@
 	)
 	(hierarchical_label "Z_IFlag"
 		(shape input)
-		(at 191.77 73.66 0)
+		(at 190.5 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2421,7 +2421,7 @@
 	)
 	(hierarchical_label "SUSPEND"
 		(shape bidirectional)
-		(at 105.41 58.42 180)
+		(at 104.14 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2433,7 +2433,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 82.55 68.58 270)
+		(at 81.28 68.58 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2445,7 +2445,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 67.31 93.98 180)
+		(at 66.04 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2457,7 +2457,7 @@
 	)
 	(hierarchical_label "1V6_IFlag"
 		(shape input)
-		(at 102.87 109.22 180)
+		(at 101.6 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2469,7 +2469,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 128.27 139.7 180)
+		(at 127 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2481,7 +2481,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape bidirectional)
-		(at 236.22 93.98 180)
+		(at 234.95 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2493,7 +2493,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 82.55 64.77 180)
+		(at 81.28 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2502,7 +2502,7 @@
 		(fields_autoplaced yes)
 		(uuid "1350c30d-630a-4acf-bfc9-6154b4d37e2c")
 		(property "Reference" "C2"
-			(at 86.36 63.4999 0)
+			(at 85.09 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2511,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 86.36 66.0399 0)
+			(at 85.09 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2520,7 +2520,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 81.5848 60.96 0)
+			(at 80.3148 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 64.77 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 82.55 64.77 0)
+			(at 81.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,7 +2563,7 @@
 	)
 	(symbol
 		(lib_id "Mouser:MyLogo")
-		(at 264.16 161.29 0)
+		(at 270.51 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2572,7 +2572,7 @@
 		(fields_autoplaced yes)
 		(uuid "18e1c9c8-89bd-42d4-ba9f-298fd56be6c4")
 		(property "Reference" "Symbol1"
-			(at 264.16 161.29 0)
+			(at 270.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2581,7 @@
 			)
 		)
 		(property "Value" "ktw07182@gmail.com"
-			(at 263.398 154.94 0)
+			(at 269.748 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2589,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:ktw07182_logo"
-			(at 264.16 161.29 0)
+			(at 270.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 161.29 0)
+			(at 270.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2607,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 264.16 161.29 0)
+			(at 270.51 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
-		(at 118.11 109.22 0)
+		(at 116.84 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2635,7 +2635,7 @@
 		(dnp no)
 		(uuid "4a75d25b-53fe-4f22-bc43-0614d37e9f84")
 		(property "Reference" "Q2"
-			(at 132.08 110.4901 0)
+			(at 130.81 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,7 +2644,7 @@
 			)
 		)
 		(property "Value" "MMBT3906-TP"
-			(at 132.08 107.9501 0)
+			(at 130.81 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2653,7 +2653,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:SOT95P237X125-3N"
-			(at 132.08 7.95 0)
+			(at 130.81 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2663,7 +2663,7 @@
 			)
 		)
 		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
-			(at 132.08 -92.05 0)
+			(at 130.81 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Description" "Small Signal Bipolar Transistors"
-			(at 118.11 109.22 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2682,7 +2682,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 132.08 -292.05 0)
+			(at 130.81 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2692,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MCC"
-			(at 132.08 -392.05 0)
+			(at 130.81 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,7 +2702,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3906-TP"
-			(at 132.08 -492.05 0)
+			(at 130.81 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 			)
 		)
 		(property "Mouser Part Number" "833-MMBT3906-TP"
-			(at 132.08 -592.05 0)
+			(at 130.81 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2722,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
-			(at 132.08 -692.05 0)
+			(at 130.81 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +2732,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MMBT3906-TP"
-			(at 132.08 -792.05 0)
+			(at 130.81 -792.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2742,7 +2742,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
-			(at 132.08 -892.05 0)
+			(at 130.81 -892.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2771,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 166.37 109.22 90)
+		(at 165.1 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2780,7 +2780,7 @@
 		(fields_autoplaced yes)
 		(uuid "567dd990-5a1d-46f0-9940-8ba7b57cfa92")
 		(property "Reference" "R5"
-			(at 166.37 102.87 90)
+			(at 165.1 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2788,7 +2788,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 166.37 105.41 90)
+			(at 165.1 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2796,7 +2796,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 177.8 109.22 0)
+			(at 176.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 109.22 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 166.37 109.22 0)
+			(at 165.1 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 128.27 120.65 270)
+		(at 127 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2848,7 +2848,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f9f6529-a5ea-4ad6-8de0-2773c16cb2ef")
 		(property "Reference" "LED2"
-			(at 133.35 119.3799 90)
+			(at 132.08 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2857,7 +2857,7 @@
 			)
 		)
 		(property "Value" "LED_0603_Red"
-			(at 133.35 121.9199 90)
+			(at 132.08 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2866,7 +2866,7 @@
 			)
 		)
 		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 128.27 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 128.27 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2909,7 @@
 	)
 	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
-		(at 59.69 109.22 0)
+		(at 58.42 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2918,7 +2918,7 @@
 		(dnp no)
 		(uuid "742906d9-4ef8-42c5-a405-5dc39cd8b5ac")
 		(property "Reference" "Q1"
-			(at 73.66 110.4901 0)
+			(at 72.39 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2927,7 +2927,7 @@
 			)
 		)
 		(property "Value" "MMBT3906-TP"
-			(at 73.66 107.9501 0)
+			(at 72.39 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2936,7 +2936,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:SOT95P237X125-3N"
-			(at 73.66 7.95 0)
+			(at 72.39 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2946,7 @@
 			)
 		)
 		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
-			(at 73.66 -92.05 0)
+			(at 72.39 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2956,7 @@
 			)
 		)
 		(property "Description" "Small Signal Bipolar Transistors"
-			(at 59.69 109.22 0)
+			(at 58.42 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2965,7 +2965,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 73.66 -292.05 0)
+			(at 72.39 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MCC"
-			(at 73.66 -392.05 0)
+			(at 72.39 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2985,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3906-TP"
-			(at 73.66 -492.05 0)
+			(at 72.39 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2995,7 +2995,7 @@
 			)
 		)
 		(property "Mouser Part Number" "833-MMBT3906-TP"
-			(at 73.66 -592.05 0)
+			(at 72.39 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,7 +3005,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
-			(at 73.66 -692.05 0)
+			(at 72.39 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3015,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MMBT3906-TP"
-			(at 73.66 -792.05 0)
+			(at 72.39 -792.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3025,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
-			(at 73.66 -892.05 0)
+			(at 72.39 -892.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3054,7 @@
 	)
 	(symbol
 		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 69.85 120.65 270)
+		(at 68.58 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3063,7 +3063,7 @@
 		(fields_autoplaced yes)
 		(uuid "79cda719-1268-426a-817b-f46754e97af8")
 		(property "Reference" "LED1"
-			(at 74.93 119.3799 90)
+			(at 73.66 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3072,7 +3072,7 @@
 			)
 		)
 		(property "Value" "LED_0603_Red"
-			(at 74.93 121.9199 90)
+			(at 73.66 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3081,7 +3081,7 @@
 			)
 		)
 		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 69.85 120.65 0)
+			(at 68.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 120.65 0)
+			(at 68.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 69.85 120.65 0)
+			(at 68.58 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3124,7 +3124,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 50.8 109.22 90)
+		(at 49.53 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3133,7 +3133,7 @@
 		(fields_autoplaced yes)
 		(uuid "80cd90c2-0a4d-4dc0-b7bf-ce000f87c65f")
 		(property "Reference" "R1"
-			(at 50.8 102.87 90)
+			(at 49.53 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3141,7 +3141,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 50.8 105.41 90)
+			(at 49.53 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,7 +3149,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 62.23 109.22 0)
+			(at 60.96 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,7 +3158,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 50.8 109.22 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3167,7 +3167,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 50.8 109.22 0)
+			(at 49.53 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "ktw07182:STM32G051F8P6")
-		(at 119.38 53.34 0)
+		(at 118.11 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3201,7 +3201,7 @@
 		(fields_autoplaced yes)
 		(uuid "8126301c-7022-4366-ac20-46b48f18a080")
 		(property "Reference" "IC1"
-			(at 148.59 45.72 0)
+			(at 147.32 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +3209,7 @@
 			)
 		)
 		(property "Value" "STM32G051F8P6"
-			(at 148.59 48.26 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3217,7 +3217,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:SOP65P640X120-20N"
-			(at 173.99 148.26 0)
+			(at 172.72 148.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3227,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g051c6.pdf"
-			(at 173.99 248.26 0)
+			(at 172.72 248.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3237,7 @@
 			)
 		)
 		(property "Description" "Mainstream Arm Cortex-M0+ 32-bit MCU, up to 64 KB Flash, 18 KB RAM, 2x USART, timers, ADC, DAC, comm. I/Fs, 1.7-3.6V"
-			(at 119.38 53.34 0)
+			(at 118.11 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3246,7 +3246,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 173.99 448.26 0)
+			(at 172.72 448.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3256,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 173.99 548.26 0)
+			(at 172.72 548.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3266,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "STM32G051F8P6"
-			(at 173.99 648.26 0)
+			(at 172.72 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3276,7 +3276,7 @@
 			)
 		)
 		(property "Mouser Part Number" "511-STM32G051F8P6"
-			(at 173.99 748.26 0)
+			(at 172.72 748.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STM32G051F8P6?qs=CiayqK2gdcKtYfwNuLEYXQ%3D%3D"
-			(at 173.99 848.26 0)
+			(at 172.72 848.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3296,7 @@
 			)
 		)
 		(property "Arrow Part Number" "STM32G051F8P6"
-			(at 173.99 948.26 0)
+			(at 172.72 948.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3306,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/stm32g051f8p6/stmicroelectronics?region=nac"
-			(at 173.99 1048.26 0)
+			(at 172.72 1048.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,7 +3386,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 222.25 109.22 90)
+		(at 220.98 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3395,7 +3395,7 @@
 		(fields_autoplaced yes)
 		(uuid "951a8e03-2ebb-4433-9565-c6d18c85035e")
 		(property "Reference" "R7"
-			(at 222.25 102.87 90)
+			(at 220.98 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3403,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 222.25 105.41 90)
+			(at 220.98 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3411,7 +3411,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 233.68 109.22 0)
+			(at 232.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3420,7 +3420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 109.22 0)
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3429,7 +3429,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 222.25 109.22 0)
+			(at 220.98 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,7 +3454,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 182.88 132.08 0)
+		(at 181.61 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3463,7 +3463,7 @@
 		(fields_autoplaced yes)
 		(uuid "991b4707-e741-4b07-9ad9-c15067811eb4")
 		(property "Reference" "R6"
-			(at 185.42 130.8099 0)
+			(at 184.15 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3472,7 +3472,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 185.42 133.3499 0)
+			(at 184.15 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,7 +3481,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 182.88 143.51 0)
+			(at 181.61 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3490,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 132.08 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3499,7 +3499,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 182.88 132.08 0)
+			(at 181.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3524,7 +3524,7 @@
 	)
 	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
-		(at 228.6 109.22 0)
+		(at 227.33 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3533,7 +3533,7 @@
 		(dnp no)
 		(uuid "a6384ae8-40a8-4218-9240-464426167e73")
 		(property "Reference" "Q4"
-			(at 242.57 110.4901 0)
+			(at 241.3 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3542,7 +3542,7 @@
 			)
 		)
 		(property "Value" "MMBT3906-TP"
-			(at 242.57 107.9501 0)
+			(at 241.3 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3551,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:SOT95P237X125-3N"
-			(at 242.57 7.95 0)
+			(at 241.3 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3561,7 @@
 			)
 		)
 		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
-			(at 242.57 -92.05 0)
+			(at 241.3 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,7 +3571,7 @@
 			)
 		)
 		(property "Description" "Small Signal Bipolar Transistors"
-			(at 228.6 109.22 0)
+			(at 227.33 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3580,7 +3580,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 242.57 -292.05 0)
+			(at 241.3 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3590,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MCC"
-			(at 242.57 -392.05 0)
+			(at 241.3 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +3600,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3906-TP"
-			(at 242.57 -492.05 0)
+			(at 241.3 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3610,7 +3610,7 @@
 			)
 		)
 		(property "Mouser Part Number" "833-MMBT3906-TP"
-			(at 242.57 -592.05 0)
+			(at 241.3 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3620,7 +3620,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
-			(at 242.57 -692.05 0)
+			(at 241.3 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3630,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MMBT3906-TP"
-			(at 242.57 -792.05 0)
+			(at 241.3 -792.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
-			(at 242.57 -892.05 0)
+			(at 241.3 -892.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,7 +3669,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 128.27 132.08 0)
+		(at 127 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3678,7 +3678,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7958da4-02f5-4372-b9fe-f77986f2002c")
 		(property "Reference" "R4"
-			(at 130.81 130.8099 0)
+			(at 129.54 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +3687,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 130.81 133.3499 0)
+			(at 129.54 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3696,7 +3696,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 128.27 143.51 0)
+			(at 127 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 132.08 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3714,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 128.27 132.08 0)
+			(at 127 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3739,7 @@
 	)
 	(symbol
 		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 182.88 120.65 270)
+		(at 181.61 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3748,7 +3748,7 @@
 		(fields_autoplaced yes)
 		(uuid "b89c2c39-dab0-44f9-8462-dc0dd17b3941")
 		(property "Reference" "LED3"
-			(at 187.96 119.3799 90)
+			(at 186.69 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3757,7 @@
 			)
 		)
 		(property "Value" "LED_0603_Red"
-			(at 187.96 121.9199 90)
+			(at 186.69 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3766,7 @@
 			)
 		)
 		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 182.88 120.65 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 120.65 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3784,7 +3784,7 @@
 			)
 		)
 		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 182.88 120.65 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3809,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 238.76 132.08 0)
+		(at 237.49 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3818,7 +3818,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1dec082-f319-4b2c-b664-24029200d71c")
 		(property "Reference" "R8"
-			(at 241.3 130.8099 0)
+			(at 240.03 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3827,7 +3827,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 241.3 133.3499 0)
+			(at 240.03 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 238.76 143.51 0)
+			(at 237.49 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3845,7 +3845,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 132.08 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,7 +3854,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 238.76 132.08 0)
+			(at 237.49 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
-		(at 71.12 64.77 180)
+		(at 69.85 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3888,7 +3888,7 @@
 		(fields_autoplaced yes)
 		(uuid "c400404c-c08a-4fe5-ba8a-f273056bb4a7")
 		(property "Reference" "C1"
-			(at 74.93 63.4999 0)
+			(at 73.66 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3897,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 74.93 66.0399 0)
+			(at 73.66 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3906,7 +3906,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
-			(at 70.1548 60.96 0)
+			(at 68.8848 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 64.77 0)
+			(at 69.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3924,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 MLCC capacitor, Alternate KiCad Library"
-			(at 71.12 64.77 0)
+			(at 69.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 	)
 	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
-		(at 172.72 109.22 0)
+		(at 171.45 109.22 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3958,7 +3958,7 @@
 		(dnp no)
 		(uuid "c6cb310d-03a0-4d33-b521-8b09c1e9c0cf")
 		(property "Reference" "Q3"
-			(at 186.69 110.4901 0)
+			(at 185.42 110.4901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 			)
 		)
 		(property "Value" "MMBT3906-TP"
-			(at 186.69 107.9501 0)
+			(at 185.42 107.9501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,7 +3976,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:SOT95P237X125-3N"
-			(at 186.69 7.95 0)
+			(at 185.42 7.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +3986,7 @@
 			)
 		)
 		(property "Datasheet" "https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf"
-			(at 186.69 -92.05 0)
+			(at 185.42 -92.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Description" "Small Signal Bipolar Transistors"
-			(at 172.72 109.22 0)
+			(at 171.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,7 +4005,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 186.69 -292.05 0)
+			(at 185.42 -292.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4015,7 +4015,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "MCC"
-			(at 186.69 -392.05 0)
+			(at 185.42 -392.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4025,7 +4025,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MMBT3906-TP"
-			(at 186.69 -492.05 0)
+			(at 185.42 -492.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4035,7 +4035,7 @@
 			)
 		)
 		(property "Mouser Part Number" "833-MMBT3906-TP"
-			(at 186.69 -592.05 0)
+			(at 185.42 -592.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4045,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MMBT3906-TP?qs=Oupk%2FUD005j0ye332p7kWg%3D%3D"
-			(at 186.69 -692.05 0)
+			(at 185.42 -692.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4055,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MMBT3906-TP"
-			(at 186.69 -792.05 0)
+			(at 185.42 -792.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +4065,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mmbt3906-tp/micro-commercial-components?region=europe"
-			(at 186.69 -892.05 0)
+			(at 185.42 -892.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4094,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 69.85 132.08 0)
+		(at 68.58 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4103,7 +4103,7 @@
 		(fields_autoplaced yes)
 		(uuid "e970a745-e550-4b0c-ac88-d6e14b05a779")
 		(property "Reference" "R2"
-			(at 72.39 130.8099 0)
+			(at 71.12 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 72.39 133.3499 0)
+			(at 71.12 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 69.85 143.51 0)
+			(at 68.58 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 69.85 132.08 0)
+			(at 68.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4139,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 69.85 132.08 0)
+			(at 68.58 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4164,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 110.49 109.22 90)
+		(at 109.22 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4173,7 +4173,7 @@
 		(fields_autoplaced yes)
 		(uuid "eee0e7fd-1d56-462e-b9cd-c04be26f4626")
 		(property "Reference" "R3"
-			(at 110.49 102.87 90)
+			(at 109.22 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4181,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 110.49 105.41 90)
+			(at 109.22 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +4189,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 121.92 109.22 0)
+			(at 120.65 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4198,7 +4198,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 109.22 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4207,7 +4207,7 @@
 			)
 		)
 		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 110.49 109.22 0)
+			(at 109.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4232,7 @@
 	)
 	(symbol
 		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 238.76 120.65 270)
+		(at 237.49 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4241,7 +4241,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8900e73-b5e5-4fd4-8958-341f4525b518")
 		(property "Reference" "LED4"
-			(at 243.84 119.3799 90)
+			(at 242.57 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Value" "LED_0603_Red"
-			(at 243.84 121.9199 90)
+			(at 242.57 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 238.76 120.65 0)
+			(at 237.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 120.65 0)
+			(at 237.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4277,7 @@
 			)
 		)
 		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 238.76 120.65 0)
+			(at 237.49 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
