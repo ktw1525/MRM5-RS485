@@ -1706,152 +1706,6 @@
 				)
 			)
 		)
-		(symbol "PCM_SL_Capacitors:10uF_16V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF_16V"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-				(at 0.762 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0.508 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10uF, 16V Electrolytic Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Electrolytic Capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Capacitor_THT:CP_Radial_D5.0mm_* Capacitor_THT:CP_Radial_D4.0mm_* Capacitor_THT:CP_Radial_D6.3mm_* Capacitor_THT:CP_Radial_D7.5mm_* Capacitor_THT:CP_Radial_D8.0mm_* Capacitor_THT:CP_Radial_D10.0mm_* Capacitor_THT:CP_Radial_D14.0mm_* Capacitor_THT:CP_Radial_D16.0mm_* Capacitor_THT:CP_Radial_D18.0mm_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "10uF_16V_0_0"
-				(text "+"
-					(at -2.032 1.524 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "-"
-					(at 2.032 1.524 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "10uF_16V_0_1"
-				(rectangle
-					(start -1.016 -2.286)
-					(end -0.508 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.508 -2.286)
-					(end 1.016 2.286)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "10uF_16V_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.7)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.7)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_SL_Capacitors:220uF_10V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2221,12 +2075,12 @@
 				)
 			)
 		)
-		(symbol "ktw07182:LM1085ISX-ADJ_NOPB"
+		(symbol "ktw07182:LD1085D2T33R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at -13.208 13.97 0)
+				(at 31.75 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2234,8 +2088,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "LM1085ISX-ADJ_NOPB"
-				(at -13.208 11.43 0)
+			(property "Value" "LD1085D2T33R"
+				(at 31.75 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2243,18 +2097,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "KTT0003B"
-				(at 36.83 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.ti.com/lit/gpn/lm1085"
-				(at 36.83 -194.92 0)
+			(property "Footprint" "LD1085D2T33R"
+				(at 31.75 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2263,8 +2107,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "3A Fixed / Adjustable Output Linear Regulator"
-				(at -2.54 0 0)
+			(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001883.pdf"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LD1085D2T33R, Low Dropout Voltage Regulator, 3A, 3.3 V +/-1%, 3-Pin D2PAK"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2273,7 +2127,7 @@
 				)
 			)
 			(property "Height" ""
-				(at 36.83 -394.92 0)
+				(at 31.75 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2282,8 +2136,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 36.83 -494.92 0)
+			(property "Manufacturer_Name" "STMicroelectronics"
+				(at 31.75 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2292,8 +2146,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "LM1085ISX-ADJ/NOPB"
-				(at 36.83 -594.92 0)
+			(property "Manufacturer_Part_Number" "LD1085D2T33R"
+				(at 31.75 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2302,8 +2156,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "926-LM1085ISXADJNOPB"
-				(at 36.83 -694.92 0)
+			(property "Mouser Part Number" "511-LD1085D2T33-TR"
+				(at 31.75 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2312,8 +2166,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1085ISX-ADJ-NOPB?qs=X1J7HmVL2ZHa3VPnfJFPvQ%3D%3D"
-				(at 36.83 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD1085D2T33R?qs=%252BlpsHQzXjw%252B%2FdNCHtZO2HA%3D%3D"
+				(at 31.75 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2322,8 +2176,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "LM1085ISX-ADJ/NOPB"
-				(at 36.83 -894.92 0)
+			(property "Arrow Part Number" "LD1085D2T33R"
+				(at 31.75 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2332,8 +2186,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm1085isx-adjnopb/texas-instruments?utm_currency=USD&region=nac"
-				(at 36.83 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ld1085d2t33r/stmicroelectronics?utm_currency=USD&region=nac"
+				(at 31.75 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2342,10 +2196,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1085ISX-ADJ_NOPB_1_1"
+			(symbol "LD1085D2T33R_1_1"
 				(rectangle
-					(start -11.43 8.89)
-					(end 11.43 -6.35)
+					(start 5.08 2.54)
+					(end 30.48 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2354,10 +2208,10 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at -2.54 -11.43 90)
+				(pin power_in line
+					(at 17.78 -15.24 90)
 					(length 5.08)
-					(name "ADJ/GND"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2372,26 +2226,8 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 16.51 3.81 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -16.51 1.27 0)
+				(pin input line
+					(at 0 0 0)
 					(length 5.08)
 					(name "INPUT"
 						(effects
@@ -2408,10 +2244,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 16.51 1.27 180)
+				(pin output line
+					(at 35.56 0 180)
 					(length 5.08)
-					(name "TAB_(VOUT)"
+					(name "OUTPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2861,16 +2697,22 @@
 		(uuid "0819e67f-f482-4ded-ba63-63abb18c3868")
 	)
 	(junction
-		(at 144.78 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0aebbd71-a6bb-4590-8c03-1c407fdd698b")
-	)
-	(junction
 		(at 152.4 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12b07eb6-a3e6-45f2-9b6f-023845484c29")
+	)
+	(junction
+		(at 161.29 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1828e099-c786-4614-bea5-269b9407a5fa")
+	)
+	(junction
+		(at 128.27 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c711a2e-707e-48f0-934e-5b28b1057a6f")
 	)
 	(junction
 		(at 107.95 144.78)
@@ -2921,12 +2763,6 @@
 		(uuid "4a58de75-e4a3-473a-a1fc-a826c69e4311")
 	)
 	(junction
-		(at 121.92 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b7c845f-6930-49a6-b169-b52be48a618f")
-	)
-	(junction
 		(at 130.81 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2955,12 +2791,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95edf9b0-57a2-4cc6-88c0-a74652fd6e36")
-	)
-	(junction
-		(at 161.29 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96c1e080-d379-476a-a4f6-0317a3c929da")
 	)
 	(junction
 		(at 124.46 60.96)
@@ -3096,16 +2926,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 73.66) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a55c88d-df71-4bd3-a542-a64606150338")
-	)
-	(wire
-		(pts
 			(xy 143.51 138.43) (xy 148.59 138.43)
 		)
 		(stroke
@@ -3136,7 +2956,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 121.92 96.52)
+			(xy 128.27 88.9) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3166,7 +2986,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 71.12) (xy 161.29 71.12)
+			(xy 128.27 96.52) (xy 161.29 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5517c1-6053-423b-8e8e-ff62da803e10")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3183,16 +3013,6 @@
 			(type default)
 		)
 		(uuid "2d37bb08-ffec-4ede-9e77-060bcdcf2f3f")
-	)
-	(wire
-		(pts
-			(xy 140.97 73.66) (xy 144.78 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3267aa91-7b71-4926-97b4-b9b1d682a9b2")
 	)
 	(wire
 		(pts
@@ -3226,17 +3046,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 144.78 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41082a71-b2b3-428f-bf1e-43d1c8be0c99")
-	)
-	(wire
-		(pts
-			(xy 161.29 71.12) (xy 166.37 71.12)
+			(xy 161.29 73.66) (xy 166.37 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3266,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 161.29 71.12)
+			(xy 161.29 81.28) (xy 161.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3326,16 +3136,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 96.52) (xy 161.29 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba844cd-ed4b-4b15-bf87-577da8b790bc")
-	)
-	(wire
-		(pts
 			(xy 124.46 35.56) (xy 140.97 35.56)
 		)
 		(stroke
@@ -3356,7 +3156,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 73.66) (xy 107.95 73.66)
+			(xy 95.25 73.66) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3866,7 +3666,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 96.52) (xy 121.92 96.52)
+			(xy 95.25 96.52) (xy 128.27 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5003,7 +4803,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 166.37 71.12 0)
+		(at 166.37 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5182,76 +4982,6 @@
 		(uuid "cd2881a6-7faf-4040-af8c-2a9376f5b660")
 	)
 	(symbol
-		(lib_id "PCM_SL_Capacitors:10uF_16V")
-		(at 161.29 85.09 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "156b3232-2940-4182-939f-44a3161d0de6")
-		(property "Reference" "C17"
-			(at 165.1 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF_16V"
-			(at 165.1 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
-			(at 157.48 85.852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 85.598 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF, 16V Electrolytic Capacitor"
-			(at 161.29 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad123a3d-45bf-4473-a514-1254d05992cf")
-		)
-		(pin "2"
-			(uuid "af1618c3-8c0d-4a37-8f9b-6913cf62d856")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0603")
 		(at 140.97 116.84 0)
 		(unit 1)
@@ -5261,7 +4991,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fa48dde-bdaf-4746-ba6d-a97d9d908bfb")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 144.78 115.5699 0)
 			(effects
 				(font
@@ -5315,6 +5045,76 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Capacitor_AKL:C_0603")
+		(at 161.29 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21941d6f-0c41-4eea-a14d-b1edd00f21df")
+		(property "Reference" "C24"
+			(at 165.1 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF, 16V"
+			(at 165.1 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 162.2552 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d297c655-6e77-47a6-afb7-4c45b73e69f7")
+		)
+		(pin "2"
+			(uuid "29fb1770-b7db-4720-92e8-aeeec277469f")
+		)
+		(instances
+			(project ""
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
 					(reference "C24")
 					(unit 1)
 				)
@@ -5339,7 +5139,7 @@
 				)
 			)
 		)
-		(property "Value" "SSHB10HS-R11100"
+		(property "Value" "SS21V-R110100"
 			(at 149.6494 33.02 0)
 			(effects
 				(font
@@ -5472,76 +5272,6 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
 					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Capacitors:10uF_16V")
-		(at 95.25 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e50930e-4c43-4327-8f57-1e8bc90387db")
-		(property "Reference" "C15"
-			(at 99.06 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF_16V"
-			(at 99.06 85.0899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
-			(at 91.44 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10uF, 16V Electrolytic Capacitor"
-			(at 95.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d71beeb4-32c1-4c40-a5d9-50d774837232")
-		)
-		(pin "2"
-			(uuid "d297c481-5a3c-4fa4-a012-421addb179a9")
-		)
-		(instances
-			(project ""
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5929,7 +5659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61cdd19d-cdab-4c56-97e0-c83c5073c627")
-		(property "Reference" "C26"
+		(property "Reference" "C23"
 			(at 156.21 148.5899 0)
 			(effects
 				(font
@@ -5983,7 +5713,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C26")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6146,6 +5876,149 @@
 		)
 	)
 	(symbol
+		(lib_id "ktw07182:LD1085D2T33R")
+		(at 110.49 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc63e4a-38a9-4c65-91de-3269d48419cd")
+		(property "Reference" "IC5"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1085D2T33R"
+			(at 128.27 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mouser:LD1085D2T33R"
+			(at 142.24 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/web/en/resource/technical/document/datasheet/CD00001883.pdf"
+			(at 142.24 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LD1085D2T33R, Low Dropout Voltage Regulator, 3A, 3.3 V +/-1%, 3-Pin D2PAK"
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 142.24 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 142.24 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LD1085D2T33R"
+			(at 142.24 668.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-LD1085D2T33-TR"
+			(at 142.24 768.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LD1085D2T33R?qs=%252BlpsHQzXjw%252B%2FdNCHtZO2HA%3D%3D"
+			(at 142.24 868.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "LD1085D2T33R"
+			(at 142.24 968.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/ld1085d2t33r/stmicroelectronics?utm_currency=USD&region=nac"
+			(at 142.24 1068.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "73b4ee32-a988-43fc-ab85-b1aa1c4f04e1")
+		)
+		(pin "4"
+			(uuid "1a7364f2-090c-4eb8-bc97-59363b5f48ed")
+		)
+		(pin "1"
+			(uuid "06fa3f92-0dcd-44e3-bdd9-c90f156bd890")
+		)
+		(instances
+			(project ""
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
 		(at 130.81 116.84 180)
 		(unit 1)
@@ -6155,7 +6028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9ec660-0844-4d17-92db-eca796cee1b1")
-		(property "Reference" "C23"
+		(property "Reference" "C21"
 			(at 134.62 115.5699 0)
 			(effects
 				(font
@@ -6209,7 +6082,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C23")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d20bdcf-eede-4f36-8841-e03be919879d")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 133.35 152.3999 0)
 			(effects
 				(font
@@ -6279,60 +6152,42 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "ktw07182:LM1085ISX-ADJ_NOPB")
-		(at 124.46 74.93 0)
+		(lib_id "PCM_Capacitor_AKL:C_0603")
+		(at 95.25 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9bd7eeee-e869-4d32-967c-dac8b48f5a42")
-		(property "Reference" "IC3"
-			(at 144.78 67.31 0)
+		(uuid "8d20a12d-b234-4dfc-9f29-12004a0f3caa")
+		(property "Reference" "C19"
+			(at 99.06 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "LM1085IS-3.3/NOPB"
-			(at 144.78 69.85 0)
+		(property "Value" "10uF, 16V"
+			(at 99.06 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Mouser:KTT0003B"
-			(at 161.29 169.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/lm1085"
-			(at 161.29 269.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A Fixed / Adjustable Output Linear Regulator"
-			(at 124.46 74.93 0)
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+			(at 96.2152 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,92 +6195,34 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 161.29 469.85 0)
+		(property "Datasheet" "~"
+			(at 95.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 161.29 569.85 0)
+		(property "Description" "SMD 0603 MLCC capacitor, Alternate KiCad Library"
+			(at 95.25 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Part_Number" "LM1085ISX-ADJ/NOPB"
-			(at 161.29 669.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "926-LM1085ISXADJNOPB"
-			(at 161.29 769.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM1085ISX-ADJ-NOPB?qs=X1J7HmVL2ZHa3VPnfJFPvQ%3D%3D"
-			(at 161.29 869.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "LM1085ISX-ADJ/NOPB"
-			(at 161.29 969.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm1085isx-adjnopb/texas-instruments?utm_currency=USD&region=nac"
-			(at 161.29 1069.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ba4ba63-5fa1-4ed4-9361-76018ea33971")
-		)
-		(pin "4"
-			(uuid "c8a20c58-a4be-408f-b8a2-2f4156f9c51b")
-		)
-		(pin "3"
-			(uuid "ffd3223f-b1f8-4af5-af03-29d89551b700")
 		)
 		(pin "1"
-			(uuid "424a3dd2-0a72-42bd-9e95-58e2094536c1")
+			(uuid "069b2bf0-19a0-432a-8219-85c425dd5330")
+		)
+		(pin "2"
+			(uuid "802509c3-b1d3-41f4-9292-c5ee97dca03c")
 		)
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC3")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6441,7 +6238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc6f1f2-f4be-4a3f-829f-1ecd5612fee9")
-		(property "Reference" "C18"
+		(property "Reference" "C26"
 			(at 208.28 44.4499 90)
 			(effects
 				(font
@@ -6495,7 +6292,7 @@
 		(instances
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C18")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -6511,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc1dfbf-198c-4912-a5fe-f7c497383483")
-		(property "Reference" "IC4"
+		(property "Reference" "IC3"
 			(at 149.86 129.5714 0)
 			(effects
 				(font
@@ -6678,7 +6475,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC4")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -6694,7 +6491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e52d4756-2c79-410a-8c20-80219c8d0092")
-		(property "Reference" "R23"
+		(property "Reference" "R25"
 			(at 81.28 111.76 90)
 			(effects
 				(font
@@ -6746,7 +6543,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6762,7 +6559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef429071-e844-4923-8261-0edd6c23c969")
-		(property "Reference" "C16"
+		(property "Reference" "C20"
 			(at 128.27 45.7199 90)
 			(effects
 				(font
@@ -6898,7 +6695,7 @@
 		(instances
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C16")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6914,7 +6711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86d258d-758e-4f97-b444-d37ad9b139c1")
-		(property "Reference" "R24"
+		(property "Reference" "R26"
 			(at 95.25 111.76 90)
 			(effects
 				(font
@@ -6966,7 +6763,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 			)
