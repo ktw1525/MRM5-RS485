@@ -2034,7 +2034,7 @@
 				)
 			)
 		)
-		(symbol "PCM_LED_AKL:LED_0603_Green"
+		(symbol "PCM_LED_AKL:LED_5mm"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -2049,7 +2049,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_0603_Green"
+			(property "Value" "LED_5mm"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -2057,7 +2057,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+			(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2075,7 +2075,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Green SMD LED, 0603, Alternate KiCad Library"
+			(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2084,334 +2084,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "green LED diode generic smd 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0603_Green_0_1"
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 30 200 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 30 200 30 1)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_0603_Green_1_2"
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 30 200 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_LED_AKL:LED_0603_Red"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_0603_Red"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "red LED diode generic smd 0603"
+			(property "ki_keywords" "LED diode generic 5mm THT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2429,7 +2102,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0603_Red_0_1"
+			(symbol "LED_5mm_0_1"
 				(polyline
 					(pts
 						(xy -0.508 1.905) (xy 0.254 3.429)
@@ -2437,7 +2110,6 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 240 30 30 1)
 					)
 					(fill
 						(type none)
@@ -2445,12 +2117,11 @@
 				)
 				(polyline
 					(pts
-						(xy 0.508 1.397) (xy 1.27 2.921)
+						(xy 0 2.921) (xy -0.254 3.048)
 					)
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 240 30 30 1)
 					)
 					(fill
 						(type none)
@@ -2458,308 +2129,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 240 30 30 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.286) (xy 0.762 2.54) (xy 1.27 2.921) (xy 1.27 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "LED_0603_Red_0_2"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.889) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 1.27) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.778 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.889 -0.889) (xy -1.778 0) (xy 0.889 0.889) (xy 0 -1.778) (xy -0.889 -0.889)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type color)
-						(color 240 30 30 1)
-					)
-				)
-			)
-			(symbol "LED_0603_Red_1_1"
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LED_0603_Red_1_2"
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 2.54 180)
-					(length 0)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 0)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_LED_AKL:LED_0603_White"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED_0603_White"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "White SMD LED, 0603, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "white LED diode generic smd 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0603_White_0_1"
-				(polyline
-					(pts
-						(xy -0.508 1.905) (xy 0.254 3.429)
+						(xy 0 2.921) (xy 0.254 2.794)
 					)
 					(stroke
 						(width 0.1524)
@@ -2775,6 +2145,42 @@
 					)
 					(stroke
 						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -2802,8 +2208,7 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 255 1)
+						(type outline)
 					)
 				)
 				(polyline
@@ -2811,8 +2216,8 @@
 						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
 					)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -2831,10 +2236,10 @@
 					)
 				)
 			)
-			(symbol "LED_0603_White_0_2"
+			(symbol "LED_5mm_0_2"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
+						(xy -2.54 -2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2882,18 +2287,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
 					)
 					(stroke
@@ -2925,12 +2318,11 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 255 255 255 1)
+						(type outline)
 					)
 				)
 			)
-			(symbol "LED_0603_White_1_1"
+			(symbol "LED_5mm_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -2968,7 +2360,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_White_1_2"
+			(symbol "LED_5mm_1_2"
 				(pin passive line
 					(at 2.54 2.54 180)
 					(length 0)
@@ -3189,6 +2581,243 @@
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Female"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Female"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+				(at 2.54 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinSocket_1x02_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x2_Female_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.905 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -0.508 -1.27)
+					(mid -0.3592 -1.6292)
+					(end 0 -1.778)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.508 1.27)
+					(mid -0.3592 0.9108)
+					(end 0 0.762)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.762)
+					(mid -0.3592 -0.9108)
+					(end -0.508 -1.27)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 1.016 -1.778)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -0.762)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.762)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 1.016 1.778)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.778)
+					(mid -0.3592 1.6292)
+					(end -0.508 1.27)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Female_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
 					(name ""
 						(effects
 							(font
@@ -3653,7 +3282,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 129.54) (xy 241.3 133.35)
+			(xy 241.3 130.81) (xy 241.3 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3422,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 128.27) (xy 73.66 128.27)
+			(xy 58.42 118.11) (xy 74.93 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3853,7 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 165.1) (xy 73.66 165.1)
+			(xy 58.42 137.16) (xy 74.93 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4013,7 +3642,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 146.05) (xy 73.66 146.05)
+			(xy 57.15 167.64) (xy 73.66 167.64)
 		)
 		(stroke
 			(width 0)
@@ -4033,7 +3662,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 100.33) (xy 241.3 121.92)
+			(xy 241.3 100.33) (xy 241.3 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4273,6 +3902,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 153.67) (xy 57.15 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f583f8f-896a-42bb-9f4b-c4e2f6cd11b6")
+	)
+	(wire
+		(pts
 			(xy 228.6 77.47) (xy 245.11 77.47)
 		)
 		(stroke
@@ -4373,7 +4012,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 148.59) (xy 73.66 148.59)
+			(xy 57.15 170.18) (xy 73.66 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4483,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 130.81) (xy 73.66 130.81)
+			(xy 58.42 120.65) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 162.56) (xy 73.66 162.56)
+			(xy 58.42 134.62) (xy 74.93 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4673,6 +4312,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 156.21) (xy 57.15 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9e80a3-2ec5-40e7-ae7c-90277556b97c")
+	)
+	(wire
+		(pts
 			(xy 245.11 55.88) (xy 228.6 55.88)
 		)
 		(stroke
@@ -4693,9 +4342,21 @@
 		)
 		(uuid "176b1f9a-e28e-4a25-94ef-cb3624b20c67")
 	)
+	(hierarchical_label "V2p"
+		(shape input)
+		(at 73.66 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ddbaad7-7e87-4f98-8038-932414656a0c")
+	)
 	(hierarchical_label "STLINK_RST"
 		(shape bidirectional)
-		(at 73.66 128.27 0)
+		(at 74.93 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4875,7 +4536,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 73.66 165.1 0)
+		(at 74.93 137.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4971,7 +4632,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 73.66 148.59 0)
+		(at 73.66 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4995,7 +4656,7 @@
 	)
 	(hierarchical_label "SYNC"
 		(shape input)
-		(at 73.66 162.56 0)
+		(at 74.93 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5007,7 +4668,7 @@
 	)
 	(hierarchical_label "PUSH_BTN"
 		(shape bidirectional)
-		(at 73.66 130.81 0)
+		(at 74.93 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5091,7 +4752,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 73.66 146.05 0)
+		(at 73.66 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5124,6 +4785,18 @@
 			(justify left)
 		)
 		(uuid "f8bd97a9-fed3-4471-a36e-54f77f96b999")
+	)
+	(hierarchical_label "V2n"
+		(shape input)
+		(at 73.66 156.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff206abb-99fb-4499-9126-8cdc6bc2799c")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -5335,6 +5008,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 220.98 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "199ad491-3b30-49c5-8a62-47c8e3c62675")
+		(property "Reference" "LED6"
+			(at 226.06 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_5mm"
+			(at 226.06 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 220.98 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cbc2228-e4d6-4bca-a3e8-492723bd200e")
+		)
+		(pin "2"
+			(uuid "66c38427-14cd-4908-8adc-4d54cf6558f9")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "LED6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 223.52 50.8 180)
 		(unit 1)
@@ -5344,7 +5087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cb2a790-c12e-4c36-b088-463fc813daf6")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 223.52 39.37 0)
 			(effects
 				(font
@@ -5405,7 +5148,77 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J1")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 241.3 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2299a5f4-80b1-4695-9c24-68ed69252c7a")
+		(property "Reference" "LED7"
+			(at 246.38 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_5mm"
+			(at 246.38 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 241.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e43bbcd4-36b8-4183-9787-3b74f0b3608b")
+		)
+		(pin "2"
+			(uuid "97076de1-c596-48ce-a396-ce1f33aec635")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -5477,104 +5290,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x02")
-		(at 52.07 148.59 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ac36500-5740-44de-8afc-b6f5c5c67bab")
-		(property "Reference" "J5"
-			(at 52.07 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 52.07 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 52.705 153.035 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-			(at 52.07 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-			(at 54.61 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TAD"
-			(at 54.61 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "1-0201FBV0T"
-			(at 54.61 137.668 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "585cf5fe-2ff9-481f-9ba5-9cd2842581a4")
-		)
-		(pin "1"
-			(uuid "6106945b-efe1-43bb-aa69-eaf5e3c722d5")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mouser:GSB1C41110SSHR")
 		(at 53.34 66.04 0)
 		(unit 1)
@@ -5584,7 +5299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc5badd-885a-49b6-a2ca-66122edda13b")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 68.58 58.42 0)
 			(effects
 				(font
@@ -5760,7 +5475,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5914,7 +5629,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Connector:Conn_01x02")
-		(at 52.07 165.1 180)
+		(at 53.34 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5922,8 +5637,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41dfb8b1-3ef6-48db-8062-abe39c8a1386")
-		(property "Reference" "J6"
-			(at 52.07 156.21 0)
+		(property "Reference" "J2"
+			(at 53.34 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5931,7 +5646,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 52.07 158.75 0)
+			(at 53.34 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5654,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 52.705 169.545 0)
+			(at 53.975 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 165.1 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5957,7 +5672,7 @@
 			)
 		)
 		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-			(at 52.07 165.1 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5966,7 +5681,7 @@
 			)
 		)
 		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-			(at 54.61 157.226 0)
+			(at 55.88 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5691,7 @@
 			)
 		)
 		(property "Manufacturer" "TAD"
-			(at 54.61 155.702 0)
+			(at 55.88 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5986,7 +5701,7 @@
 			)
 		)
 		(property "Part Number" "1-0201FBV0T"
-			(at 54.61 154.178 0)
+			(at 55.88 126.238 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6004,7 +5719,77 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J6")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 190.5 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42b83855-288a-4a92-a1af-e1337c586f40")
+		(property "Reference" "LED5"
+			(at 195.58 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_5mm"
+			(at 195.58 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 190.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20bf8d90-f40e-4bb2-8030-16757dd04ff3")
+		)
+		(pin "2"
+			(uuid "86a80d9f-7fce-4f82-bb0e-a7aa14736341")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -6226,103 +6011,33 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_White")
-		(at 241.3 125.73 270)
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
+		(at 53.34 168.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "577bb063-d6d7-4f15-937b-5b4a0dd8b7be")
-		(property "Reference" "LED7"
-			(at 246.38 124.4599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_White"
-			(at 246.38 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 241.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "White SMD LED, 0603, Alternate KiCad Library"
-			(at 241.3 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3e89103b-d71c-4348-bb20-6a96ec51abcb")
-		)
-		(pin "1"
-			(uuid "8dffcee8-b6a5-4df9-8f49-ae0cad70a391")
-		)
-		(instances
-			(project ""
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "LED7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Connector:Conn_01x02")
-		(at 52.07 130.81 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d9d77b0-511e-471e-8a41-85f14c7398e1")
-		(property "Reference" "J2"
-			(at 52.07 121.92 0)
+		(uuid "577ebaa6-360d-4f26-9e2d-1bc0b1ee8c6a")
+		(property "Reference" "J5"
+			(at 53.085 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 52.07 124.46 0)
+		(property "Value" "PINHD_1x2_Female"
+			(at 53.085 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 52.705 135.255 0)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 50.8 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6331,7 +6046,75 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 130.81 0)
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+			(at 53.34 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "401d9601-6bef-4449-a2a8-841ee2387f3d")
+		)
+		(pin "1"
+			(uuid "b117019c-f7d3-49cd-809f-a9533f9f6ee0")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Connector:Conn_01x02")
+		(at 53.34 120.65 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d9d77b0-511e-471e-8a41-85f14c7398e1")
+		(property "Reference" "J1"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 53.975 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6123,7 @@
 			)
 		)
 		(property "Description" "HEADER 1x2 MALE PINS 0.100” 180deg"
-			(at 52.07 130.81 0)
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6132,7 @@
 			)
 		)
 		(property "Specifications" "Pins_01x02, Header, Male Pins, 1*2, spacing 2.54mm, straight pin"
-			(at 54.61 122.936 0)
+			(at 55.88 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6142,7 @@
 			)
 		)
 		(property "Manufacturer" "TAD"
-			(at 54.61 121.412 0)
+			(at 55.88 111.252 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6152,7 @@
 			)
 		)
 		(property "Part Number" "1-0201FBV0T"
-			(at 54.61 119.888 0)
+			(at 55.88 109.728 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6170,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -6599,76 +6382,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Green")
-		(at 220.98 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f83a710-7df0-4ed6-933e-524d667f4740")
-		(property "Reference" "LED6"
-			(at 226.06 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_Green"
-			(at 226.06 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Green SMD LED, 0603, Alternate KiCad Library"
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "923a85a4-e3e7-41f1-840c-2a8a4044a89e")
-		)
-		(pin "2"
-			(uuid "f28750ff-882e-4650-a119-4e4ba6a50bb3")
-		)
-		(instances
-			(project ""
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "LED6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
 		(at 210.82 115.57 0)
 		(mirror x)
@@ -6823,7 +6536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a83ac623-6da1-4bd6-a282-e407644fc56c")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 223.52 66.04 0)
 			(effects
 				(font
@@ -6884,7 +6597,75 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "J3")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
+		(at 53.34 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d5c8ff-c141-4baa-a901-5f141fd39f44")
+		(property "Reference" "J4"
+			(at 53.085 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PINHD_1x2_Female"
+			(at 53.085 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 50.8 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+			(at 53.34 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "706972df-df85-4df4-83e5-93515bf8fc3b")
+		)
+		(pin "1"
+			(uuid "6d0fbbdf-d027-4b08-999d-97619620e99f")
+		)
+		(instances
+			(project ""
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6955,76 +6736,6 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 190.5 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf69d8f2-108b-484d-9d7d-917cd6911046")
-		(property "Reference" "LED5"
-			(at 195.58 125.7299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_Red"
-			(at 195.58 128.2699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b172771c-b06e-4c15-9133-5e21a7e38389")
-		)
-		(pin "1"
-			(uuid "445b746e-48c0-4218-8871-097b145cf27a")
-		)
-		(instances
-			(project ""
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/99281525-64c3-44c6-855e-d443687ecb7a"
-					(reference "LED5")
 					(unit 1)
 				)
 			)

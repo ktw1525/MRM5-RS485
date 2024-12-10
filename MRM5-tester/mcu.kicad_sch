@@ -315,7 +315,7 @@
 				)
 			)
 		)
-		(symbol "PCM_LED_AKL:LED_0603_Red"
+		(symbol "PCM_LED_AKL:LED_5mm"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -330,7 +330,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_0603_Red"
+			(property "Value" "LED_5mm"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -338,7 +338,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+			(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -356,7 +356,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
+			(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -365,7 +365,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "red LED diode generic smd 0603"
+			(property "ki_keywords" "LED diode generic 5mm THT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -383,7 +383,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_0603_Red_0_1"
+			(symbol "LED_5mm_0_1"
 				(polyline
 					(pts
 						(xy -0.508 1.905) (xy 0.254 3.429)
@@ -391,7 +391,30 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 240 30 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy -0.254 3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.921) (xy 0.254 2.794)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -404,7 +427,42 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 240 30 30 1)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 2.413) (xy 1.27 2.286)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
 					)
 					(fill
 						(type none)
@@ -431,8 +489,7 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 240 30 30 1)
+						(type outline)
 					)
 				)
 				(polyline
@@ -440,9 +497,8 @@
 						(xy 0.254 2.794) (xy -0.254 3.048) (xy 0.254 3.429) (xy 0.254 2.794)
 					)
 					(stroke
-						(width 0)
-						(type solid)
-						(color 240 30 30 1)
+						(width 0.1524)
+						(type default)
 					)
 					(fill
 						(type outline)
@@ -455,17 +511,16 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 240 30 30 1)
 					)
 					(fill
 						(type outline)
 					)
 				)
 			)
-			(symbol "LED_0603_Red_0_2"
+			(symbol "LED_5mm_0_2"
 				(polyline
 					(pts
-						(xy -2.54 -2.54) (xy -0.889 -0.889)
+						(xy -2.54 -2.54) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -482,7 +537,6 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 240 30 30 1)
 					)
 					(fill
 						(type none)
@@ -495,7 +549,6 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 240 30 30 1)
 					)
 					(fill
 						(type none)
@@ -515,14 +568,26 @@
 				)
 				(polyline
 					(pts
-						(xy 0.889 0.889) (xy 2.54 2.54)
+						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
 					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -534,12 +599,11 @@
 						(type default)
 					)
 					(fill
-						(type color)
-						(color 240 30 30 1)
+						(type outline)
 					)
 				)
 			)
-			(symbol "LED_0603_Red_1_1"
+			(symbol "LED_5mm_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -577,33 +641,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_Red_1_2"
-				(polyline
-					(pts
-						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 2.794) (xy -1.143 2.159) (xy -0.5334 2.3622) (xy -1.016 2.794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-						(color 240 30 30 1)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "LED_5mm_1_2"
 				(pin passive line
 					(at 2.54 2.54 180)
 					(length 0)
@@ -2625,6 +2663,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 68.58 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b32cf44-1448-4d3d-8baa-a34f96f97b5b")
+		(property "Reference" "LED1"
+			(at 73.66 119.3799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_5mm"
+			(at 73.66 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 68.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f98e4f9-96bf-466a-8fa4-7380efe07371")
+		)
+		(pin "2"
+			(uuid "723bb2ce-7b45-4c58-921b-e7365921d3c6")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ktw07182:MMBT3906-TP")
 		(at 116.84 109.22 0)
 		(mirror x)
@@ -2838,17 +2946,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 127 120.65 270)
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 181.61 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6f9f6529-a5ea-4ad6-8de0-2773c16cb2ef")
-		(property "Reference" "LED2"
-			(at 132.08 119.3799 90)
+		(uuid "726d76d5-c48e-4ada-8c43-2323cc2f6fc8")
+		(property "Reference" "LED3"
+			(at 186.69 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,8 +2964,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_0603_Red"
-			(at 132.08 121.9199 90)
+		(property "Value" "LED_5mm"
+			(at 186.69 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,8 +2973,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 127 120.65 0)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 120.65 0)
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,25 +2991,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 127 120.65 0)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 181.61 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "cc09a448-7593-484f-8766-10e395046f7b")
 		)
 		(pin "1"
-			(uuid "f5dc3b85-d33a-4602-af25-8ea86a82484d")
+			(uuid "518e5de8-e4e6-4352-aef5-71197e91b233")
+		)
+		(pin "2"
+			(uuid "78181e31-4529-453c-a25b-aefbc94445d0")
 		)
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "LED2")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -3047,76 +3155,6 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 68.58 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79cda719-1268-426a-817b-f46754e97af8")
-		(property "Reference" "LED1"
-			(at 73.66 119.3799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_Red"
-			(at 73.66 121.9199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 68.58 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 68.58 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "578cb564-f3c2-40d9-9d02-bafdc54d8e80")
-		)
-		(pin "1"
-			(uuid "b3760f9f-7152-47c7-86d8-7f9a60b37128")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -3738,17 +3776,17 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Red")
-		(at 181.61 120.65 270)
+		(lib_id "PCM_LED_AKL:LED_5mm")
+		(at 127 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b89c2c39-dab0-44f9-8462-dc0dd17b3941")
-		(property "Reference" "LED3"
-			(at 186.69 119.3799 90)
+		(uuid "bd44f7a4-299a-4a89-ad86-96f0c130e4c4")
+		(property "Reference" "LED2"
+			(at 132.08 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,8 +3794,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_0603_Red"
-			(at 186.69 121.9199 90)
+		(property "Value" "LED_5mm"
+			(at 132.08 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,8 +3803,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 181.61 120.65 0)
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3813,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 120.65 0)
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,25 +3821,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
-			(at 181.61 120.65 0)
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
+			(at 127 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "2ca2af8d-ed81-481f-b853-ce03f176425e")
 		)
 		(pin "1"
-			(uuid "c936e0bb-40d9-4328-9289-647ab2c595dc")
+			(uuid "25b79dc7-7b76-4b81-9436-598305bcec3b")
+		)
+		(pin "2"
+			(uuid "bc8c6d92-fa38-4311-b76b-d1b18fae6c8c")
 		)
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/02df2b53-e79f-4009-ab3b-419158fe5275"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4231,7 +4269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Red")
+		(lib_id "PCM_LED_AKL:LED_5mm")
 		(at 237.49 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4239,7 +4277,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f8900e73-b5e5-4fd4-8958-341f4525b518")
+		(uuid "f3b72ad2-6e95-4aff-85ee-9f4f3c5292c7")
 		(property "Reference" "LED4"
 			(at 242.57 119.3799 90)
 			(effects
@@ -4249,7 +4287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED_0603_Red"
+		(property "Value" "LED_5mm"
 			(at 242.57 121.9199 90)
 			(effects
 				(font
@@ -4258,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
 			(at 237.49 120.65 0)
 			(effects
 				(font
@@ -4276,7 +4314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Red SMD LED, 0603, Alternate KiCad Library"
+		(property "Description" "LED, Generic 5mm THT, Alternate KiCad Library"
 			(at 237.49 120.65 0)
 			(effects
 				(font
@@ -4285,11 +4323,11 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3300c20c-2a16-45cd-a45b-976b575b67af")
-		)
 		(pin "1"
-			(uuid "85a056da-0022-4bf7-bf03-35b5a2fbd8b0")
+			(uuid "25f971f1-93e9-4e1b-b3be-1b805d31138e")
+		)
+		(pin "2"
+			(uuid "bcdb931c-5810-4ae7-a1e1-d2968ab974a5")
 		)
 		(instances
 			(project "MRM5-tester"

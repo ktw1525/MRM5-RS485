@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "8.0.7-8.0.7-0~ubuntu22.04.1"
     },
-    "CreationDate": "2024-12-09T16:30:25+09:00"
+    "CreationDate": "2024-12-10T13:55:57+09:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,18 +49,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "MRM5-tester-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "MRM5-tester-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "MRM5-tester-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {

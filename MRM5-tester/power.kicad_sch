@@ -3675,7 +3675,7 @@
 		(uuid "ff93d62c-b5ea-4996-8e25-b38a934cf5ea")
 	)
 	(image
-		(at 215.9 88.9)
+		(at 215.9 87.63)
 		(uuid "f2e18d35-1720-4c9d-84ec-2751b2157e79")
 		(data "iVBORw0KGgoAAAANSUhEUgAAArIAAAFSCAYAAAAO1TyfAAAABHNCSVQICAgIfAhkiAAAABl0RVh0"
 			"U29mdHdhcmUAZ25vbWUtc2NyZWVuc2hvdO8Dvz4AAABEaVRYdENyZWF0aW9uIFRpbWUAAAAAADIw"
@@ -5885,7 +5885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc63e4a-38a9-4c65-91de-3269d48419cd")
-		(property "Reference" "IC5"
+		(property "Reference" "IC3"
 			(at 128.27 66.04 0)
 			(effects
 				(font
@@ -6012,7 +6012,7 @@
 		(instances
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -6308,7 +6308,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc1dfbf-198c-4912-a5fe-f7c497383483")
-		(property "Reference" "IC3"
+		(property "Reference" "IC4"
 			(at 149.86 129.5714 0)
 			(effects
 				(font
@@ -6475,7 +6475,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC3")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
