@@ -5009,7 +5009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 141.9352 120.65 0)
 			(effects
 				(font
@@ -5607,7 +5607,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 162.8648 146.05 0)
 			(effects
 				(font
@@ -5677,7 +5677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_1206_3216Metric"
 			(at 153.3652 153.67 0)
 			(effects
 				(font
@@ -6046,7 +6046,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 129.8448 113.03 0)
 			(effects
 				(font
@@ -6568,7 +6568,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "B32922X2104K000"
+		(property "Value" "X2-15B( 0.1uF / 275V)"
 			(at 128.27 48.2599 90)
 			(effects
 				(font

@@ -2548,7 +2548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 85.09 66.0399 0)
 			(effects
 				(font
@@ -2557,7 +2557,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 80.3148 60.96 0)
 			(effects
 				(font
@@ -2751,7 +2751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906-TP"
+		(property "Value" "SMMBT3906LT3G"
 			(at 130.81 107.9501 0)
 			(effects
 				(font
@@ -3034,7 +3034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906-TP"
+		(property "Value" "SMMBT3906LT3G"
 			(at 72.39 107.9501 0)
 			(effects
 				(font
@@ -3579,7 +3579,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906-TP"
+		(property "Value" "SMMBT3906LT3G"
 			(at 241.3 107.9501 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0603_1608Metric"
 			(at 68.8848 60.96 0)
 			(effects
 				(font
@@ -4004,7 +4004,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3906-TP"
+		(property "Value" "SMMBT3906LT3G"
 			(at 185.42 107.9501 0)
 			(effects
 				(font
