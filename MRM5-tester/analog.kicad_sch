@@ -3739,6 +3739,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 140.97) (xy 209.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025722b5-20b7-424c-9b7e-8d6b587477e7")
+	)
+	(wire
+		(pts
 			(xy 71.12 111.76) (xy 71.12 106.68)
 		)
 		(stroke
@@ -3846,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "18f11941-205e-4211-aec0-4dde6fae7d79")
+	)
+	(wire
+		(pts
+			(xy 229.87 132.08) (xy 260.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192a5239-7d16-4377-86b7-2b84c2d8fee0")
 	)
 	(wire
 		(pts
@@ -4016,16 +4036,6 @@
 			(type default)
 		)
 		(uuid "3285ac89-923c-44dd-a401-1070419a028f")
-	)
-	(wire
-		(pts
-			(xy 259.08 110.49) (xy 231.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c6bdcc-ce9f-4090-bc7b-27895fc378a4")
 	)
 	(wire
 		(pts
@@ -4219,6 +4229,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 143.51) (xy 260.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcebad3-a9b5-4196-b6fa-32bb55e9c920")
+	)
+	(wire
+		(pts
 			(xy 90.17 185.42) (xy 95.25 185.42)
 		)
 		(stroke
@@ -4299,16 +4319,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 101.6) (xy 210.82 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64653947-69fe-4ee1-b338-fa2d3812c28e")
-	)
-	(wire
-		(pts
 			(xy 54.61 45.72) (xy 76.2 45.72)
 		)
 		(stroke
@@ -4319,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 92.71) (xy 210.82 92.71)
+			(xy 198.12 92.71) (xy 229.87 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4389,16 +4399,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 104.14) (xy 231.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74015a56-639d-42b3-9989-a89590c51f61")
-	)
-	(wire
-		(pts
 			(xy 83.82 45.72) (xy 88.9 45.72)
 		)
 		(stroke
@@ -4459,6 +4459,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 143.51) (xy 238.76 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9c287b-bd0b-41a4-b062-7cd7ebe183ac")
+	)
+	(wire
+		(pts
 			(xy 81.28 93.98) (xy 92.71 93.98)
 		)
 		(stroke
@@ -4496,16 +4506,6 @@
 			(type default)
 		)
 		(uuid "86331ac2-6186-4432-9161-5c15fe1a0f29")
-	)
-	(wire
-		(pts
-			(xy 237.49 101.6) (xy 231.14 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "871ce76f-cad9-49e7-82d7-1d168cbf8802")
 	)
 	(wire
 		(pts
@@ -4709,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 101.6) (xy 255.27 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a46a76-7ac2-4868-a44e-6be099b875a5")
-	)
-	(wire
-		(pts
 			(xy 48.26 160.02) (xy 72.39 160.02)
 		)
 		(stroke
@@ -4736,6 +4726,16 @@
 			(type default)
 		)
 		(uuid "aa114fe7-62d3-4304-acc7-d7708204a980")
+	)
+	(wire
+		(pts
+			(xy 203.2 143.51) (xy 209.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac58ccf0-6546-4b00-a563-ff40bae03c19")
 	)
 	(wire
 		(pts
@@ -4759,7 +4759,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 140.97) (xy 189.23 140.97)
+			(xy 156.21 156.21) (xy 187.96 156.21)
 		)
 		(stroke
 			(width 0)
@@ -4769,7 +4769,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 109.22) (xy 210.82 109.22)
+			(xy 198.12 109.22) (xy 229.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4796,6 +4796,16 @@
 			(type default)
 		)
 		(uuid "b67f7bdf-b33c-44ad-89e8-1817c8cd20b8")
+	)
+	(wire
+		(pts
+			(xy 229.87 132.08) (xy 229.87 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7789725-0eb6-49a5-95dc-0bfcc55e716e")
 	)
 	(wire
 		(pts
@@ -4926,16 +4936,6 @@
 			(type default)
 		)
 		(uuid "c9c8d9f1-243b-4c0e-bd5d-11d202f82912")
-	)
-	(wire
-		(pts
-			(xy 210.82 104.14) (xy 210.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb53b908-19b7-4888-8eb0-30ccb3d22e78")
 	)
 	(wire
 		(pts
@@ -5227,6 +5227,17 @@
 		)
 		(uuid "ffa63d9a-4fc6-493f-8079-296c5354ecf6")
 	)
+	(label "Vp_ssh"
+		(at 237.49 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "12123495-67d7-4bfa-beb5-9958a0bb29f9")
+	)
 	(label "Signal_Input"
 		(at 54.61 45.72 0)
 		(fields_autoplaced yes)
@@ -5249,17 +5260,6 @@
 		)
 		(uuid "53d7abf3-dc8f-4dc6-ab1b-25f8de7c7fa1")
 	)
-	(label "Vp_ssh"
-		(at 236.22 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90f37198-e81a-4f8f-b629-dcd573702392")
-	)
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 111.76 83.82 0)
@@ -5272,9 +5272,9 @@
 		)
 		(uuid "09b02fc5-3439-4d90-9022-20f8ee51302e")
 	)
-	(hierarchical_label "Vp_sh"
+	(hierarchical_label "PT2"
 		(shape input)
-		(at 259.08 101.6 0)
+		(at 229.87 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5282,11 +5282,11 @@
 			)
 			(justify left)
 		)
-		(uuid "09c9fb34-01e0-46b2-8770-6ce950da1e3b")
+		(uuid "149b208f-a94f-4ddb-a36e-17e5762596d1")
 	)
 	(hierarchical_label "1V6"
 		(shape input)
-		(at 157.48 140.97 180)
+		(at 156.21 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5308,6 +5308,18 @@
 		)
 		(uuid "30e08c3f-4229-4532-80ae-2fd51e9b4f4a")
 	)
+	(hierarchical_label "Vp_sh"
+		(shape input)
+		(at 260.35 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39f81cea-f2df-4a54-a558-03928f0167be")
+	)
 	(hierarchical_label "1V6"
 		(shape input)
 		(at 93.98 68.58 180)
@@ -5319,6 +5331,18 @@
 			(justify right)
 		)
 		(uuid "40357580-9f47-4dd5-bccf-5a8c144c6a06")
+	)
+	(hierarchical_label "PT2"
+		(shape input)
+		(at 203.2 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54f99a1e-5564-4135-823d-d00cfe14b067")
 	)
 	(hierarchical_label "1V6"
 		(shape input)
@@ -5464,6 +5488,30 @@
 		)
 		(uuid "ada76bb2-2cd5-421a-838d-6d34c196433c")
 	)
+	(hierarchical_label "PT1"
+		(shape input)
+		(at 229.87 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b718375c-554b-4d10-8b2f-8141aaa6c9ef")
+	)
+	(hierarchical_label "Vn_h"
+		(shape input)
+		(at 260.35 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b87d9551-1182-4a93-9200-24512f65ca30")
+	)
 	(hierarchical_label "Zfreed"
 		(shape input)
 		(at 140.97 168.91 180)
@@ -5487,6 +5535,18 @@
 			(justify left)
 		)
 		(uuid "ceb7ca8a-7648-4b60-b174-2f047b528b99")
+	)
+	(hierarchical_label "PT1"
+		(shape input)
+		(at 203.2 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d0948418-796c-45a9-856f-cb2df2c6f7ff")
 	)
 	(hierarchical_label "1V6"
 		(shape input)
@@ -5535,18 +5595,6 @@
 			(justify left)
 		)
 		(uuid "e18e56ed-e5dd-4dd8-9af1-cbba4562a2b0")
-	)
-	(hierarchical_label "Vn_h"
-		(shape input)
-		(at 259.08 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e765e853-d3e1-482a-821c-90e5ffdae9d3")
 	)
 	(hierarchical_label "sigZ"
 		(shape input)
@@ -5634,7 +5682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PTD9011015FA203"
+		(property "Footprint" "Mouser:PTD9011015FA203"
 			(at 40.64 -9.83 0)
 			(effects
 				(font
@@ -5746,147 +5794,6 @@
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
 					(reference "VR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ktw07182:MBB02070C1004FCT00")
-		(at 255.27 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09031643-a6d0-4341-945b-69b7f42b10f4")
-		(property "Reference" "R17"
-			(at 246.38 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1MΩ 1W"
-			(at 246.38 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mouser:RESAD1650W60L650D250"
-			(at 241.3 197.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/VISH_S_A0005972005_1-2569743.pdf"
-			(at 241.3 297.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vishay MBB0207 Series Axial Thin Film Fixed Resistor 1M +/-1% 0.6W +/-50ppm/C"
-			(at 255.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 241.3 497.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 241.3 597.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBB02070C1004FCT00"
-			(at 241.3 697.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 241.3 797.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 241.3 897.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 241.3 997.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 241.3 1097.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c3deceb3-f42c-4112-b451-dd66d23a3794")
-		)
-		(pin "1"
-			(uuid "e12df309-aafb-4974-87e7-3dae0e579948")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6117,6 +6024,163 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mouser:ZMPT107-1")
+		(at 229.87 140.97 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26adf336-cbb7-401b-a4e0-d437e32cadd2")
+		(property "Reference" "T1"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ZMPT107-1"
+			(at 219.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mouser:ZMPT1071"
+			(at 213.36 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/136467.html"
+			(at 213.36 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
+			(at 229.87 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
+			(at 213.36 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "18.4"
+			(at 213.36 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Qingxian Zeming Langxi Electronic"
+			(at 213.36 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ZMPT107-1"
+			(at 213.36 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 213.36 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 213.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 213.36 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 213.36 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "5fd08f23-e803-4847-8039-c5049c3a06c6")
+		)
+		(pin "2"
+			(uuid "077be017-8ac4-4b96-a899-69a84782b703")
+		)
+		(pin "3"
+			(uuid "f66a8f49-9ab9-41b3-8c59-379b47a45426")
+		)
+		(pin "1"
+			(uuid "e0d78e31-7ea1-45e3-b1c1-5a1a9592d54d")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
+					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -6677,7 +6741,7 @@
 	)
 	(symbol
 		(lib_id "Mouser:PAD_hole2.6")
-		(at 190.5 140.97 0)
+		(at 189.23 156.21 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -6687,7 +6751,7 @@
 		(fields_autoplaced yes)
 		(uuid "5341e318-7e40-4cee-ab2a-7d6c375fd393")
 		(property "Reference" "P4"
-			(at 191.77 137.16 0)
+			(at 190.5 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6759,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 191.77 139.7 0)
+			(at 190.5 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6767,7 @@
 			)
 		)
 		(property "Footprint" "Mouser:PAD_Hole_D2mm"
-			(at 190.5 138.684 0)
+			(at 189.23 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 140.97 0)
+			(at 189.23 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6721,7 +6785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 140.97 0)
+			(at 189.23 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7135,7 +7199,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "PTD9022015KC504"
+		(property "Footprint" "Mouser:PTD9022015KC504"
 			(at 232.08 64.77 0)
 			(effects
 				(font
@@ -7464,6 +7528,147 @@
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ktw07182:MBB02070C1004FCT00")
+		(at 256.54 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e6ef802-6a10-4bf4-9cfb-c98ab295ccd9")
+		(property "Reference" "R17"
+			(at 247.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1MΩ 1W"
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Mouser:RESAD1650W60L650D250"
+			(at 242.57 239.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/427/VISH_S_A0005972005_1-2569743.pdf"
+			(at 242.57 339.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Vishay MBB0207 Series Axial Thin Film Fixed Resistor 1M +/-1% 0.6W +/-50ppm/C"
+			(at 256.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 242.57 539.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 242.57 639.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBB02070C1004FCT00"
+			(at 242.57 739.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 242.57 839.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 242.57 939.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 242.57 1039.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 242.57 1139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0742412b-f06f-4e3e-99d2-09d9d3ad39a0")
+		)
+		(pin "1"
+			(uuid "97e5b377-93e0-4505-accb-ae8f35e18d02")
+		)
+		(instances
+			(project "MRM5-tester"
+				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8294,163 +8499,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mouser:ZMPT107-1")
-		(at 231.14 101.6 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be3d3386-ca5d-4699-9b35-d7ed4e4213ba")
-		(property "Reference" "T1"
-			(at 220.98 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ZMPT107-1"
-			(at 220.98 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Mouser:ZMPT1071"
-			(at 214.63 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/136467.html"
-			(at 214.63 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
-			(at 231.14 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "2mA Voltage transformer 1:1 2mA Plugin Current Sense Transformers ROHS"
-			(at 214.63 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "18.4"
-			(at 214.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Qingxian Zeming Langxi Electronic"
-			(at 214.63 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ZMPT107-1"
-			(at 214.63 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 214.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 214.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 214.63 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 214.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "166a5ff8-1f08-4e9b-b15b-49c3ecdd39fe")
-		)
-		(pin "2"
-			(uuid "155bfcf4-a3fb-49da-a34e-5ad88395a88b")
-		)
-		(pin "3"
-			(uuid "c06f31b2-578d-48d3-a5c8-d5da42c32b8d")
-		)
-		(pin "1"
-			(uuid "cd26bf4d-0933-482e-bf94-ef2298a24341")
-		)
-		(instances
-			(project "MRM5-tester"
-				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/d46285ed-39e7-481d-bc83-4a7d1879f6d2"
-					(reference "T1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Capacitor_AKL:C_0402")
 		(at 204.47 30.48 90)
 		(unit 1)
@@ -8796,7 +8844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "Mouser:SOT95P280X145-5N"
 			(at 121.92 193.98 0)
 			(effects
 				(font

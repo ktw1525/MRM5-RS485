@@ -138,6 +138,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 31.75) (xy 194.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f67e8a-02ea-41d4-a93a-d4fa8b378634")
+	)
+	(wire
+		(pts
 			(xy 234.95 153.67) (xy 229.87 153.67)
 		)
 		(stroke
@@ -178,7 +188,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 29.21) (xy 194.31 29.21)
+			(xy 90.17 21.59) (xy 194.31 21.59)
 		)
 		(stroke
 			(width 0)
@@ -258,7 +268,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 33.02) (xy 194.31 33.02)
+			(xy 90.17 25.4) (xy 194.31 25.4)
 		)
 		(stroke
 			(width 0)
@@ -355,6 +365,16 @@
 			(type default)
 		)
 		(uuid "945200cd-0e97-4aa8-a2f1-7179de7a2d7a")
+	)
+	(wire
+		(pts
+			(xy 90.17 35.56) (xy 194.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967bfd02-2345-4e38-b1b1-d9284c279e6c")
 	)
 	(wire
 		(pts
@@ -1079,8 +1099,8 @@
 		)
 	)
 	(sheet
-		(at 194.31 22.86)
-		(size 35.56 137.16)
+		(at 194.31 16.51)
+		(size 35.56 143.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1091,7 +1111,7 @@
 		)
 		(uuid "99281525-64c3-44c6-855e-d443687ecb7a")
 		(property "Sheetname" "interface"
-			(at 194.31 22.1484 0)
+			(at 194.31 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,7 +1279,7 @@
 			(uuid "3d000cde-a6cf-454e-9e94-7445dbd073fa")
 		)
 		(pin "V2n" input
-			(at 194.31 33.02 180)
+			(at 194.31 25.4 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1289,7 @@
 			(uuid "a61f59fb-edde-4617-a662-4ba64322f112")
 		)
 		(pin "V2p" input
-			(at 194.31 29.21 180)
+			(at 194.31 21.59 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1277,6 +1297,26 @@
 				(justify left)
 			)
 			(uuid "1814ae64-0c26-428f-8feb-53f591685372")
+		)
+		(pin "PT2" input
+			(at 194.31 35.56 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1359d178-a778-4b7e-b083-838e553ffd3f")
+		)
+		(pin "PT1" input
+			(at 194.31 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b42c82aa-9a62-4c08-a7bc-53ec706244d7")
 		)
 		(instances
 			(project "MRM5-tester"
@@ -1415,8 +1455,8 @@
 		)
 	)
 	(sheet
-		(at 60.96 22.86)
-		(size 29.21 83.82)
+		(at 60.96 16.51)
+		(size 29.21 90.17)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1427,7 +1467,7 @@
 		)
 		(uuid "d46285ed-39e7-481d-bc83-4a7d1879f6d2")
 		(property "Sheetname" "analog"
-			(at 60.96 22.1484 0)
+			(at 60.96 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1585,7 @@
 			(uuid "b51d9270-fdbe-4ae0-985e-29d4c62a7a4e")
 		)
 		(pin "V2p" input
-			(at 90.17 29.21 0)
+			(at 90.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1555,7 +1595,7 @@
 			(uuid "3d8c47d3-742a-4efb-af97-05d42e955080")
 		)
 		(pin "V2n" input
-			(at 90.17 33.02 0)
+			(at 90.17 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,6 +1603,26 @@
 				(justify right)
 			)
 			(uuid "e3179e44-6fed-488f-b7a6-b2096d67e0de")
+		)
+		(pin "PT1" input
+			(at 90.17 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c26bec05-da21-45c8-af6e-661b1545a95a")
+		)
+		(pin "PT2" input
+			(at 90.17 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "01526749-fc6e-46f2-a271-7ccdb1367520")
 		)
 		(instances
 			(project "MRM5-tester"

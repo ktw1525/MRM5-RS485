@@ -2690,7 +2690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+		(property "Footprint" "PCM_LED_SMD_Handsoldering_AKL:LED_1206_3216Metric"
 			(at 68.58 120.65 0)
 			(effects
 				(font
@@ -2973,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+		(property "Footprint" "PCM_LED_SMD_Handsoldering_AKL:LED_1206_3216Metric"
 			(at 181.61 120.65 0)
 			(effects
 				(font
@@ -3803,7 +3803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+		(property "Footprint" "PCM_LED_SMD_Handsoldering_AKL:LED_1206_3216Metric"
 			(at 127 120.65 0)
 			(effects
 				(font
@@ -4296,7 +4296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_LED_THT_AKL:LED_D5.0mm"
+		(property "Footprint" "PCM_LED_SMD_Handsoldering_AKL:LED_1206_3216Metric"
 			(at 237.49 120.65 0)
 			(effects
 				(font
