@@ -583,7 +583,7 @@
       "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "MRM5-tester.step",
+      "step": "MRM5-tester-bot.step",
       "svg": "",
       "vrml": ""
     },

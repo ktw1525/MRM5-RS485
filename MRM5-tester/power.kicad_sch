@@ -4846,6 +4846,17 @@
 		)
 		(uuid "8a63211e-737f-4e8d-91f9-09c98e0185e4")
 	)
+	(label "FL1_in1_sh"
+		(at 124.46 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b9be222-15f2-472b-868a-5ba521fead0b")
+	)
 	(label "FL1_out2_sh"
 		(at 158.75 40.64 0)
 		(fields_autoplaced yes)
@@ -4881,7 +4892,7 @@
 		)
 		(uuid "1959fcd3-b150-4096-b5a0-4c5487ae3ae2")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "GND_bot"
 		(shape bidirectional)
 		(at 218.44 54.61 0)
 		(fields_autoplaced yes)
@@ -4941,18 +4952,6 @@
 		)
 		(uuid "239f30ae-0785-44ba-b7b1-0d5d0f245c73")
 	)
-	(hierarchical_label "GND"
-		(shape bidirectional)
-		(at 218.44 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "277e9c69-d6be-48ea-b2d0-805e6a37517a")
-	)
 	(hierarchical_label "1V6_IFlag"
 		(shape input)
 		(at 69.85 148.59 180)
@@ -4976,6 +4975,18 @@
 			(justify right)
 		)
 		(uuid "54807522-4606-4794-9e4b-df727543c90e")
+	)
+	(hierarchical_label "GND_bot"
+		(shape bidirectional)
+		(at 218.44 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b5d3c2c-6e6e-49eb-8c0d-703fe60cfe63")
 	)
 	(hierarchical_label "1V6_TFlag"
 		(shape input)
@@ -5013,7 +5024,7 @@
 		)
 		(uuid "85f15481-f32d-419d-8f92-d6d095cdb440")
 	)
-	(hierarchical_label "5V"
+	(hierarchical_label "5V_bot"
 		(shape input)
 		(at 218.44 38.1 0)
 		(fields_autoplaced yes)
