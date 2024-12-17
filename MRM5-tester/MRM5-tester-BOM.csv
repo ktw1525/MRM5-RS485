@@ -1,42 +1,43 @@
 Reference,Value,Datasheet,Footprint,Qty,DNP
-C1,1u,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,1,o
-"C2,C4,C6,C9,C10,C12,C14,C21,C25",100n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,9,o
-"C3,C5",4.7u,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,2,o
-C7,10n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,1,o
-"C8,C11,C15,C16,C22,C23",47u,~,PCM_Capacitor_SMD_AKL:C_1206_3216Metric,6,o
-"C13,C17",15n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,2,o
-C18,82n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,1,o
-"C19,C24","10uF, 16V",~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,2,o
-C20,B32922X2104K000,https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_923_xy.pdf,Mouser:B32922X__18_X_5_,1,o
-C26,220uF 16V 105℃,,Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm,1,o
-D1,CD143A-SR05,https://www.tme.eu/Document/ca7ed7e840192927c2f50631891ac6c9/SP05xxBA.pdf,Package_TO_SOT_SMD:SOT-143_Handsoldering,1,o
-D2,BAT54S,https://www.onsemi.com/download/data-sheet/pdf/BAT54S-D.pdf,Mouser:SOT95P240X120-3N,1,o
-FL1,SS21V-R110100,https://content.kemet.com/datasheets/KEM_LF0037_SSHB10HS.pdf,Mouser:SSHB10HSR11100,1,o
-IC1,STM32G051F8P6,https://www.st.com/resource/en/datasheet/stm32g051c6.pdf,Mouser:SOP65P640X120-20N,1,o
-"IC2,IC4",OPA567AIRHGT,https://www.ti.com/lit/gpn/OPA567,Mouser:QFN100P500X500X100-13N-D,2,o
-IC3,LD1085D2T33R,http://www.st.com/web/en/resource/technical/document/datasheet/CD00001883.pdf,Mouser:LD1085D2T33R,1,o
-"J1,J2",Conn_01x02,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,2,o
-J3,GSB1C41110SSHR,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb1c41x10sshr-ax1.pdf,Mouser:GSB1C41110SSHR,1,o
-"J4,J5",PINHD_1x2_Female,,Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical,2,o
-"J6,J7",Conn_01x05,~,Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical,2,o
-L1,744770218,,Mouser:WE-PD_744770218,1,o
-"LED1,LED2,LED3,LED4,LED5,LED6,LED7",LED_5mm,~,PCM_LED_THT_AKL:LED_D5.0mm,7,o
-PS1,HLK-15M05C,https://drive.google.com/drive/folders/1vnVfcgQH-OvujpO6asvQvjIgmwUS2Pti,Mouser:HLK15M05C,1,o
-"Q1,Q2,Q3,Q4,Q5,Q6",MMBT3906-TP,https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf,Mouser:SOT95P237X125-3N,6,o
-"R1,R3,R5,R7,R11,R12,R14",1k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,7,o
-"R2,R4,R6,R8,R13,R15,R16",330,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,7,o
-R9,22.1k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R10,47.5k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R17,1MΩ 1W,https://www.mouser.com/datasheet/2/427/VISH_S_A0005972005_1-2569743.pdf,Mouser:RESAD1650W60L650D250,1,o
-R18,4.64k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R19,12.7k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R20,16.2k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-"R21,R25,R26,R27",7.68k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,4,o
-R22,2.37k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R23,4.99k,~,PCM_Resistor_SMD_AKL:R_0402_1005Metric,1,o
-R24,3.3,~,PCM_Resistor_THT_US_AKL:R_Axial_DIN0918_L18.0mm_D9.0mm_P22.86mm_Horizontal,1,o
-RT1,NTC10D-11,https://datasheetspdf.com/pdf-file/815098/VatroncisTechnologies/NTC10D-11/1,Mouser:NTC10D11,1,o
-RV1,MOV-10D391K,https://www.bourns.com/docs/Product-Datasheets/MOV10D.pdf,Mouser:MOV10D391K,1,o
-T1,ZMPT107-1,https://item.szlcsc.com/136467.html,Mouser:ZMPT1071,1,o
-U1,CP2102N-A02-GQFN20,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,Mouser:CP2102NA02GQFN20,1,o
-U2,ADA4661-2ACPZ-RL,https://www.tme.eu/Document/d42d21de1e5b8f8fdb77a0b021808479/ADA4528-1_4528-2.pdf,PCM_Package_DFN_QFN_AKL:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm,1,o
+C,1u,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,4,
+C,100n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,36,
+C,4.7u,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,8,
+C,10n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,4,
+C,47u,~,PCM_Capacitor_SMD_AKL:C_1206_3216Metric,28,
+C,15n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,8,
+C,82n,~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,4,
+C,"10uF, 16V",~,PCM_Capacitor_SMD_AKL:C_0603_1608Metric,8,
+C,X2-15B( 0.1uF / 275V),https://product.tdk.com/system/files/dam/doc/product/capacitor/film/emi/data_sheet/20/20/db/fc_2009/x2_b32921_923_xy.pdf,Mouser:B32922X__18_X_5_,4,
+C,220uF 16V 105℃,,Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm,4,
+D,CD143A-SR05,https://www.tme.eu/Document/ca7ed7e840192927c2f50631891ac6c9/SP05xxBA.pdf,Package_TO_SOT_SMD:SOT-143_Handsoldering,4,
+D,BAT54S,https://www.onsemi.com/download/data-sheet/pdf/BAT54S-D.pdf,Mouser:SOT95P240X120-3N,4,
+FL1,SS21V-R110100,https://content.kemet.com/datasheets/KEM_LF0037_SSHB10HS.pdf,Mouser:SSHB10HSR11100,4,
+IC1,STM32G051F8P6,https://www.st.com/resource/en/datasheet/stm32g051c6.pdf,Mouser:SOP65P640X120-20N,4,
+"IC2,IC4",OPA567AIRHGT,https://www.ti.com/lit/gpn/OPA567,Mouser:QFN100P500X500X100-13N-D,8,
+IC3,LD1085D2T33R,http://www.st.com/web/en/resource/technical/document/datasheet/CD00001883.pdf,Mouser:LD1085D2T33R,4,
+IC5,OPA388IDBVR,http://www.ti.com/product/OPA388/datasheet?keyMatch=opa388&tisearch=Search-EN-Everything,Mouser:SOT95P280X145-5N,4,
+J1,PJ-037AH,https://www.arrow.com/en/products/pj-037ah/cui-devices,PJ037AH,4,
+J3,GSB1C41110SSHR,https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/gsb1c41x10sshr-ax1.pdf,Mouser:GSB1C41110SSHR,4,
+"J4,J5,J8,J9,J10",Conn_01x02,,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,20,
+J6,PINHD_2x5_Female,,Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical,4,
+L1,744770218,,Mouser:WE-PD_744770218,4,
+"LED1,LED2,LED3,LED4,LED5,LED6,LED7",LED_5mm,~,PCM_LED_SMD_Handsoldering_AKL:LED_1206_3216Metric,28,
+PS1,HLK-15M05C,https://drive.google.com/drive/folders/1vnVfcgQH-OvujpO6asvQvjIgmwUS2Pti,Mouser:HLK15M05C,4,
+"Q1,Q2,Q3,Q4,Q5,Q6",SMMBT3906LT3G,https://mccsemi.com/pdf/Products/MMBT3906(SOT-23).pdf,Mouser:SOT95P237X125-3N,24,
+RT1,NTC10D-11,https://datasheetspdf.com/pdf-file/815098/VatroncisTechnologies/NTC10D-11/1,Mouser:NTC10D11,4,
+RV1,MOV-10D391K,https://www.bourns.com/docs/Product-Datasheets/MOV10D.pdf,Mouser:MOV10D391K,4,
+"SW1,SW2,SW3",TL3302AF260QG,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3fs.pdf,Mouser:TL3302AF260QG,12,
+T1,ZMPT107-1,https://item.szlcsc.com/136467.html,Mouser:ZMPT1071,4,
+U1,CP2102N-A02-GQFN20,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,Mouser:CP2102NA02GQFN20,4,
+U2,ADA4500-2ACPZ,https://www.tme.eu/Document/d42d21de1e5b8f8fdb77a0b021808479/ADA4528-1_4528-2.pdf,PCM_Package_DFN_QFN_AKL:DFN-8-1EP_3x3mm_P0.5mm_EP1.66x2.38mm,4,
+VR1,PTD902-2015K-C504,https://componentsearchengine.com/Datasheets/1/PTD902-2015K-C504.pdf,Mouser:PTD9022015KC504,4,
+VR2,PTD901-1215K-B103,https://www.bourns.com/docs/Product-Datasheets/PTD90.pdf,Mouser:PTD9011015FA203,4,
+R,칩저항 1005 사이즈 F급(1%) 160종 엔지니어 샘플키트 100개들이,,ICBANQ:P009227928,1,
+R,저항 1MΩ 1W 5%-100개,,ICBANQ:P000101617,4,
+C,시멘트저항 3.3Ω 5W 5%-100개,,ICBANQ:P002320697,4,
+etc,[1429075091]SMD칩박스+파일케이스 CA307D-3D,,ICBANQ:P013130914,1,
+etc,세척제 Chemtronics ES897B Flux-Off Lead Free(170g)[9404],,ICBANQ:P013964858,1,
+etc,1556CABK,,ICBANQ:P016398714,1,
+etc,972356101,,ICBANQ:P007085611,8,
+etc,4300.0105,,ICBANQ:P015999502,4,
+etc,42219-1,,ICBANQ:P006759473,16,
