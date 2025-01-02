@@ -57,6 +57,26 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define MCU_NRST_Pin GPIO_PIN_2
+#define MCU_NRST_GPIO_Port GPIOF
+#define ADC_V_Pin GPIO_PIN_0
+#define ADC_V_GPIO_Port GPIOA
+#define ADC_1V6_Pin GPIO_PIN_1
+#define ADC_1V6_GPIO_Port GPIOA
+#define ADC_Zf_Pin GPIO_PIN_2
+#define ADC_Zf_GPIO_Port GPIOA
+#define SYNC_INT_Pin GPIO_PIN_3
+#define SYNC_INT_GPIO_Port GPIOA
+#define DAC_Z_Pin GPIO_PIN_4
+#define DAC_Z_GPIO_Port GPIOA
+#define IFLAG_Z_Pin GPIO_PIN_5
+#define IFLAG_Z_GPIO_Port GPIOA
+#define TFLAG_Z_Pin GPIO_PIN_6
+#define TFLAG_Z_GPIO_Port GPIOA
+#define IFLAG_1V6_Pin GPIO_PIN_7
+#define IFLAG_1V6_GPIO_Port GPIOA
+#define TFLAG_1V6_Pin GPIO_PIN_0
+#define TFLAG_1V6_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
