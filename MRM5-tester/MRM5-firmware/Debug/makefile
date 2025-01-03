@@ -60,8 +60,8 @@ all: main-build
 main-build: MRM5-firmware.elf secondary-outputs
 
 # Tool invocations
-MRM5-firmware.elf MRM5-firmware.map: $(OBJS) $(USER_OBJS) /home/ktw/Documents/GitHub/MRM5-RS485/MRM5-tester/MRM5-firmware/STM32G051F8PX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "MRM5-firmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"/home/ktw/Documents/GitHub/MRM5-RS485/MRM5-tester/MRM5-firmware/STM32G051F8PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MRM5-firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+MRM5-firmware.elf MRM5-firmware.map: $(OBJS) $(USER_OBJS) C:\Users\ktw15\Documents\GitHub\MRM5-RS485\MRM5-tester\MRM5-firmware\STM32G051F8PX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "MRM5-firmware.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0plus -T"C:\Users\ktw15\Documents\GitHub\MRM5-RS485\MRM5-tester\MRM5-firmware\STM32G051F8PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="MRM5-firmware.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

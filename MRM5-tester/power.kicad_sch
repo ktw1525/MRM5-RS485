@@ -5644,7 +5644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52df4796-9665-42cd-96b6-2f83a6a59c86")
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 167.64 148.5899 0)
 			(effects
 				(font
@@ -5698,7 +5698,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5714,7 +5714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61cdd19d-cdab-4c56-97e0-c83c5073c627")
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 156.21 148.5899 0)
 			(effects
 				(font
@@ -5768,7 +5768,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -5940,7 +5940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc63e4a-38a9-4c65-91de-3269d48419cd")
-		(property "Reference" "IC3"
+		(property "Reference" "IC4"
 			(at 128.27 66.04 0)
 			(effects
 				(font
@@ -6067,7 +6067,7 @@
 		(instances
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC3")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d20bdcf-eede-4f36-8841-e03be919879d")
-		(property "Reference" "R27"
+		(property "Reference" "R31"
 			(at 133.35 152.3999 0)
 			(effects
 				(font
@@ -6207,7 +6207,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R27")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6223,7 +6223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "836f458b-9b7e-4760-815a-a1d02d329134")
-		(property "Reference" "C27"
+		(property "Reference" "C23"
 			(at 153.67 83.8199 0)
 			(effects
 				(font
@@ -6277,7 +6277,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C27")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6363,7 +6363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3e8555-5476-4dad-ad5a-ca8865306ca3")
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 165.1 83.8199 0)
 			(effects
 				(font
@@ -6417,7 +6417,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdc6f1f2-f4be-4a3f-829f-1ecd5612fee9")
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 208.28 44.4499 90)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 		(instances
 			(project ""
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -6503,7 +6503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdc1dfbf-198c-4912-a5fe-f7c497383483")
-		(property "Reference" "IC4"
+		(property "Reference" "IC5"
 			(at 149.86 129.5714 0)
 			(effects
 				(font
@@ -6670,7 +6670,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "IC4")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -6686,7 +6686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e52d4756-2c79-410a-8c20-80219c8d0092")
-		(property "Reference" "R25"
+		(property "Reference" "R29"
 			(at 81.28 111.76 90)
 			(effects
 				(font
@@ -6738,7 +6738,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R25")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -6906,7 +6906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f86d258d-758e-4f97-b444-d37ad9b139c1")
-		(property "Reference" "R26"
+		(property "Reference" "R30"
 			(at 95.25 111.76 90)
 			(effects
 				(font
@@ -6958,7 +6958,7 @@
 		(instances
 			(project "MRM5-tester"
 				(path "/6e775c75-0b09-4e5f-9bff-c5585ac94ad7/c69ac902-00f4-4f29-a9f3-8d3beb585abf"
-					(reference "R26")
+					(reference "R30")
 					(unit 1)
 				)
 			)
