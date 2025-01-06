@@ -25,6 +25,7 @@
 enum {
 	CFG_ADDRESS_RMS = 0,
 	CFG_ADDRESS_PHASE,
+	CFG_ADDRESS_OFFSET,
 };
 
 typedef struct {
@@ -32,6 +33,7 @@ typedef struct {
 	float phase;
 	float cfg_rms;
 	float cfg_phase;
+	float cfg_offset;
 } Configs;
 
 typedef struct {
@@ -134,6 +136,7 @@ int main(void)
 	Cfg.phase = 0;
 	Cfg.cfg_rms = flashRead(CFG_ADDRESS_RMS);
 	Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE);
+	Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -586,7 +589,7 @@ float ampNdeg2val(float amp, float deg, ADCDATA_Records *rcd){
 
 uint32_t val2dacData(float val){
 	uint32_t result;
-	result = (uint32_t)val + 2048;
+	result = (uint32_t)val + (uint32_t)Cfg.cfg_offset;
 	if(result < 0) return 0;
 	if(result > 4095) return 4095;
 	return result;
@@ -639,6 +642,8 @@ void processMenu(keyBoard *_Kb){
 			_Kb->menuId=3;
 		}else if(atoi(_Kb->keyInput)==4){
 			_Kb->menuId=4;
+		}else if(atoi(_Kb->keyInput)==5){
+			_Kb->menuId=5;
 		}else if(_Kb->keyInput[0]=='r'){
 			printf("System Reset!\r\n");
 			NVIC_SystemReset();
@@ -672,6 +677,14 @@ void processMenu(keyBoard *_Kb){
 		_Kb->menuId=0;
 		Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE);
 		break;
+	case 5:
+		*value = atof(_Kb->keyInput);
+		flashWrite(CFG_ADDRESS_OFFSET, val);
+		result = flashRead(CFG_ADDRESS_OFFSET);
+		printf("Config OFFSET set to %f\r\n", result);
+		_Kb->menuId=0;
+		Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET);
+		break;
 	default:
 		break;
 	}
@@ -684,8 +697,9 @@ void printHelp(keyBoard *_Kb){
 		printf("[Calibaba v1.0]\r\n"); // 0
 		printf("1. Config Output RMS(mA) [Current : %f]\r\n", Cfg.rms); // 1
 		printf("2. Config Output Phase(Deg.) [Current : %f]\r\n", Cfg.phase); // 2
-		printf("3. Calibrate RMS(mA) [Current : %f]\r\n", Cfg.cfg_rms); // 2
-		printf("4. Calibrate PHASE(Deg.) [Current : %f]\r\n", Cfg.cfg_phase); // 2
+		printf("3. Calibrate RMS(mA) [Current : %f]\r\n", Cfg.cfg_rms); // 3
+		printf("4. Calibrate PHASE(Deg.) [Current : %f]\r\n", Cfg.cfg_phase); // 4
+		printf("5. Calibrate OFFSET [Current : %f]\r\n", Cfg.cfg_offset); // 5
 		break;
 	case 1:
 		printf("Input RMS(mA) : \r\n"); //
@@ -694,10 +708,13 @@ void printHelp(keyBoard *_Kb){
 		printf("Input Phase(Deg.) : \r\n"); //
 		break;
 	case 3:
-		printf("Input True RMS Value(mA) : \r\n"); //
+		printf("Input Config RMS Value(mA) : \r\n"); //
 		break;
 	case 4:
-		printf("Input True PHASE Value(Deg.) : \r\n"); //
+		printf("Input Config PHASE Value(Deg.) : \r\n"); //
+		break;
+	case 5:
+		printf("Input Config Offset : \r\n"); //
 		break;
 	default:
 		break;
