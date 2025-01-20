@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -96,7 +96,9 @@
       "/interface/5V_bot",
       "/interface/GND_bot",
       "/analog/PT2_bot",
-      "/analog/PT1_bot"
+      "/analog/PT1_bot",
+      "unconnected-(VR2-CW_1-PadR13)",
+      "unconnected-(VR2-CW_2-PadR23)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,

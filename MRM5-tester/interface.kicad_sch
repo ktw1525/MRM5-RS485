@@ -5260,7 +5260,6 @@
 	(hierarchical_label "UART_TXD"
 		(shape bidirectional)
 		(at 31.75 143.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5272,7 +5271,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 31.75 102.87 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5284,7 +5282,6 @@
 	(hierarchical_label "V2p"
 		(shape input)
 		(at 50.8 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5296,7 +5293,6 @@
 	(hierarchical_label "STLINK_RST"
 		(shape bidirectional)
 		(at 58.42 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5308,7 +5304,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 116.84 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5320,7 +5315,6 @@
 	(hierarchical_label "STLINK_CLK"
 		(shape bidirectional)
 		(at 58.42 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5332,7 +5326,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 60.96 50.8 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5344,7 +5337,6 @@
 	(hierarchical_label "Vp_h"
 		(shape input)
 		(at 113.03 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5356,7 +5348,6 @@
 	(hierarchical_label "STLINK_DIO"
 		(shape bidirectional)
 		(at 58.42 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5368,7 +5359,6 @@
 	(hierarchical_label "UART_RXD"
 		(shape bidirectional)
 		(at 31.75 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5380,7 +5370,6 @@
 	(hierarchical_label "PT1"
 		(shape input)
 		(at 50.8 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5392,7 +5381,6 @@
 	(hierarchical_label "UART_CTS"
 		(shape bidirectional)
 		(at 182.88 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5404,7 +5392,6 @@
 	(hierarchical_label "Vn_h"
 		(shape input)
 		(at 113.03 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5403,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 31.75 148.59 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5428,7 +5414,6 @@
 	(hierarchical_label "PT2_bot"
 		(shape input)
 		(at 113.03 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5440,7 +5425,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 181.61 39.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5452,7 +5436,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 161.29 114.3 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5464,7 +5447,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 170.18 39.37 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5476,7 +5458,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 226.06 138.43 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5488,7 +5469,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 246.38 137.16 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5500,7 +5480,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 31.75 125.73 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5512,7 +5491,6 @@
 	(hierarchical_label "5V_bot"
 		(shape input)
 		(at 113.03 162.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5524,7 +5502,6 @@
 	(hierarchical_label "5V"
 		(shape bidirectional)
 		(at 31.75 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5536,7 +5513,6 @@
 	(hierarchical_label "SUSPEND"
 		(shape bidirectional)
 		(at 182.88 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5548,7 +5524,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 58.42 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5560,7 +5535,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 31.75 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5572,7 +5546,6 @@
 	(hierarchical_label "UART_RXD"
 		(shape bidirectional)
 		(at 182.88 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5584,7 +5557,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 195.58 138.43 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5596,7 +5568,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 116.84 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5608,7 +5579,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 50.8 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5620,7 +5590,6 @@
 	(hierarchical_label "SYNC"
 		(shape input)
 		(at 58.42 125.73 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5632,7 +5601,6 @@
 	(hierarchical_label "5V_bot"
 		(shape input)
 		(at 113.03 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5644,7 +5612,6 @@
 	(hierarchical_label "PUSH_BTN"
 		(shape bidirectional)
 		(at 58.42 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5656,7 +5623,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 58.42 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5668,7 +5634,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 96.52 71.12 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5680,7 +5645,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 31.75 138.43 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5692,7 +5656,6 @@
 	(hierarchical_label "GND_bot"
 		(shape input)
 		(at 113.03 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5704,7 +5667,6 @@
 	(hierarchical_label "UART_RTS"
 		(shape bidirectional)
 		(at 182.88 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5716,7 +5678,6 @@
 	(hierarchical_label "PT1_bot"
 		(shape input)
 		(at 113.03 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5728,7 +5689,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 137.16 88.9 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5740,7 +5700,6 @@
 	(hierarchical_label "PT2"
 		(shape input)
 		(at 50.8 177.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5752,7 +5711,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 50.8 187.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5764,7 +5722,6 @@
 	(hierarchical_label "GND_bot"
 		(shape input)
 		(at 113.03 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5776,7 +5733,6 @@
 	(hierarchical_label "UART_TXD"
 		(shape bidirectional)
 		(at 182.88 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5788,7 +5744,6 @@
 	(hierarchical_label "3V3"
 		(shape bidirectional)
 		(at 251.46 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5800,7 +5755,6 @@
 	(hierarchical_label "STLINK_RST"
 		(shape bidirectional)
 		(at 58.42 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5812,7 +5766,6 @@
 	(hierarchical_label "V2n"
 		(shape input)
 		(at 50.8 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5824,7 +5777,6 @@
 	(hierarchical_label "GND"
 		(shape input)
 		(at 60.96 71.12 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

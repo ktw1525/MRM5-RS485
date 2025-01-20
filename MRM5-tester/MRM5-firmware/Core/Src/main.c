@@ -13,7 +13,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#define RECORD_LEN 4
+#define U64_NAN (uint64_t)18446744073709551615
+#define RECORD_LEN 500
 #define DIFF_STEP 2
 #define TIME_MAX 1000000000
 #define KEY_BUFLEN 256
@@ -27,6 +28,10 @@ enum {
 	CFG_ADDRESS_PHASE,
 	CFG_ADDRESS_OFFSET,
 };
+
+#define CFG_ADDRESS_RMS_INIT  0.0565
+#define CFG_ADDRESS_PHASE_INIT  0
+#define CFG_ADDRESS_OFFSET_INIT  2048
 
 typedef struct {
 	float rms;
@@ -52,6 +57,8 @@ typedef struct {
 
 typedef struct {
 	timeData record[RECORD_LEN];
+	timeData dacWrite[RECORD_LEN];
+	timeData dacRead[RECORD_LEN];
 	int cursor;
 } ADCDATA_Records;
 /* USER CODE END PTD */
@@ -107,7 +114,7 @@ float diffval(ADCDATA_Records *rcd);
 float ampNdeg2val(float amp, float deg, ADCDATA_Records *rcd);
 uint32_t val2dacData(float val);
 void flashWrite(int index, uint64_t value);
-float flashRead(int index);
+float flashRead(int index, float initValue);
 void processMenu(keyBoard *_Kb);
 void printHelp(keyBoard *_Kb);
 
@@ -126,17 +133,18 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 	uint32_t dacval = 0;
+	float errVal;
 	Record.cursor=0;
 	Kb.keyTimeout=0;
 	Kb.cursor=0;
 	Kb.flag_uartDMAReady=0;
 	Kb.menuId=0;
 
-	Cfg.rms = 1;
+	Cfg.rms = 30;
 	Cfg.phase = 0;
-	Cfg.cfg_rms = flashRead(CFG_ADDRESS_RMS);
-	Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE);
-	Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET);
+	Cfg.cfg_rms = flashRead(CFG_ADDRESS_RMS, CFG_ADDRESS_RMS_INIT);
+	Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE, CFG_ADDRESS_PHASE_INIT);
+	Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET, CFG_ADDRESS_OFFSET_INIT);
   /* USER CODE END 1 */
 
   /* MCU Configuration--------------------------------------------------------*/
@@ -172,12 +180,15 @@ int main(void)
    		  adcflag = 0;
    		  Record.record[Record.cursor].time = micros();
    		  Record.record[Record.cursor].val = (float)(adcBuf[0]-adcBuf[1]);
-   		  Record.cursor=(Record.cursor + 1)%RECORD_LEN;
 
-   		  dacval = val2dacData(ampNdeg2val(Cfg.rms, Cfg.phase, &Record));
+   		  Record.dacRead[Record.cursor].val = (float)(adcBuf[2]-adcBuf[1]);
+   		  Record.dacWrite[Record.cursor].val = ampNdeg2val(Cfg.rms, Cfg.phase, &Record);
 
+   		  errVal =  Record.dacWrite[(Record.cursor - 1 + RECORD_LEN)%RECORD_LEN].val - Record.dacRead[Record.cursor].val;
+   		  dacval = val2dacData(Record.dacWrite[Record.cursor].val);
    		  HAL_DAC_SetValue(&hdac1, DAC_CHANNEL_1, DAC_ALIGN_12B_R, dacval);
-       	  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adcBuf, 4);
+       	  HAL_ADC_Start_DMA(&hadc1, (uint32_t*)adcBuf, 3);
+       	  Record.cursor=(Record.cursor + 1)%RECORD_LEN;
    	  }
 
   	  if((Kb.keyTimeout > HAL_GetTick()) && (Kb.flag_keyInput==1)){
@@ -274,7 +285,7 @@ static void MX_ADC1_Init(void)
   hadc1.Init.LowPowerAutoWait = DISABLE;
   hadc1.Init.LowPowerAutoPowerOff = DISABLE;
   hadc1.Init.ContinuousConvMode = ENABLE;
-  hadc1.Init.NbrOfConversion = 4;
+  hadc1.Init.NbrOfConversion = 3;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
@@ -312,15 +323,6 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_2;
   sConfig.Rank = ADC_REGULAR_RANK_3;
-  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
-  {
-    Error_Handler();
-  }
-
-  /** Configure Regular Channel
-  */
-  sConfig.Channel = ADC_CHANNEL_1;
-  sConfig.Rank = ADC_REGULAR_RANK_4;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -566,10 +568,10 @@ void FLASH_Words(uint32_t Address, uint64_t Data)
 float diffval(ADCDATA_Records *rcd){
 	int idx0, idx1;
 	float result;
-	idx0 = (rcd->cursor+RECORD_LEN-DIFF_STEP-1)%RECORD_LEN;
-	idx1 = (rcd->cursor+RECORD_LEN-1)%RECORD_LEN;
-	uint32_t difftime = (rcd->record[idx1].time + TIME_MAX - rcd->record[idx0].time) % TIME_MAX;
-	float diffval = (rcd->record[idx1].val - rcd->record[idx0].val);
+	idx1 = (rcd->cursor+RECORD_LEN-1*DIFF_STEP-1)%RECORD_LEN;
+	idx0 = (rcd->cursor+RECORD_LEN-0*DIFF_STEP-1)%RECORD_LEN;
+	uint32_t difftime = (rcd->record[idx0].time + TIME_MAX - rcd->record[idx1].time) % TIME_MAX;
+	float diffval = (rcd->record[idx0].val - rcd->record[idx1].val);
 	result = diffval * 3000 / (float)difftime;
 	if(difftime == 0){
 		return 0;
@@ -578,11 +580,17 @@ float diffval(ADCDATA_Records *rcd){
 }
 
 float ampNdeg2val(float amp, float deg, ADCDATA_Records *rcd){
-	int idx1 = (rcd->cursor+RECORD_LEN-2)%RECORD_LEN;
-	float val = rcd->record[idx1].val;
+	int idx1 = rcd->cursor;
+	int phase = Cfg.cfg_phase;
+	float phase_mini = Cfg.cfg_phase - (float)phase;
+
+	int idx_offset1 = (idx1 - (phase%RECORD_LEN) + RECORD_LEN)%RECORD_LEN;
+	int idx_offset2 = (idx1 - 1 - (phase%RECORD_LEN) + RECORD_LEN)%RECORD_LEN;
+
+	float val = rcd->record[idx_offset1].val*phase_mini + rcd->record[idx_offset2].val*(1-phase_mini);
 	float a, b;
-	a = amp * Cfg.cfg_rms * sqrt(2) * cos(M_PI * (deg + Cfg.cfg_phase) / 180.0f);
-	b = amp * Cfg.cfg_rms * sqrt(2) * sin(M_PI * (deg + Cfg.cfg_phase) / 180.0f);
+	a = amp * Cfg.cfg_rms * sqrt(2) * cos(M_PI * deg / 180.0f);
+	b = amp * Cfg.cfg_rms * sqrt(2) * sin(M_PI * deg / 180.0f);
 	float result = a * val + b * diffval(&Record);
 	return result;
 }
@@ -619,12 +627,20 @@ void flashWrite(int index, uint64_t value){
 	HAL_FLASH_Lock();
 }
 
-float flashRead(int index){
+float flashRead(int index, float initValue){
+	uint64_t val;
+	float *_val = (float*)&val;
+	*_val = initValue;
 	uint64_t cfg_datas[256];
 	float *result;
 	memcpy(cfg_datas, (void*)CFG_ADDRESS, 2048);
 	result = (float*)&cfg_datas[index];
-	return *result;
+	if(cfg_datas[index] == U64_NAN){
+		flashWrite(index, val);
+		return initValue;
+	}else{
+		return *result;
+	}
 }
 
 void processMenu(keyBoard *_Kb){
@@ -664,26 +680,26 @@ void processMenu(keyBoard *_Kb){
 	case 3:
 		*value = atof(_Kb->keyInput);
 		flashWrite(CFG_ADDRESS_RMS, val);
-		result = flashRead(CFG_ADDRESS_RMS);
+		result = flashRead(CFG_ADDRESS_RMS, CFG_ADDRESS_RMS_INIT);
 		printf("Config RMS set to %f\r\n", result);
 		_Kb->menuId=0;
-		Cfg.cfg_rms = flashRead(CFG_ADDRESS_RMS);
+		Cfg.cfg_rms = flashRead(CFG_ADDRESS_RMS, CFG_ADDRESS_RMS_INIT);
 		break;
 	case 4:
 		*value = atof(_Kb->keyInput);
 		flashWrite(CFG_ADDRESS_PHASE, val);
-		result = flashRead(CFG_ADDRESS_PHASE);
-		printf("Config PHASE set to %f\r\n", result);
+		result = flashRead(CFG_ADDRESS_PHASE, CFG_ADDRESS_PHASE_INIT);
+		printf("Config PHASE Shift Number set to %f\r\n", result);
 		_Kb->menuId=0;
-		Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE);
+		Cfg.cfg_phase = flashRead(CFG_ADDRESS_PHASE, CFG_ADDRESS_PHASE_INIT);
 		break;
 	case 5:
 		*value = atof(_Kb->keyInput);
 		flashWrite(CFG_ADDRESS_OFFSET, val);
-		result = flashRead(CFG_ADDRESS_OFFSET);
+		result = flashRead(CFG_ADDRESS_OFFSET, CFG_ADDRESS_OFFSET_INIT);
 		printf("Config OFFSET set to %f\r\n", result);
 		_Kb->menuId=0;
-		Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET);
+		Cfg.cfg_offset = flashRead(CFG_ADDRESS_OFFSET, CFG_ADDRESS_OFFSET_INIT);
 		break;
 	default:
 		break;
@@ -693,13 +709,14 @@ void processMenu(keyBoard *_Kb){
 void printHelp(keyBoard *_Kb){
 	switch(_Kb->menuId){
 	case 0:
+		if(Cfg.cfg_rms < 0 || Cfg.cfg_rms > 1000) Cfg.cfg_rms = 0.0083;
 		printf("\e[2J\e[H");
 		printf("[Calibaba v1.0]\r\n"); // 0
-		printf("1. Config Output RMS(mA) [Current : %f]\r\n", Cfg.rms); // 1
-		printf("2. Config Output Phase(Deg.) [Current : %f]\r\n", Cfg.phase); // 2
-		printf("3. Calibrate RMS(mA) [Current : %f]\r\n", Cfg.cfg_rms); // 3
-		printf("4. Calibrate PHASE(Deg.) [Current : %f]\r\n", Cfg.cfg_phase); // 4
-		printf("5. Calibrate OFFSET [Current : %f]\r\n", Cfg.cfg_offset); // 5
+		printf("1. Config Output RMS(mA) [%f]\r\n", Cfg.rms); // 1
+		printf("2. Config Output Phase(Deg.) [%f]\r\n", Cfg.phase); // 2
+		printf("3. Calibrate RMS(mA) [%f]\r\n", Cfg.cfg_rms); // 3
+		printf("4. Calibrate PHASE Shift(Step) [%f]\r\n", Cfg.cfg_phase); // 4
+		printf("5. Calibrate OFFSET [%f]\r\n", Cfg.cfg_offset); // 5
 		break;
 	case 1:
 		printf("Input RMS(mA) : \r\n"); //
@@ -711,7 +728,7 @@ void printHelp(keyBoard *_Kb){
 		printf("Input Config RMS Value(mA) : \r\n"); //
 		break;
 	case 4:
-		printf("Input Config PHASE Value(Deg.) : \r\n"); //
+		printf("Input Config PHASE Shift Value(Step) : \r\n"); //
 		break;
 	case 5:
 		printf("Input Config Offset : \r\n"); //
